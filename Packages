@@ -1,0 +1,749 @@
+Package: android-tools
+Version: 33.0.3-8952118
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./android-tools_33.0.3-8952118_amd64.deb
+Size: 4243624
+MD5sum: fbb2b415314b7d2e32dd8c47177c3c08
+SHA1: f53fee2a488771ef1948b327c6e1ad66d4c2a50a
+SHA256: 56b390c20db21348b11b78f8c46f395941202d5b01c1775ea583551d3546adfa
+Section: base
+Priority: optional
+Description: android tools for Debian
+
+Package: deadbeef-static
+Version: 1.8.8-1
+Architecture: amd64
+Maintainer: Alexey Yakovenko <waker@users.sf.net>
+Installed-Size: 19352
+Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
+Recommends: libpulse0, libdbus-1-3
+Filename: ./deadbeef-static_1.8.8-1_amd64.deb
+Size: 8759578
+MD5sum: 1cd429a0fd55ae9e2274704902cb60c7
+SHA1: 30537bb4d32de38a4e45b1afdaed427d5b2be99d
+SHA256: 1f545d5737e96439d682b09e9768264c303e2f9561b8a458259b660f562209cf
+Section: sound
+Priority: optional
+Homepage: http://deadbeef.sourceforge.net/
+Description: The Ultimate Music Player
+ DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
+
+Package: devjam-config-tools
+Version: 1.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-config-tools_1.4-1_all.deb
+Size: 378732
+MD5sum: 3c9217c8c68e60cd5476f8be7297712d
+SHA1: cf1d5afacf1a37555c9fe52a1705b6e2d35c8282
+SHA256: a4fe1719502533224cbac9774ed70b1acfacc363e20397823e21dbdfcb05bc32
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
+
+Package: devjam-grub-theme
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-grub-theme_1.0-1_all.deb
+Size: 163012
+MD5sum: 29770f59b790febeaa58c6e28204dfd1
+SHA1: 167f0c9d847b8fda8b816434207f2342d041f191
+SHA256: 691dd8399fcc8a58506ce56c69a87b582e505d4f1b99a1330e913a923918f9ea
+Section: base
+Priority: optional
+Description: Grub boot theme by devjam
+
+Package: devjam-grub-tools
+Version: 1.15-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-grub-tools_1.15-1_all.deb
+Size: 13218992
+MD5sum: 2d3ca123fb8007d75f05bda1a546a68e
+SHA1: 61fca69b5c15a1515049fd1c39ab4abefc05176e
+SHA256: ad0a3236af2e12a3797dcf4d8cb6321162dc4eeacbdf7678f9b9c89f6b7e7d67
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
+
+Package: devjam-hooks
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-hooks_1.0-1_all.deb
+Size: 1448
+MD5sum: 701cdc12d30338e45a4b13ade111db8f
+SHA1: 2dfe5fc82a21d12899bc3df70f3ccb120c5815db
+SHA256: c97effe90b1d946d8e478149b0f0007c3ae9916cf73a8d6d4b2715f3759299e4
+Section: base
+Priority: optional
+Description: Grub boot items by devjam
+
+Package: devjam-kde-service-menu-collection
+Version: 1.3-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: meld, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools
+Filename: ./devjam-kde-service-menu-collection_1.3-1_all.deb
+Size: 3696
+MD5sum: 680f33bd1fd71b1fa74cda0440f0ef9e
+SHA1: 562dc54f1515961909718b24231a9c6015936d90
+SHA256: 8621a6f5ff9a704fec76b8a985abe6d4886f4263307aee614c6cf7f20e9e3435
+Section: base
+Priority: optional
+Description: KDE Service Menu items collection by devjam
+
+Package: devjam-keyring
+Version: 1.6-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-keyring_1.6-1_all.deb
+Size: 43164
+MD5sum: 4ca6355c925bc58cf20d2ab3f5ad7790
+SHA1: 78ec0ec6a583bf8c861188edcf9db6094b5a1501
+SHA256: a1637712c06c4aca5e61660eebf7999c7493650250a4d1825ddd94a514f52b05
+Section: base
+Priority: optional
+Description: custom keyring for Debian Bullseye
+
+Package: devjam-liquorix-config
+Version: 1.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-liquorix-config_1.4-1_all.deb
+Size: 1104
+MD5sum: a5be205e25ae7261f43913b16a0ade4e
+SHA1: 5df93fc0ff0c5c40ac7016aa51f407de58c16183
+SHA256: b3d0c239473b3265597f33a133b09765777d0b1c9a2a255f563875dfba1a4754
+Section: base
+Priority: optional
+Description: set io scheduler by devjam
+
+Package: devjam-pipewire-scripts
+Version: 1.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-pipewire-scripts_1.0-1_all.deb
+Size: 1676
+MD5sum: e165b1d3eadf7686187f6f91ae995c87
+SHA1: aeb7db291852b1bf4d4f2fb5bcc8ec2ee18d6a6b
+SHA256: 4d68c5470fcc923f59bde990f645fa726a286e55e4e8a549d501f75b677eba4e
+Section: base
+Priority: optional
+Description: Scripts to enable and disable Pulse, Pipewire and ALSA
+
+Package: devjam-science
+Version: 1.12-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-science_1.12-1_amd64.deb
+Size: 60204
+MD5sum: de680985fdd71e3d980b72c88a5f5c38
+SHA1: 357a6996f44f18db11b4d1c58a7fa5206d7af1cb
+SHA256: 3637f7c4a8c9ee297ac71269b0f58f53c46536e54567d37248244c41851ea3d7
+Section: base
+Priority: optional
+Description: personal tools for Debian Bullseye
+
+Package: devjam-thunar-custom-actions
+Version: 1.0-2
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, unoconv, pacpl, meld, eiciel, fuseiso9660, mkvtoolnix, coreutils, cfourcc, devscripts, mediainfo
+Filename: ./devjam-thunar-custom-actions_1.0-2_all.deb
+Size: 3140
+MD5sum: 4038e197ba9b866b0226bae91c18b1d5
+SHA1: ec8dca524539fe279fd010c3ac552c4b0a7c7c6d
+SHA256: 5379f1569d9207ecdfe2b61398698b4caef9af2bbad352bc5975df7c8e96af8e
+Section: base
+Priority: optional
+Description: Thunar custom actions collection
+
+Package: devjam-tools
+Version: 1.17-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./devjam-tools_1.17-1_amd64.deb
+Size: 26355728
+MD5sum: ef7d1210975307925d43d7384768ced5
+SHA1: 60d47ce6f3cab2f30c2640787f525ad4d57abd78
+SHA256: 4ce2f02381a846de2112f522038cc890a5ce359df0269c5ee180434839b7d5ad
+Section: base
+Priority: optional
+Description: personal tools for Debian Bullseye
+
+Package: e1000e-dkms
+Version: 3.8.7
+Architecture: all
+Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
+Depends: dkms (>= 1.95)
+Filename: ./e1000e-dkms_3.8.7_all.deb
+Size: 241548
+MD5sum: 9eed0400f409bf0ed262edbd31084703
+SHA1: 672b51755d57914f466f4ade75eee79eb6757596
+SHA256: 7c055d7d73094a5447a3d385b349cbbc8907c8b137be442fd3370ad6b12dd816
+Section: kernel
+Priority: optional
+Homepage: http://sourceforge.net/projects/e1000/
+Description: Intel e1000e Ethernet adapter driver (DKMS version)
+
+Package: kde-service-menu-pdf
+Version: 2.3
+Architecture: all
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Installed-Size: 250
+Depends: dolphin (>= 18) | konqueror (>= 18), ghostscript, pdf2djvu, poppler-utils, texlive-extra-utils
+Filename: ./kde-service-menu-pdf_2.3_all.deb
+Size: 43064
+MD5sum: 2a404a654c35d44c03d6b554e2726a9e
+SHA1: ee40544804acf041e7860c14b1cc2fbbc932bdd1
+SHA256: 3f95663c132a2af87fd9269fb231523a8fb4d4e2f4adacedf1fa64a117072d2a
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manage and modify PDF documents using Dolphin/Konqueror
+ kde-service-menu-pdf is a package that extends the functionalities of Dolphin
+ or Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. It's similar to gnome nautilus actions.
+ These actions are related to pdf files.
+ .
+ You can extract pages or images, optimize, join, print, rotate,
+ detach files, repaginate, converto to djvu, html, plain text, ps,
+ image (png, jpg, fax), converto to booklet and many others actions.
+ .
+ Copyright (C) 2007-2019 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+
+Package: kde-service-menu-reimage
+Version: 2.5
+Architecture: all
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Installed-Size: 78
+Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
+Filename: ./kde-service-menu-reimage_2.5_all.deb
+Size: 16640
+MD5sum: f6fbeb70681628a306a3207376c58e26
+SHA1: 6fcd6a652828c177569b3cb7e8164097d0a8390c
+SHA256: 1a9dcd41f048058d8e486963b5a8008bd862dd082debc3f88a870bdacd983985
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manipulate images e their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ .
+ Compress and resize
+ Advanced optimization for web
+ Compress in % (change quality)
+ Resize in % or square
+ .
+ Convert and rotate
+ Convert to all formats supported by ImageMagick
+ Convert to PDF or PDF/A-1
+ Generate favicons for browser/android/apple/ms
+ Convert to Base64
+ Rotate
+ Overturn vertically/horizontally
+ .
+ Metadata:
+ Rename jpg and tiff files with data content in Exif metadata.
+ (For example: 001.jpg -> 2018-04-27_133741.jpg)
+ Rename jpg and tiff files with file's data.
+ Set file's datetime from Exif date.
+ Set file date from file's name
+ Set Exif datetime from file's date.
+ Set Exif datetime from file's name.
+ Add comment
+ View metadata
+ Extract metadata to file
+ Delete comment field
+ Strip Exif section
+ Delete IPTC section
+ Delete XMP section
+ Strip all unnecessary data
+ Add timestamp from Exif
+ .
+ Tools
+ Create animated GIF
+ Append to right
+ GrayScale
+ Sepia filter
+ Change transparent to color
+ Add colored border
+ Add transparent border
+ Drop shadow
+ .
+ Copyright (C) 2018-2018 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+
+Package: live-build
+Version: 1:20221101
+Architecture: all
+Maintainer: Debian Live <debian-live@lists.debian.org>
+Installed-Size: 1235
+Depends: debootstrap
+Recommends: apt-utils, bzip2, cpio, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
+Suggests: e2fsprogs, parted, mtd-utils
+Filename: ./live-build_20221101_all.deb
+Size: 407428
+MD5sum: e5529fe0ea2fc75fbecb6fb53205a00c
+SHA1: d777ee407d5f1eb3483020cebcb66534f1942968
+SHA256: e46f34d97bcb22d084f9a38914f1e1e78fe0a743a501aee05efa556abdaebd03
+Section: misc
+Priority: optional
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Build Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-build contains the components to build a live system from a configuration
+ directory.
+
+Package: nordvpn-release
+Version: 1.0.0
+Architecture: all
+Maintainer: https://nordvpn.com/
+Installed-Size: 36
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Filename: ./nordvpn-release_1.0.0_all.deb
+Size: 5056
+MD5sum: e229fa715be1684e6bd9a0427bbd5b65
+SHA1: 37f93b511eaa918e4ae434c864ee617041b57ac0
+SHA256: 16a05919b7259e679e4483aa39f61ef9bc9c07cbe040276e04884b5f9d7f933d
+Section: misc
+Priority: optional
+Homepage: https://nordvpn.com/
+Description: Package to install NordVPN GPG key and APT repo
+
+Package: opensesame-toolbox
+Version: 2.8-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1255
+Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
+Recommends: opensesame
+Filename: ./opensesame-toolbox_2.8-1_all.deb
+Size: 358792
+MD5sum: d296f32c6e2c2a142417f36bb989276d
+SHA1: 666e7d19d1ce626755545ee5d774335b3ba45b77
+SHA256: 6b8d871100788044518fb4a2186d68cb56dd9312401de3c57c0ed18a9ff58440
+Section: science
+Priority: extra
+Homepage: https://github.com/dev-jam/opensesame-toolbox
+Description: OpenSesame Experiment Manager and OpenSesame Questionnaire Processor
+ OpenSesame Toolbox offers two applications to supplement OpenSesame.
+ OpenSesame Experiment Manager can manage, order and execute OpenSesame Experiments and create OpenSesame Questionnaires.
+ OpenSesame Questionnaire Processor can process OpenSesame multiple choice questionnaires by giving a summary of the scores.
+
+Package: oss-linux
+Version: 4.2-2020
+Architecture: amd64
+Maintainer: 4Front Technologies <support@opensound.com>
+Installed-Size: 7352
+Depends: binutils, gcc, libc6, libgtk2.0-0, sed (>= 1.0.0)
+Suggests: libsdl1.2debian-oss | libsdl1.2debian-all, libesd0, libwine-oss, libsox-fmt-oss, mpg123, gstreamer0.10-plugins-bad (>= 0.10.7), libasound2-plugins
+Conflicts: libflashsupport
+Provides: oss
+Filename: ./oss-linux_4.2-2020_amd64.deb
+Size: 2633446
+MD5sum: 5bff42067d7e40acbc6f0fe555e2a5a8
+SHA1: e559ec3009fa6192fcb20dd192342802975b2f4b
+SHA256: 373ff90a885dc534d4589d48554bdcf22f100b10e702a43d072cbaa3e8e819f5
+Section: sound
+Priority: optional
+Description: Open Sound System (http://www.opensound.com)
+ OSS provides libraries and necessary drivers for practically all sound
+  cards on the market including PnP and many PCI ones which enable you
+  to play sound files, compose music, use MIDI (only included in the
+  testing releases) and adjust your sound card using various user space
+  programs.
+Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
+
+Package: phoronix-test-suite
+Version: 10.8.4
+Architecture: all
+Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
+Installed-Size: 45332
+Depends: php-cli|php5-cli,php5-cli|php-xml
+Recommends: build-essential, php-gd|php5-gd
+Filename: ./phoronix-test-suite_10.8.4_all.deb
+Size: 2352160
+MD5sum: 9317ce5a8d40406a54d9e17a8df6d10b
+SHA1: ab4b51a2802619cebdf22ae0baec3fe69f52f861
+SHA256: be81f71fc0382a7725dc88f4a18f013d1c3f6939d440629231d392a11816feca
+Section: Utilities
+Priority: optional
+Homepage: http://www.phoronix-test-suite.com/
+Description: An Automated, Open-Source Testing Framework
+ The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
+
+Package: plasma-appimage-integration
+Version: 0.1.0-neon-user-lts
+Architecture: amd64
+Maintainer: Alexis Lopez Zubieta <contact@azubieta.net>
+Installed-Size: 301
+Pre-Depends: bash, libqt5widgets5 (>= 5.2.1), libqt5gui5 (>= 5.2.1), libqt5core5a (>= 5.2.1), dbus-user-session
+Provides: appimage-services
+Filename: ./plasma-appimage-integration_0.1.0-neon-user-lts_amd64.deb
+Size: 51816
+MD5sum: deab94e0ba6ea8a4cf5d33a9b1260cba
+SHA1: dbc126d2805f64cd1ec8637f6a6fce98f2d6f6ff
+SHA256: 77b4ea1d106fade0bfe75b9512cee112303aab439e3b2ac656967ff6818a6b88
+Section: devel
+Priority: optional
+Description: plasma-appimage-integration built using CMake
+
+Package: python3-dukpy
+Source: dukpy
+Version: 0.2.3-1
+Architecture: amd64
+Maintainer: Alessandro Molina <alessandro.molina@axant.it>
+Installed-Size: 6060
+Depends: python3 (<< 3.11), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-dukpy_0.2.3-1_amd64.deb
+Size: 934428
+MD5sum: 2e494474b323f66d5f4751c3fb0da284
+SHA1: b5953afee47de84f8d1215556b30da2fba29cf58
+SHA256: 494c3e1f3ecdc8749cd9130c35f65d05aaf3b8ca908fe43e66846bbf5c8688a7
+Section: python
+Priority: optional
+Homepage: https://github.com/amol-/dukpy
+Description: Simple JavaScript interpreter for Python
+ dukpy
+ =====
+ .
+ .. image:: https://img.shields.io/travis/amol-/dukpy/master.svg?label=Linux%20build%20%40%20Travis%20CI
+     :target: https://travis-ci.org/amol-/dukpy
+ .
+ .. image:: https://img.shields.io/appveyor/ci/amol-/dukpy/master.svg?label=Windows%20build%20%40%20Appveyor
+     :target: https://ci.appveyor.com/project/amol-/dukpy
+ .
+ .. image:: https://coveralls.io/repos/amol-/dukpy/badge.png?branch=master
+     :target: https://coveralls.io/r/amol-/dukpy?branch=master
+ .
+ .. image:: https://img.shields.io/pypi/v/dukpy.svg
+    :target: https://pypi.org/p/dukpy
+ .
+ .
+ DukPy is a simple javascript interpreter for Python built on top of
+ duktape engine **without any external dependency**.
+ It comes with a bunch of common transpilers built-in for convenience:
+
+Package: python3-fastnumbers
+Source: fastnumbers
+Version: 3.2.1-1
+Architecture: amd64
+Maintainer: Seth M. Morton <drtuba78@gmail.com>
+Installed-Size: 195
+Depends: python3 (<< 3.11), python3 (>= 3.9~), python3:any, libc6 (>= 2.14)
+Filename: ./python3-fastnumbers_3.2.1-1_amd64.deb
+Size: 29728
+MD5sum: 4a53f7a13a7f1bcf6650fd3235f77c41
+SHA1: 2802c61f0dc7b678d3884e53555868cd814b54ba
+SHA256: c2becb6121cecca965a4b6ad7d32bbbbcd318c5a70be4139000fe504848eabd5
+Section: python
+Priority: optional
+Homepage: https://github.com/SethMMorton/fastnumbers
+Description: Super-fast and clean conversions to numbers.
+ fastnumbers
+ ===========
+ .
+ .. image:: https://img.shields.io/pypi/v/fastnumbers.svg
+     :target: https://pypi.org/project/fastnumbers/
+ .
+ .. image:: https://img.shields.io/pypi/pyversions/fastnumbers.svg
+     :target: https://pypi.org/project/fastnumbers/
+ .
+ .. image:: https://img.shields.io/pypi/l/fastnumbers.svg
+     :target: https://github.com/SethMMorton/fastnumbers/blob/master/LICENSE
+ .
+ .. image:: https://github.com/SethMMorton/fastnumbers/workflows/Tests/badge.svg
+     :target: https://github.com/SethMMorton/fastnumbers/workflows
+ .
+ .. image:: https://codecov.io/gh/SethMMorton/fastnumbers/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/SethMMorton/fastnumbers
+ .
+ Super-fast and clean conversions to numbers.
+
+Package: python3-grpcio
+Version: 0:1.46.3-1~w2d0
+Architecture: amd64
+Maintainer: wheel2deb <wheel2deb@upciti.com>
+Installed-Size: 10424
+Depends: python3 (<< 3.11), python3 (>= 3.10~), python3-six (>= 1.5.2), python3:any
+Filename: ./python3-grpcio_1.46.3-1~w2d0_amd64.deb
+Size: 3381756
+MD5sum: f42a1903acd24590c818ca63fa5216ba
+SHA1: 81bc11194a46c3e7e939e603ce08ecec6972f334
+SHA256: 0c3a0bef449e847b9342ee7041aeb8a5407d0d88205a8f913e949f48ce23a5f0
+Section: python
+Priority: optional
+Homepage: https://grpc.io
+Description: HTTP/2-based RPC framework
+ This package was generated by wheel2deb v0.5.8
+
+Package: python3-opensesame-plugin-audio-low-latency
+Source: opensesame-plugin-audio-low-latency
+Version: 8.7.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 362
+Depends: python3-numpy, python3-pygame, python3-opensesame
+Filename: ./python3-opensesame-plugin-audio-low-latency_8.7.0-1_all.deb
+Size: 72020
+MD5sum: 6555ceaebeb5a6b3d06ce6d27e4a9954
+SHA1: 9c5820a34b57d76b7cc577f7898052722dfc1e07
+SHA256: 79d4bd0a06562289804df8013f7c7caf6e62cbf4a6bc926f57f55929ed776664
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
+Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux.
+
+Package: python3-opensesame-plugin-broadcast-screen
+Source: opensesame-plugin-broadcast-screen
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Installed-Size: 33
+Filename: ./python3-opensesame-plugin-broadcast-screen_0.2.1-1_all.deb
+Size: 8760
+MD5sum: 10f9858016dc111538f56c618d063861
+SHA1: c73ae6a62eb2141fa99a2edd99b5c3d828f5af5b
+SHA256: f897b9dbe1840b944b2f26b43bff819874e8e164040bd785187418a4e8c38314
+Section: python
+Priority: optional
+Homepage: https://github.com/smathot/opensesame-plugin-broadcast_screen
+Description: Screen broadcast plugin for OpenSesame
+
+Package: python3-opensesame-plugin-experiment-manager
+Source: opensesame-plugin-experiment-manager
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 26
+Filename: ./python3-opensesame-plugin-experiment-manager_2.0.0-1_all.deb
+Size: 7132
+MD5sum: b7b2429623c00677dbdac4a4d5e7b8ca
+SHA1: b560da1c16d1e7b482209c51ebb06b3bcca50115
+SHA256: bf665e2c35e8a25f04af9ff46cc2245ed83b3728b3fe0101e551a01066dcbb04
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
+Description: An OpenSesame Plug-in for managing/executing multiple OpenSe
+
+Package: python3-opensesame-plugin-media-player-mpy
+Source: opensesame-plugin-media-player-mpy
+Version: 0.1.11-1
+Architecture: all
+Maintainer: Daniel Schreij <dschreij@gmail.com>
+Installed-Size: 58
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
+Size: 12208
+MD5sum: c9983c6a523df1799043c9e4eca27e4d
+SHA1: 86c00689c58824e4dd2cdd630afccbc60fe72c54
+SHA256: fd14f62d1be8e183bc1827e7c8422edc9463afc90e30c40f9e40f5b169b5da5c
+Section: python
+Priority: optional
+Homepage: https://github.com/dschreij/opensesame-plugin-mediaplayer
+Description: Media player plugin for OpenSesame, based on MoviePy
+
+Package: python3-opensesame-plugin-mousetrap
+Source: opensesame-plugin-mousetrap
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Pascal Kieslich & Felix Henninger <pascal.kieslich@gmail.com>
+Installed-Size: 114
+Filename: ./python3-opensesame-plugin-mousetrap_2.0.0-1_all.deb
+Size: 23664
+MD5sum: b4aefc797d706bb639e68aacff68e28c
+SHA1: 1cd351daa598022fd9c2f31c07c0a41ae5d6bb3e
+SHA256: c7c220f4803a1102d384eee54f5686acfe73f0d25bf719a8f321de9392987a23
+Section: python
+Priority: optional
+Homepage: https://github.com/PascalKieslich/mousetrap-os
+Description: Mousetrap plugin for OpenSesame
+ .
+ Mousetrap plugin for OpenSesame
+ ===============================
+ .
+ **Easily build mouse-tracking experiments with OpenSesame.**
+ .
+ The Mousetrap plugin provides two items that implement mouse-tracking in `OpenSesame`_. Both offer different ways of implementing mouse-tracking:
+ .
+ The `mousetrap_response item`_ tracks mouse movements while another stimulus (e.g., a sketchpad) is presented.
+ .
+ The `mousetrap_form item`_ allows tracking of mouse movements in custom forms specified using OpenSesame script.
+ .
+ More information about each item can be found in the corresponding helpfile (as linked above). Besides, a number of example experiments that demonstrate the basic features of the items can be found in the `examples folder`_.
+ .
+ Once data have been collected with the mousetrap plugin, the data can be processed, analyzed and visualized using the `mousetrap R package`_.
+ .
+ .. _OpenSesame: http://osdoc.cogsci.nl/
+ .. _mousetrap_response item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_response/mousetrap_response.md
+ .. _mousetrap_form item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_form/mousetrap_form.md
+ .. _examples folder: https://github.com/PascalKieslich/mousetrap-os/blob/master/examples
+
+Package: python3-opensesame-plugin-parallel-port-trigger
+Source: opensesame-plugin-parallel-port-trigger
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 161
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_2.0.0-1_all.deb
+Size: 52576
+MD5sum: 1da638a136a67f6c8a43ae79dfa1a8c3
+SHA1: 37d41ad3b5a402ad8acd0610cea578cbd157d326
+SHA256: 72842ff8b602a8c874961549f86d5f2430b8f94b2cf0d59d7ddc820b5b663293
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
+Description: An OpenSesame Plug-in for sending stimulus synchronization t
+
+Package: python3-opensesame-plugin-pygaze-roi
+Source: opensesame-plugin-pygaze-roi
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Sebastiaan Mathot <s.mathot@cogsci.nl>
+Installed-Size: 24
+Filename: ./python3-opensesame-plugin-pygaze-roi_0.1.0-1_all.deb
+Size: 5588
+MD5sum: 549fa2dabd5dab39c5a8237b08b75747
+SHA1: b031e1fe78e763547610eb29c7fa5fd968cad273
+SHA256: d04569dff7dacf0c0a0251e760c7f0277bf8c5400cd9dd83f2702920cd3a2a48
+Section: python
+Priority: optional
+Homepage: https://github.com/smathot/opensesame-plugin-pygaze_roi
+Description: ROI analysis plugin for OpenSesame and PyGaze
+
+Package: python3-opensesame-plugin-radboudbox
+Source: opensesame-plugin-radboudbox
+Version: 2.0.0-1
+Architecture: all
+Maintainer: Bob Rosbag <b.rosbag@let.ru.nl>
+Installed-Size: 93
+Filename: ./python3-opensesame-plugin-radboudbox_2.0.0-1_all.deb
+Size: 22652
+MD5sum: 5f61417d44d50a21d81e11afed6908c8
+SHA1: 56e3a14e99cb54731bffe2240a5a7d53e9330418
+SHA256: 6f2289a8f66b97a2cabd5ab1bfa159b4ce4a7d5f308e1b7fb3557ce486b36a00
+Section: python
+Priority: optional
+Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
+Description: An OpenSesame Plug-in for collecting button responses, audio
+
+Package: python3-psychtoolbox
+Source: psychtoolbox
+Version: 3.0.18.2-1
+Architecture: amd64
+Maintainer: Mario Kleiner <mario.kleiner.de@gmail.com>
+Installed-Size: 1790
+Depends: python3 (<< 3.11), python3 (>= 3.9~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.28), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.9), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
+Filename: ./python3-psychtoolbox_3.0.18.2-1_amd64.deb
+Size: 212288
+MD5sum: 7b7a237f612fadb5ef76a4f13a29cd58
+SHA1: 7e333b8a7ccd85933de00dd72821d1216753badc
+SHA256: 79519faadae8b4cabd7e92cef5d3fd0d245c6aed434b936c077ffb7248c86d02
+Section: python
+Priority: optional
+Homepage: http://psychtoolbox.org
+Description: Pieces of Psychtoolbox-3 ported to CPython.
+
+Package: python3-pyalsaaudio
+Source: pyalsaaudio
+Version: 0.9.2-1
+Architecture: amd64
+Maintainer: Lars Immisch <lars@ibp.de>
+Installed-Size: 162
+Depends: python3 (<< 3.11), python3 (>= 3.9~), libasound2 (>= 1.0.29), libc6 (>= 2.4)
+Filename: ./python3-pyalsaaudio_0.9.2-1_amd64.deb
+Size: 21944
+MD5sum: 451333027c9b3caa0925620a8219eeab
+SHA1: fa6a9ef142e061f695a8483f981167a24aeb2219
+SHA256: ce0ac78d47bc2d7837380ea30a639371e0f1c86a2c9423030adad8128ec3b815
+Section: python
+Priority: optional
+Homepage: http://larsimmisch.github.io/pyalsaaudio/
+Description: ALSA bindings
+ This package contains wrappers for accessing the ALSA API from Python.
+ It is fairly complete for PCM devices and Mixer access.
+
+Package: realtimeconfigquickscan
+Version: 1.3-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./realtimeconfigquickscan_1.3-1_amd64.deb
+Size: 12948
+MD5sum: 86baa5df1af057bb1a23c889248c6b82
+SHA1: b2169d9020c9d900d519c633b4ae6f1b71741045
+SHA256: 56547864c8cb7de6cd94db666da4c742337985791c6991c20b26398b138c1f01
+Section: base
+Priority: optional
+Description: realtimeconfigquickscan for Debian
+
+Package: rescuezilla
+Version: 2.3-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2579
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Filename: ./rescuezilla_2.3-1_all.deb
+Size: 477680
+MD5sum: 311425797f51c61a4795ce0e9698af32
+SHA1: b80f7f784dc43bf9f72db19b9f13c5d9b79906e9
+SHA256: 1e1043c897f1b6ff47d7412f09f82219e3991dc08eefbc4017c883eab31e1314
+Section: admin
+Priority: optional
+Homepage: https://rescuezilla.com
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: tobiiproeyetrackermanager
+Version: 2.3.7-1664
+Architecture: amd64
+Maintainer: Tobii Pro - Team Bromine
+Installed-Size: 291194
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Filename: ./tobiiproeyetrackermanager_2.3.7-1_amd64.deb
+Size: 67217918
+MD5sum: 5ea3889f80ebb94c11389549e32aa765
+SHA1: a0255057314a99bfeae9ec9f102d839fa8afb1f4
+SHA256: 8d82202c3076aec28d57d1e360bbf2d069995384681cf88be017d80e08404ce0
+Section: default
+Priority: extra
+Homepage: https://www.tobiipro.com/product-listing/eye-tracker-manager/
+Description: Free software to help manage your screen-based eye tracker.
+  A configuration and setting utility that helps you manage your connected eye trackers. It is available free of charge and greatly increases efficiency for users of Tobii Eyetrackers
+License: Apache-2.0
+Vendor: Tobii Pro - Team Bromine
+
