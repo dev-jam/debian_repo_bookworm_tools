@@ -449,6 +449,42 @@ Section: devel
 Priority: optional
 Description: plasma-appimage-integration built using CMake
 
+Package: psychopy
+Version: 2022.2.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 28791
+Depends: python3-arabic-reshaper, python3-astunparse, python3-cryptography, python3-distro, python3-esprima, python3-freetype, python3-gevent, python3-git, python3-gitlab, python3-glfw, python3-google-api-core, python3-google-auth, python3-google-cloud, python3-google-cloud-speech, python3-googleapis-common-protos, python3-imageio, python3-imageio-ffmpeg, python3-javascripthon, python3-jedi, python3-json-tricks, python3-markdown-it, python3-matplotlib, python3-moviepy, python3-msgpack, python3-msgpack-numpy, python3-numpy, python3-openpyxl, python3-pandas, python3-parallel, python3-pil, python3-psutil, python3-psychtoolbox, python3-pygame, python3-pyglet, python3-pyo, python3-pyqt5, python3-python-bidi, python3-questplus | python3 (<< 3.6), python3-requests, python3-scipy, python3-serial, python3-sounddevice, python3-soundfile, python3-speechrecognition, python3-tables, python3-tobii-research | python3 (>> 3.9), python3-ujson, python3-vlc, python3-websocket, python3-wxgtk4.0, python3-xlib, python3-xlrd, python3-yaml, python3-zmq, python3:any
+Filename: ./psychopy_2022.2.4-1_all.deb
+Size: 10410400
+MD5sum: 65a996c81e73b2febc618d233e658190
+SHA1: 579d046d7de918f6b176b1bf351f84a161ed69d4
+SHA256: db524aaea7b7636bf96dd4e46820023c0a49a72e1462b468d27573a56a470579
+Section: python
+Priority: optional
+Homepage: https://www.psychopy.org/
+Description: Psychology experiment software in Python
+ # PsychoPy
+ .
+ [![PyPI version](https://img.shields.io/pypi/v/psychopy.svg)](https://pypi.python.org/pypi/PsychoPy)
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+ .
+ PsychoPy is an open-source package for creating experiments in behavioral science. It aims to provide a single package that is:
+ .
+ * precise enough for psychophysics
+ * easy enough for teaching
+ * flexible enough for everything else
+ * able to run experiments in a local Python script or online in JavaScript
+ .
+ To meet these goals PsychoPy provides a choice of interface - you can use a
+ simple graphical user interface called Builder, or write your experiments in
+ Python code. The entire application and library are written in Python and is
+ platform independent.
+ .
+ There is a range of documentation at:
+ .
+ * [PsychoPy Homepage](https://www.psychopy.org)
+
 Package: python3-dr14-tmeter
 Source: dr14-tmeter
 Version: 2.0.0-2
