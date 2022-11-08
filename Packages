@@ -535,6 +535,39 @@ Section: utils
 Priority: extra
 Description: A python library that can be used to gather all sorts of information about the storage devices connected to a system.
 
+Package: python3-js2py
+Source: js2py
+Version: 0.71-1
+Architecture: all
+Maintainer: Piotr Dabkowski <piodrus@gmail.com>
+Installed-Size: 7784
+Depends: python3-pyjsparser, python3-six (>= 1.10), python3-tzlocal, python3:any
+Filename: ./python3-js2py_0.71-1_all.deb
+Size: 575576
+MD5sum: 70d3fcbb75161b08ba52fc6d786854b7
+SHA1: cdb0547d67c9d8296b6362459f2f3194be4baf46
+SHA256: 11d01e3ee78ee53c94608d03156e00d7caa0ca9e4b810fdfd5ccc5277718152f
+Section: python
+Priority: optional
+Homepage: https://github.com/PiotrDabkowski/Js2Py
+Description: JavaScript to Python Translator & JavaScript interpreter wri
+ Translates JavaScript to Python code. Js2Py is able to translate and execute virtually any JavaScript code.
+ .
+ Js2Py is written in pure python and does not have any dependencies. Basically an implementation of JavaScript core in pure python.
+ .
+ .
+     import js2py
+ .
+     f = js2py.eval_js( "function $(name) {return name.length}" )
+ .
+     f("Hello world")
+ .
+     # returns 11
+ .
+ Now also supports ECMA 6 through js2py.eval_js6(js6_code)!
+ .
+ More examples at: https://github.com/PiotrDabkowski/Js2Py
+
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
 Version: 8.7.0-1
@@ -773,6 +806,43 @@ Homepage: http://larsimmisch.github.io/pyalsaaudio/
 Description: ALSA bindings
  This package contains wrappers for accessing the ALSA API from Python.
  It is fairly complete for PCM devices and Mixer access.
+
+Package: python3-pyspellchecker
+Source: pyspellchecker
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 2446
+Depends: python3:any
+Filename: ./python3-pyspellchecker_0.7.0-1_all.deb
+Size: 2460172
+MD5sum: 04d76be2f9720b95dcca26085b040793
+SHA1: 18fe231db3d27e92ad9b310d663011ac3e0be480
+SHA256: e597470fa2c6fa29cb611068dc460a0a4363ba5a2adf2d6a3871222834964d96
+Section: python
+Priority: optional
+Homepage: https://github.com/barrust/pyspellchecker
+Description: Pure python spell checker based on work by Peter Norvig
+ pyspellchecker
+ ===============================================================================
+ .
+ .. image:: https://img.shields.io/badge/license-MIT-blue.svg
+     :target: https://opensource.org/licenses/MIT/
+     :alt: License
+ .. image:: https://img.shields.io/github/release/barrust/pyspellchecker.svg
+     :target: https://github.com/barrust/pyspellchecker/releases
+     :alt: GitHub release
+ .. image:: https://github.com/barrust/pyspellchecker/workflows/Python%20package/badge.svg
+     :target: https://github.com/barrust/pyspellchecker/actions?query=workflow%3A%22Python+package%22
+     :alt: Build Status
+ .. image:: https://codecov.io/gh/barrust/pyspellchecker/branch/master/graph/badge.svg?token=OdETiNgz9k
+     :target: https://codecov.io/gh/barrust/pyspellchecker
+     :alt: Test Coverage
+ .. image:: https://badge.fury.io/py/pyspellchecker.svg
+     :target: https://badge.fury.io/py/pyspellchecker
+     :alt: PyPi Package
+ .. image:: http://pepy.tech/badge/pyspellchecker
+     :target: https://pepy.tech/project/pyspellchecker
 
 Package: python3-python-eyelinkparser
 Source: python-eyelinkparser
