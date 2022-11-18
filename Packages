@@ -13,22 +13,6 @@ Section: utils
 Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
-Package: inxi-gui
-Version: 1.0.0~bpo11+1
-Architecture: all
-Maintainer: Kevin Kim <root@hamonikr.org>
-Installed-Size: 32
-Depends: yad, policykit-1
-Filename: ./inxi-gui_1.0.0~bpo11+1_all.deb
-Size: 5748
-MD5sum: b611f8597a1983a0ec664f7600db5726
-SHA1: f045398144e434c8c83812e9eba0f4bbc45c9a4a
-SHA256: 7460b68df7c36c52cdf35652d687f5d45ce3b7a61246481bfc8ed95b0e5db763
-Section: system
-Priority: optional
-Homepage: https://hamonikr.org
-Description: Simple gui front end to inxi.
-
 Package: python3-expyriment
 Source: expyriment
 Version: 0.10.0-1
@@ -99,16 +83,16 @@ Description: A python library that can be used to gather all sorts of informatio
 
 Package: python3-js2py
 Source: js2py
-Version: 0.71-1
+Version: 0.74-1
 Architecture: all
-Maintainer: Piotr Dabkowski <piodrus@gmail.com>
-Installed-Size: 7784
-Depends: python3-pyjsparser, python3-six (>= 1.10), python3-tzlocal, python3:any
-Filename: ./python3-js2py_0.71-1_all.deb
-Size: 575576
-MD5sum: 70d3fcbb75161b08ba52fc6d786854b7
-SHA1: cdb0547d67c9d8296b6362459f2f3194be4baf46
-SHA256: 11d01e3ee78ee53c94608d03156e00d7caa0ca9e4b810fdfd5ccc5277718152f
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 7791
+Depends: python3-six (>= 1.10), python3-tzlocal, python3:any
+Filename: ./python3-js2py_0.74-1_all.deb
+Size: 576192
+MD5sum: 9f8e53a6aa714800f49c12f297f3be9f
+SHA1: 2809ebdc3d32a479aec819d0cd75514bf05084a7
+SHA256: ce2ae22a0bb63cafaccc6d3fb4bb02dfede30afd7f6adc61377dc3aeb6133fe9
 Section: python
 Priority: optional
 Homepage: https://github.com/PiotrDabkowski/Js2Py
