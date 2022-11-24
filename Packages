@@ -14,14 +14,14 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: devjam-apps
-Version: 1.0-2
+Version: 1.0-3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: ./devjam-apps_1.0-2_amd64.deb
-Size: 5675668
-MD5sum: 27d831112a883bf33ef6200fdaf5a06c
-SHA1: 002f9214e33556fed17e6f304f927ec3b81607ee
-SHA256: 79e00145dfd3b6685e489f9b59b76197380f8d4890fe5d718b5169bafa0fb2de
+Filename: ./devjam-apps_1.0-3_amd64.deb
+Size: 5674196
+MD5sum: 04ae1673f358db8e3250574ffa55f394
+SHA1: 0ae40cc3bade95a125868ff12e20e51f2de3fc7a
+SHA256: b3686ffa529056b20cefc24b033c1c2b1887ea953983bc3db95cc791dbdb49e3
 Section: base
 Priority: optional
 Description: rename and clean apps for Debian Testing
