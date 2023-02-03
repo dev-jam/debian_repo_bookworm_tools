@@ -91,18 +91,17 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-wheel2deb
-Source: wheel2deb
-Version: 0.8.0-1
+Package: wheel2deb
+Version: 0.8.0-1.1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 82
 Depends: python3-attr, python3-colorama, python3-dirsync, python3-jinja2, python3-packaging, python3-pkginfo, python3-rich, python3-typer, python3-wheel, python3-yaml, python3:any
-Filename: ./python3-wheel2deb_0.8.0-1_all.deb
-Size: 18236
-MD5sum: 92f905d05740e9b84a5248b5d6a3333d
-SHA1: 22d163754f49d2848105a584dec66a7b3518b0b2
-SHA256: 67597024c5beb079f1096e47843e7d15848fe6bfad5c117461badef9401f568f
+Filename: ./wheel2deb_0.8.0-1.1_all.deb
+Size: 18240
+MD5sum: 74fec75efe268a3285ab2af1fc796375
+SHA1: eb2ef3855d623f4e87ec8ec96325576724d74805
+SHA256: b5fbfd9cec67c4ad23fc13c0d83bf80bdea066f08a2d05fcf1ec8de62bef4522
 Section: python
 Priority: optional
 Homepage: https://github.com/upciti/wheel2deb
