@@ -91,3 +91,40 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-wheel2deb
+Source: wheel2deb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 82
+Depends: python3-attr, python3-colorama, python3-dirsync, python3-jinja2, python3-packaging, python3-pkginfo, python3-rich, python3-typer, python3-wheel, python3-yaml, python3:any
+Filename: ./python3-wheel2deb_0.8.0-1_all.deb
+Size: 18236
+MD5sum: 92f905d05740e9b84a5248b5d6a3333d
+SHA1: 22d163754f49d2848105a584dec66a7b3518b0b2
+SHA256: 67597024c5beb079f1096e47843e7d15848fe6bfad5c117461badef9401f568f
+Section: python
+Priority: optional
+Homepage: https://github.com/upciti/wheel2deb
+Description: Python wheel to debian package converter
+ ## wheel2deb
+ .
+ ![cicd](https://github.com/upciti/wheel2deb/actions/workflows/cicd.yml/badge.svg)
+ [![codecov](https://codecov.io/gh/upciti/wheel2deb/branch/main/graph/badge.svg)](https://codecov.io/gh/upciti/wheel2deb)
+ [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+ [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+ [![PyPI version shields.io](https://img.shields.io/pypi/v/wheel2deb.svg)](https://pypi.python.org/pypi/wheel2deb/)
+ [![Downloads](https://static.pepy.tech/personalized-badge/wheel2deb?period=total&units=international_system&left_color=blue&right_color=green&left_text=Downloads)](https://pepy.tech/project/wheel2deb)
+ [![WakeMeOps](https://docs.wakemeops.com/badges/wheel2deb.svg)](https://docs.wakemeops.com/packages/wheel2deb)
+ .
+ `wheel2deb` is a python wheel to debian package converter. It takes a list of wheels as input and produces a list of debian binary CPython packages (those prefixed with python- or python3-).
+ .
+ [![asciicast](https://asciinema.org/a/249779.svg)](https://asciinema.org/a/249779)
+ .
+ ## Quick Example
+ .
+ The following shows how to convert numpy and pytest, along with their dependencies into a list of debian packages:
+ .
+ ```sh
+ # Download (and build if needed) pytest, numpy and their requirements
+
