@@ -92,16 +92,16 @@ Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tartube
-Version: 0:2.4.245-1~w2d0
+Version: 0:2.4.255-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 6834
+Installed-Size: 6848
 Depends: python3 (>= 3.4~), python3-feedparser, python3-gi, python3-matplotlib, python3-playsound, python3-requests, python3:any
-Filename: ./python3-tartube_2.4.245-1~w2d0_all.deb
-Size: 2507320
-MD5sum: 08ca9ca3f52745c9b74592faba912442
-SHA1: 13ae4618edb2e3ac47cffa33434d23d4c4b5381e
-SHA256: f9d0023c9d98491150d1bd892e564841dd30877198ba5ed63e98e60ebbec8e1f
+Filename: ./python3-tartube_2.4.255-1~w2d0_all.deb
+Size: 2508828
+MD5sum: a747c1e534a38c39c5cf8f46823cbb12
+SHA1: 4ad3126a4f93e90bba19a88fc25d34b89b851d50
+SHA256: 68f2c6c1b0040bc4a2af05c70441a2599ed2dac6b4162cb89fcad5ee543de883
 Section: python
 Priority: optional
 Homepage: https://tartube.sourceforge.io
