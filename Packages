@@ -91,26 +91,6 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-tartube
-Source: tartube
-Version: 2.4.255-1
-Architecture: all
-Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 6828
-Depends: python3-feedparser, python3-gi, python3-matplotlib, python3-requests, python3:any, python3-pip
-Filename: ./python3-tartube_2.4.255-STRICT.deb
-Size: 2541776
-MD5sum: 25a7e99d9f74937d0ea53428161b9805
-SHA1: d3f74856dd18fde570a8cedef54b88c6c5485d35
-SHA256: df6b47aaf6607bf140b824decbdb1e39e8ac6e943331a18d2d32aeff2ea97049
-Section: python
-Priority: optional
-Homepage: https://tartube.sourceforge.io
-Description: GUI front-end for youtube-dl, yt-dlp and other compatible vi
- .
- Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
- downloaders.
-
 Package: wheel2deb
 Version: 0.8.1-1
 Architecture: all
