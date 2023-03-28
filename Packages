@@ -28,17 +28,17 @@ Description: rename and clean apps for Debian Testing
 
 Package: matlab-psychtoolbox-3
 Source: psychtoolbox-3-nonfree
-Version: 3.0.19.0-1~nd120+1.1
+Version: 3.0.19.0-2~nd120+1.1
 Architecture: all
 Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
 Installed-Size: 19
-Depends: neurodebian-popularity-contest, matlab-psychtoolbox-3-nonfree (= 3.0.19.0-1~nd120+1.1), psychtoolbox-3-common (>= 3.0.19.0-1~nd120+1.1.dfsg)
+Depends: neurodebian-popularity-contest, matlab-psychtoolbox-3-nonfree (= 3.0.19.0-2~nd120+1.1), psychtoolbox-3-common (>= 3.0.19.0-2~nd120+1.1.dfsg)
 Recommends: matlab-support
-Filename: ./matlab-psychtoolbox-3_3.0.19.0-1~nd120+1.1_all.deb
-Size: 3844
-MD5sum: 29618d0bb95d5474230d324ab100999e
-SHA1: f119a62c0f8d927f367e25ef44aaab726ae27e92
-SHA256: 1aaac7a1e7e7f3a76cb199134d17dc5d0e130e62a57caff115e57c0fc610345a
+Filename: ./matlab-psychtoolbox-3_3.0.19.0-2~nd120+1.1_all.deb
+Size: 3892
+MD5sum: 7307764bbd15ce7f7496a8e71d7642a0
+SHA1: 46d24bcea475baa18e3e3ea02a36de84a0d773a9
+SHA256: 17ff364178aa09c6a24346fa6c7a6ba66e6d75835eae4db326bee202f7f8bf39
 Section: non-free/science
 Priority: extra
 Homepage: http://psychtoolbox.org
@@ -68,17 +68,17 @@ Description: toolbox for vision research -- Matlab bindings
 
 Package: matlab-psychtoolbox-3-nonfree
 Source: psychtoolbox-3-nonfree
-Version: 3.0.19.0-1~nd120+1.1
+Version: 3.0.19.0-2~nd120+1.1
 Architecture: amd64
 Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
-Installed-Size: 6229
-Depends: neurodebian-popularity-contest, psychtoolbox-3-lib (>= 3.0.19.0-1~nd120+1.1.dfsg), psychtoolbox-3-common (>= 3.0.19.0-1~nd120+1.1.dfsg), libx11-6, libxext6, libxfixes3, libxi6, libglut3.12, libgl1-mesa-glx, libxmu6, libxpm4, libdc1394-25
+Installed-Size: 6230
+Depends: neurodebian-popularity-contest, psychtoolbox-3-lib (>= 3.0.19.0-2~nd120+1.1.dfsg), psychtoolbox-3-common (>= 3.0.19.0-2~nd120+1.1.dfsg), libx11-6, libxext6, libxfixes3, libxi6, libglut3.12, libgl1-mesa-glx, libxmu6, libxpm4, libdc1394-25
 Recommends: libasound2, libfreenect0.5, libglib2.0-0, libglu1-mesa, libopenal1, libpciaccess0, libusb-1.0-0 (>= 2:1.0.9~), libxml2, libxrandr2, libxxf86vm1
-Filename: ./matlab-psychtoolbox-3-nonfree_3.0.19.0-1~nd120+1.1_amd64.deb
-Size: 2070750
-MD5sum: 409f22f0ceb5cf601d73876c788bf399
-SHA1: 43790b99bccdd8eb2bb4fbe3cfdd105192b753d0
-SHA256: ded3d55916238254cc276c0d9081c8bf66ec27ee6f10612436c9a541e425e43d
+Filename: ./matlab-psychtoolbox-3-nonfree_3.0.19.0-2~nd120+1.1_amd64.deb
+Size: 2070808
+MD5sum: a2585ebb400ebcfdece39872a29e84a3
+SHA1: 79e1a08ea88d84f0dd2452a8ff3a3ecedb9c6c3c
+SHA256: 3d49b9515366fd5949b41989769fc4f780c6a4ca528ebd125fe98a96f65d4777
 Section: non-free/science
 Priority: extra
 Homepage: http://psychtoolbox.org
@@ -102,16 +102,16 @@ Description: toolbox for vision research -- Matlab binary blobs
 
 Package: octave-psychtoolbox-3-nonfree
 Source: psychtoolbox-3-nonfree
-Version: 3.0.19.0-1~nd120+1.1
+Version: 3.0.19.0-2~nd120+1.1
 Architecture: amd64
 Maintainer: NeuroDebian Maintainers <team@neuro.debian.net>
 Installed-Size: 793
-Depends: neurodebian-popularity-contest, octave-psychtoolbox-3 (>= 3.0.19.0-1~nd120+1.1.dfsg), psychtoolbox-3-common (>= 3.0.19.0-1~nd120+1.1.dfsg)
-Filename: ./octave-psychtoolbox-3-nonfree_3.0.19.0-1~nd120+1.1_amd64.deb
-Size: 282278
-MD5sum: 77f5c23127ebff9d9928e8ec60c04803
-SHA1: c6df8279865965984323ffc84bae462783259837
-SHA256: 85e3fb1018434001e13085b9f3ceec133f2c12f961a9d12815c91519ca18b158
+Depends: neurodebian-popularity-contest, octave-psychtoolbox-3 (>= 3.0.19.0-2~nd120+1.1.dfsg), psychtoolbox-3-common (>= 3.0.19.0-2~nd120+1.1.dfsg)
+Filename: ./octave-psychtoolbox-3-nonfree_3.0.19.0-2~nd120+1.1_amd64.deb
+Size: 282328
+MD5sum: 82b4e4849637a847f46017db004b5c54
+SHA1: a0414c435b0897a08bef0bdde0383b4ac786837a
+SHA256: 01983b2abf5fa16e600e03f4f28f3b84c2033dcc97cd22596e25cd22c6976b86
 Section: non-free/science
 Priority: extra
 Homepage: http://psychtoolbox.org
