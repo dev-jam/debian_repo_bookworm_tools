@@ -26,6 +26,72 @@ Section: base
 Priority: optional
 Description: rename and clean apps for Debian Testing
 
+Package: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 270
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Filename: ./libjpeg8_8d1-2.1_amd64.deb
+Size: 119520
+MD5sum: df015d5750072beac4f3b92665e1654d
+SHA1: da8175ecfa25381bd2357ab5475f86a8faa04a05
+SHA256: 12ea9e3327d6f152f08ff63a1e96a8d9b7389b4f12a27d3a8197c2b8c4fbb0cb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Independent JPEG Group's JPEG runtime library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the shared library.
+
+Package: libjpeg8-dbg
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 889
+Depends: libjpeg8 (= 8d1-2.1)
+Replaces: libjpeg62-dbg, libjpeg7-dbg
+Provides: libjpeg-dbg
+Filename: ./libjpeg8-dbg_8d1-2.1_amd64.deb
+Size: 262564
+MD5sum: c31a815e1cabbcd3dc0e0441656d31d2
+SHA1: 157e81d32b71081d749666370fb5aaf71a7e7e90
+SHA256: 2ff5dcda9909824d9b9bfe4d36c858f56c0018fff015441a628828588a8f2365
+Section: debug
+Priority: extra
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the debugging symbols for libjpeg.
+
+Package: libjpeg8-dev
+Source: libjpeg8
+Version: 8d1-2.1
+Architecture: amd64
+Maintainer: Bill Allombert <ballombe@debian.org>
+Installed-Size: 495
+Depends: libjpeg8 (= 8d1-2.1), libc-dev
+Conflicts: libjpeg62-dev, libjpeg7-dev
+Replaces: libjpeg62-dev, libjpeg7-dev
+Filename: ./libjpeg8-dev_8d1-2.1_amd64.deb
+Size: 217188
+MD5sum: 7b9abbee4fc35648439591292a391b29
+SHA1: 1b9c658baf912dec6e27048657e248f273432251
+SHA256: c04c02601ddebd2a0e1a44396b71aee142bc29598336e5ca8f337db77000b3fb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Development files for the IJG JPEG library
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+ .
+ This package contains the static library, headers and documentation.
+
 Package: matlab-psychtoolbox-3
 Source: psychtoolbox-3-nonfree
 Version: 3.0.19.0-2~nd120+1.1
@@ -99,6 +165,27 @@ Description: toolbox for vision research -- Matlab binary blobs
  .
  This package contains binary builds for Datapixx and Eyelink bindings for
  Matlab built/supported/distributed by upstream.
+
+Package: multiarch-support
+Source: glibc
+Version: 2.28-10
+Architecture: amd64
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.3.6-2)
+Filename: ./multiarch-support_2.28-10_amd64.deb
+Size: 215080
+MD5sum: 4d7679dae0409b7bf18c13f4e05974ae
+SHA1: dd3d1163f82e601bfd9007561ea6f9b2007a7a23
+SHA256: 41afb694b49184f5c84b0df610cc667de9c95c8a85baf515da7fabb942f4effd
+Section: oldlibs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: Transitional package to ensure multiarch compatibility
+ This is a transitional package used to ensure multiarch support is present
+ in ld.so before unpacking libraries to the multiarch directories.  It can
+ be removed once nothing on the system depends on it.
 
 Package: octave-psychtoolbox-3-nonfree
 Source: psychtoolbox-3-nonfree
