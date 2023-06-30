@@ -1,3 +1,39 @@
+Package: corectrl
+Version: 1.3.5+ds-1~bpo12+1
+Architecture: amd64
+Maintainer: Gürkan Myczko <tar@debian.org>
+Installed-Size: 4690
+Depends: libbotan-2-19 (>= 2.19.3+dfsg), libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libpolkit-gobject-1-0 (>= 0.99), libpugixml1v5 (>= 1.6), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libquazip1-qt5-1 (>= 1.4), libstdc++6 (>= 11), vulkan-tools, qml-module-qtcharts, qml-module-qtquick-layouts, qml-module-qtquick-controls2, qml-module-qt-labs-platform, qml-module-qtquick-window2, qml-module-qtquick2
+Filename: ./corectrl_1.3.5+ds-1~bpo12+1_amd64.deb
+Size: 891780
+MD5sum: c4fef9971aa471e4edc476ca38651ead
+SHA1: c7c93018f115c1cfb1519d61be933e1e2df889df
+SHA256: 1a6b2e2784a72e142fa9e44c8f5730f263475f456dc4e7a6ac1e128025ba0ea3
+Section: utils
+Priority: optional
+Homepage: https://gitlab.com/corectrl/corectrl
+Description: Control your computer hardware using application profiles
+ corectrl allows control of the CPU and AMD GPUs to set custom profiles for applications.
+ This aims to be flexible, comfortable and accessible to regular users.
+
+Package: corectrl-dbgsym
+Source: corectrl
+Version: 1.3.5+ds-1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Gürkan Myczko <tar@debian.org>
+Installed-Size: 40058
+Depends: corectrl (= 1.3.5+ds-1~bpo12+1)
+Filename: ./corectrl-dbgsym_1.3.5+ds-1~bpo12+1_amd64.deb
+Size: 39620624
+MD5sum: ec9d779fdc8ce0f3be30de8cf463e55e
+SHA1: 51c5b98442561fff8f102721f214ec5a500f4aa9
+SHA256: 3ffc8e8ab227ebef04d69606a3c1b90ef86a7cbbd32612e4d7c9c521ae73f67a
+Section: debug
+Priority: optional
+Description: debug symbols for corectrl
+Build-Ids: 4c6689d37b959c36644a35895e34740f222809ad 61b3fef8fb5ab930faa17223c5dc555f37c073b7 9c874ecd7c6288a3cfb180b60e29482998458d54 ec78168d229d255af545fbd92da0478c87cb1a3d
+
 Package: ddrescue-gui
 Version: 10:2.1.1-1
 Architecture: all
@@ -303,6 +339,68 @@ Priority: optional
 Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: strawberry
+Version: 1.0.17-1~bpo12+1
+Architecture: amd64
+Maintainer: Peter Blackman <peter@pblackman.plus.com>
+Installed-Size: 13714
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgnutls30 (>= 3.7.3), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libprotobuf32 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libvlc5 (>= 2.1.0), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sqlite3
+Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, qt5ct
+Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly
+Filename: ./strawberry_1.0.17-1~bpo12+1_amd64.deb
+Size: 5428332
+MD5sum: 2560389cb0d198e8d0c44d5e486853fa
+SHA1: 5675ef83c5069e997339d25bc55ee0b16767c562
+SHA256: 63c70d4442610107ce6410a000c8912e92420ad424b1aeabea002dc4d99dd012
+Section: sound
+Priority: optional
+Homepage: https://strawberrymusicplayer.org
+Description: audio player and music collection organizer
+ Strawberry is a music player aimed at music collectors and audiophiles.
+ It is a fork of Clementine. The name is inspired by the band Strawbs.
+ .
+ Features:
+  - Play and organize music
+  - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio,
+  -   AIFF, MP4, MP3 and ASF
+  - Audio CD playback
+  - Native desktop notifications
+  - Playlist management
+  - Playlists in multiple formats
+  - Advanced audio and device configuration for bit-perfect playback on Linux
+  - Edit tags on audio files
+  - Automatically retrieve tags from MusicBrainz
+  - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer,
+  -   Tidal, Qobuz and Spotify
+  - Song lyrics from Lyrics.com, AudD, Genius, Musixmatch, ChartLyrics,
+  -   lyrics.ovh and lololyrics.com
+  - Support for multiple backends
+  - Audio analyzer
+  - Audio equalizer
+  - Transfer music to mass-storage USB players, MTP compatible devices
+  -   and iPod Nano/Classic
+  - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
+  - Streaming support for Subsonic-compatible servers
+  - Unofficial streaming support for Tidal and Qobuz
+
+Package: strawberry-dbgsym
+Source: strawberry
+Version: 1.0.17-1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Peter Blackman <peter@pblackman.plus.com>
+Installed-Size: 77989
+Depends: strawberry (= 1.0.17-1~bpo12+1)
+Filename: ./strawberry-dbgsym_1.0.17-1~bpo12+1_amd64.deb
+Size: 78059860
+MD5sum: e3043f1e16328ab4353305b6d0b21906
+SHA1: 1d0a50055e5388278576949e7d9c944eddd02ddd
+SHA256: a349a64e59eca50e488f57b944f81532f9c99bdc9354a63364adeee91c2938f4
+Section: debug
+Priority: optional
+Description: debug symbols for strawberry
+Build-Ids: 131f7cbb28ed8b2d50dc2c81388b3d961e3341d9 1b5e02e1f16c4b113e18802606def7c6ca84cb22
 
 Package: wheel2deb
 Version: 0:0.8.2-3~w2d0
