@@ -340,6 +340,49 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: scrcpy
+Version: 1.25-1
+Architecture: amd64
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Installed-Size: 202
+Depends: libavcodec59 (>= 7:5.0), libavdevice59 (>= 7:5.0), libavformat59 (>= 7:5.0), libavutil57 (>= 7:5.0), libc6 (>= 2.34), libsdl2-2.0-0 (>= 2.0.12), libusb-1.0-0 (>= 2:1.0.16), scrcpy-server (= 1.25-1)
+Recommends: adb
+Filename: ./scrcpy_1.25-1_amd64.deb
+Size: 73348
+MD5sum: 575108077996fae40f63e55f68b49f56
+SHA1: 7e2366516ed2e0129390ab2a75744f88ea972c84
+SHA256: efde7e924fdd7a28d4e6a6971700a6fcbccf3efec751d728dcfb6cdf6f61402a
+Section: net
+Priority: optional
+Homepage: https://github.com/Genymobile/scrcpy
+Description: Display and control your Android device
+ This application provides display and control of Android devices connected on
+ USB (or over TCP/IP). It does not require any root access.
+ .
+ This package contains the client (desktop) binary.
+
+Package: scrcpy-server
+Source: scrcpy
+Version: 1.25-1
+Architecture: all
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Installed-Size: 51
+Filename: ./scrcpy-server_1.25-1_all.deb
+Size: 44032
+MD5sum: ecf49770f06bd2a883fb76bbf4ef0ca6
+SHA1: 9650c9f43c4fe354c4327c5f6a22b502b495d9dd
+SHA256: a931cf35fe3cf805c0b339c7566f3388f2b56d406cc11b338d917c2bd68a4392
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/Genymobile/scrcpy
+Description: Display and control your Android device - server binary
+ This application provides display and control of Android devices connected on
+ USB (or over TCP/IP). It does not require any root access.
+ .
+ This package contains the server (mobile) binary, which will be pushed to the
+ Android device.
+
 Package: strawberry
 Version: 1.0.17-1~bpo12+1
 Architecture: amd64
