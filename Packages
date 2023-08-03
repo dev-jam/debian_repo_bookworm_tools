@@ -620,16 +620,16 @@ Description: x86 virtualization solution - Qt based user interface
  This package provides the Qt based graphical user interface for VirtualBox.
 
 Package: wheel2deb
-Version: 0:0.8.2-3~w2d0
+Version: 0:0.8.2.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 87
-Depends: python3 (>= 3.10~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml (<< 7), python3-yaml (>= 6), python3:any
-Filename: ./wheel2deb_0.8.2-3~w2d0_all.deb
-Size: 18760
-MD5sum: 3f61efab0890af59346d7a58f53e380f
-SHA1: 48fca9b31ff89fa21dad0d8595873edba4de4331
-SHA256: ee230cb08fa531dfe271fc3aaabc69047a193a70d7d9feccce0b156cff92af80
+Depends: python3 (>= 3.11~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml (<< 7), python3-yaml (>= 6), python3:any
+Filename: ./wheel2deb_0.8.2.1-1~w2d0_all.deb
+Size: 18780
+MD5sum: cf445198f3f6408614cf496484646382
+SHA1: c2562128b6c70257fe3b6e77518d7469c651bc1a
+SHA256: e36fe264cd964d4c38ea7ea3c1aceafaf17c3dd253e5ef597959ee9b0dea83af
 Section: python
 Priority: optional
 Homepage: https://github.com/upciti/wheel2deb
