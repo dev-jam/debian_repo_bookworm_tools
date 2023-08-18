@@ -304,23 +304,6 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-yt-dlp
-Version: 0:2023.7.6-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 9808
-Depends: python3 (>= 3.7~), python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodomex, python3-websockets, python3:any
-Filename: ./python3-yt-dlp_2023.7.6-1~w2d0_all.deb
-Size: 1691340
-MD5sum: 41788924d295dd7b0df9bc71c97af94d
-SHA1: f6185eb87c565c0cbf53693c7644153a556415a2
-SHA256: 139dede32b68b0cede4c9b2592e7399ec6319eacdd42c35fb918b2373c03ac49
-Section: python
-Priority: optional
-Homepage: https://github.com/yt-dlp/yt-dlp
-Description: A youtube-dl fork with additional features and patches
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: scrcpy
 Version: 1.25-1
 Architecture: amd64
