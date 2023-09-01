@@ -207,6 +207,26 @@ Description: toolbox for vision research -- Octave binary blobs
  This package contains binary builds for Datapixx and Eyelink bindings for
  Octave built/supported/distributed by upstream.
 
+Package: pdfgui-tools
+Version: 1.0.2
+Architecture: all
+Maintainer: TheWatcherMultiversal <universepenguin@protonmail.com>
+Depends: poppler-utils, python3-pyqt5, qtbase5-dev
+Filename: ./pdfgui_tools_stable-release_1.0.2_all.deb
+Size: 30132
+MD5sum: a945b929eb28afbb0f7ca0b39d1ec35a
+SHA1: 8caa57bd458389ca8400df9c9905ccea73e0010a
+SHA256: ea0db0cf72799e09a9a09d8398d7c360f0a16f5409ffa149e06dadf04f51cc29
+Section: editors
+Priority: optional
+Homepage: https://github.com/TheWatcherMultiversal/pdfgui_tools/
+Description: pdfgui_tools is a user interface tool developed in Qt
+ and Python that integrates with poppler-utils for PDF document
+ management. This simple and user-friendly tool allows you to merge
+ PDF files, convert PDF to HTML, as well as convert PDF to text.
+ Additionally, in the near future, more functions with additional
+ features will be added.
+
 Package: python3-abi3audit
 Version: 0:0.0.8-1~w2d0
 Architecture: all
