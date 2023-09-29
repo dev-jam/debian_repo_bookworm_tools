@@ -1,3 +1,28 @@
+Package: cpupower-gui
+Version: 0.7.2-2.1~bpo12+1
+Architecture: amd64
+Maintainer: Evangelos Rigas <e.rigas@cranfield.ac.uk>
+Installed-Size: 135
+Depends: libgtk-3-0, gir1.2-gtk-3.0, python3-gi, hicolor-icon-theme, policykit-1, python3-dbus, dconf-gsettings-backend | gsettings-backend, python3:any
+Suggests: policykit-1-gnome, lxqt-policykit, mate-polkit, lxsession
+Filename: ./cpupower-gui_0.7.2-2.1~bpo12+1_amd64.deb
+Size: 18172
+MD5sum: ba87a0e563146b79d35297aa37a121cf
+SHA1: 9a3679700eac4fb9a5a6e418f88963ac49a79d08
+SHA256: 7fccea1bce735f1908c99329dae8bcadaa972541d329d72efd320272243406a9
+Section: admin
+Priority: optional
+Homepage: https://github.com/vagnum08/cpupower-gui.git
+Description: GUI utility to change the CPU frequency
+ This utility can change the operating frequency of the CPU for
+ each core separately. Additionally, the cpu governor can be changed.
+ The program can detect offline cores and only present the available ones.
+ Furthermore, if a core doesn't support frequency scaling is not shown.
+ There is also an option to apply the same settings to all cores simultaneously.
+ To apply the settings, the user must be local and active,
+ as well as in group sudo. Local and active users not in this group must
+ authenticate themselves as admin in order to apply the settings.
+
 Package: ddrescue-gui
 Version: 10:2.1.1-1
 Architecture: all
