@@ -1,3 +1,52 @@
+Package: audacity
+Version: 3.3.3+dfsg-2~bpo12+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 24418
+Depends: audacity-data (= 3.3.3+dfsg-2~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Suggests: ladspa-plugin
+Filename: ./audacity_3.3.3+dfsg-2~bpo12+1_amd64.deb
+Size: 5887316
+MD5sum: b886c049fe7ca2fcbd200efce3230100
+SHA1: 5fd1dc91faea5ea16520562783e61c8bcffdd876
+SHA256: 02a752af302285d3648a3565e729db3af65b68bc5097bbeb778964953f9e7fbb
+Section: sound
+Priority: optional
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
+
+Package: audacity-data
+Source: audacity
+Version: 3.3.3+dfsg-2~bpo12+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 15289
+Recommends: audacity
+Filename: ./audacity-data_3.3.3+dfsg-2~bpo12+1_all.deb
+Size: 2432088
+MD5sum: 4221b389bd0a66ad9d87672b02edb653
+SHA1: 8f3e4f33cda7abc68377bbf817b36f3751bf68ef
+SHA256: 0ea61d874f18937cc72fc118bead3ff2986fd52a51f5f566db5a578a7033d220
+Section: sound
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor (data)
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ This package contains the architecture-independent data files.
+
 Package: cpupower-gui
 Version: 0.7.2-2.1~bpo12+1
 Architecture: amd64
@@ -252,6 +301,49 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  Additionally, in the near future, more functions with additional
  features will be added.
 
+Package: praat
+Version: 6.3.18+dfsg-1~bpo12+1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 95111
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11), oss-compat, python3:any
+Suggests: libasound2-plugins
+Filename: ./praat_6.3.18+dfsg-1~bpo12+1_amd64.deb
+Size: 25028312
+MD5sum: e8e8df7b6096a3846668a132a1a8384b
+SHA1: dd51b7705197e7695126d2dd9f416a2bdbc0b204
+SHA256: 656cfa9902ed6271769ae6db80b8f8d617f5be044a78571570ba97629893872c
+Section: science
+Priority: optional
+Homepage: https://www.praat.org
+Description: program for speech analysis and synthesis
+ According to its authors, praat is "doing phonetics by computer".  Through
+ its graphical interface, several speech analysis functionalities are
+ available: spectrograms, cochleograms, and pitch and formant
+ extraction.  Articulatory synthesis, as well as synthesis from pitch,
+ formant, and intensity are also available.  Other features are
+ segmentation, labelling using the phonetic alphabet, and computation of
+ statistics.  Praat is configurable and extensible through its own scripting
+ language and has provisions for communicating with other programs.
+
+Package: praat-dbgsym
+Source: praat
+Version: 6.3.18+dfsg-1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 56057
+Depends: praat (= 6.3.18+dfsg-1~bpo12+1)
+Filename: ./praat-dbgsym_6.3.18+dfsg-1~bpo12+1_amd64.deb
+Size: 51086372
+MD5sum: 0cbc06550158f26906747bf8cf7fedca
+SHA1: b2658407ce1cc04df15bc2bf5dccd2354992ab81
+SHA256: a642aaf19f047660d67d6fd700f4c618eb30719d050e502e724cb90e91b51f9a
+Section: debug
+Priority: optional
+Description: debug symbols for praat
+Build-Ids: 11621aa490c7d860fd1f4c488d1dd43e61586bb3 c63bb0c7075dabdc2163c6900d07aae0e799ea08
+
 Package: python3-abi3audit
 Version: 0:0.0.8-1~w2d0
 Architecture: all
@@ -393,18 +485,18 @@ Description: Display and control your Android device - server binary
  Android device.
 
 Package: strawberry
-Version: 1.0.18-1~bpo12+1
+Version: 1.0.20-2~bpo12+1
 Architecture: amd64
 Maintainer: Peter Blackman <peter@pblackman.plus.com>
-Installed-Size: 13610
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgnutls30 (>= 3.7.3), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libprotobuf32 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libvlc5 (>= 2.1.0), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sqlite3
+Installed-Size: 13859
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libprotobuf32 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libvlc5 (>= 2.1.0), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sqlite3
 Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, qt5ct
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly
-Filename: ./strawberry_1.0.18-1~bpo12+1_amd64.deb
-Size: 5403496
-MD5sum: f39ea3159d2ba69122f5928468d5acda
-SHA1: acb4be2ed92f5bfe399bfaf0b1cce522baa53d24
-SHA256: b6ce13626705715eeedea78ded376c88872e088814e0bc42e496cbbce4f5ecc5
+Filename: ./strawberry_1.0.20-2~bpo12+1_amd64.deb
+Size: 5471704
+MD5sum: 985595560b7a8956b44f272232b170cf
+SHA1: 23518d4116a60fd8dd5d14802c87605b47967f7a
+SHA256: e4ec3640f7ea0abf84171d9bede3afa6d8fa7ccc49226951bde627bb99956b41
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
@@ -438,21 +530,21 @@ Description: audio player and music collection organizer
 
 Package: strawberry-dbgsym
 Source: strawberry
-Version: 1.0.18-1~bpo12+1
+Version: 1.0.20-2~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Peter Blackman <peter@pblackman.plus.com>
-Installed-Size: 77869
-Depends: strawberry (= 1.0.18-1~bpo12+1)
-Filename: ./strawberry-dbgsym_1.0.18-1~bpo12+1_amd64.deb
-Size: 77947088
-MD5sum: a48f30160c17b659b2df4dc1c7a72b22
-SHA1: 9ae0dae3ecdda607b828121293fe88b261b62b4e
-SHA256: 0d5fe262d19642d2b83840ec98d92d58251bc365bb5ae440a68d5b86df42a61c
+Installed-Size: 80323
+Depends: strawberry (= 1.0.20-2~bpo12+1)
+Filename: ./strawberry-dbgsym_1.0.20-2~bpo12+1_amd64.deb
+Size: 80416504
+MD5sum: f1d10f35dc0f9630fba1572f30ce979c
+SHA1: 762046bf1cd1944e3f8d4922ade2279637ad5f4b
+SHA256: 9a92228c51cbefd0c6d1acc2eb724dfcaefeacb85fac8530500e4798f514efad
 Section: debug
 Priority: optional
 Description: debug symbols for strawberry
-Build-Ids: 4896158c30a85aad003f78939232f580e231c496 c5c1037a3ba4c7a44157c052c4f73c879c6e9a75
+Build-Ids: 09d32a3832666c130868d3279a7348ef0a990c2e 1acb8e5a9f92ce5f94e294d1a211c2d4f4d6375f
 
 Package: wheel2deb
 Version: 0:0.8.2.1-1~w2d0
