@@ -376,6 +376,23 @@ Priority: optional
 Description: A library for abi3 and other CPython API information
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-bioread
+Version: 0:3.0.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 205
+Depends: python3-docopt (>= 0.6.1), python3-numpy, python3:any
+Filename: ./python3-bioread_3.0.1-1~w2d0_all.deb
+Size: 40648
+MD5sum: 0cd8e520cd4fc726582ea415fbaac37c
+SHA1: b527f3d22c9c59b8bb34f0fe793869528784fb9a
+SHA256: f7905d33648d708e812ee63d92b9eeb3699b3dcf0aa5e8abd71919298c8690f9
+Section: python
+Priority: optional
+Homepage: https://github.com/uwmadison-chm/bioread
+Description: Utilities to read BIOPAC AcqKnowledge files
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-dirsync
 Version: 0:2.2.5-1~w2d1
 Architecture: all
