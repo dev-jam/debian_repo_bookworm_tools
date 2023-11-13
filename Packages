@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.3.3+dfsg-2~bpo12+1
+Version: 3.4.0+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 24418
-Depends: audacity-data (= 3.3.3+dfsg-2~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Installed-Size: 25712
+Depends: audacity-data (= 3.4.0+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.3.3+dfsg-2~bpo12+1_amd64.deb
-Size: 5887316
-MD5sum: b886c049fe7ca2fcbd200efce3230100
-SHA1: 5fd1dc91faea5ea16520562783e61c8bcffdd876
-SHA256: 02a752af302285d3648a3565e729db3af65b68bc5097bbeb778964953f9e7fbb
+Filename: ./audacity_3.4.0+dfsg-1~bpo12+1_amd64.deb
+Size: 6195688
+MD5sum: c1846b0799abc7a7ffbed6d29407e455
+SHA1: fa83c397e96ada43e55d491cb7987940f12ddfb6
+SHA256: 6a08582618bd3c3199d6104905f7795519b2a8ac5d9564a87a08388b8f5a22a2
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -24,16 +24,16 @@ Description: fast, cross-platform audio editor
 
 Package: audacity-data
 Source: audacity
-Version: 3.3.3+dfsg-2~bpo12+1
+Version: 3.4.0+dfsg-1~bpo12+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15289
+Installed-Size: 15099
 Recommends: audacity
-Filename: ./audacity-data_3.3.3+dfsg-2~bpo12+1_all.deb
-Size: 2432088
-MD5sum: 4221b389bd0a66ad9d87672b02edb653
-SHA1: 8f3e4f33cda7abc68377bbf817b36f3751bf68ef
-SHA256: 0ea61d874f18937cc72fc118bead3ff2986fd52a51f5f566db5a578a7033d220
+Filename: ./audacity-data_3.4.0+dfsg-1~bpo12+1_all.deb
+Size: 2436556
+MD5sum: fd94e8118a937dd1fdea6cb49920e321
+SHA1: afeedf5bc2e0e13ae8212242e45105e46bcae79a
+SHA256: b4ae3bbf28910b2ff478da9d587f31b277323ac174efd7fa910fc479cd887bfd
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -345,32 +345,32 @@ Description: debug symbols for praat
 Build-Ids: 67b4a20755c62f7b3c24c949701df9a443ce0fd6 9c793e11ed2734a49bb661d323cef12c42877723
 
 Package: python3-abi3audit
-Version: 0:0.0.8-1~w2d0
+Version: 0:0.0.9-1~w2d0
 Architecture: all
-Maintainer: wheel2deb <wheel2deb@upciti.com>
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 166
-Depends: python3 (>= 3.8~), python3-abi3info (>= 2023.01.27), python3-kaitaistruct (>= 0.10), python3-packaging (<< 24.0), python3-packaging (>= 21.3), python3-pefile (>= 2022.5.30), python3-pyelftools (>= 0.29), python3-requests (>= 2.28.1), python3-requests-cache (>= 0.9.6), python3-rich (<< 13.4.0), python3-rich (>= 12.5.1), python3:any
-Filename: ./python3-abi3audit_0.0.8-1~w2d0_all.deb
-Size: 24744
-MD5sum: 82440ea95ee84da708a60ad1e674e6a6
-SHA1: 169bb160b7ac7f965032ea10412ea8cb67e698c5
-SHA256: 8e0c73e75478229eca56f2c1325c7470181cff8f04d6d4fd15c75c76b1e3014c
+Depends: python3 (>= 3.8~), python3-abi3info (>= 2023.01.27), python3-kaitaistruct (>= 0.10), python3-packaging (<< 24.0), python3-packaging (>= 21.3), python3-pefile (>= 2022.5.30), python3-pyelftools (>= 0.29), python3-requests (<< 2.32.0), python3-requests (>= 2.28.1), python3-requests-cache (<< 1.2.0), python3-requests-cache (>= 0.9.6), python3-rich (<< 13.7.0), python3-rich (>= 12.5.1), python3:any
+Filename: ./python3-abi3audit_0.0.9-1~w2d0_all.deb
+Size: 24804
+MD5sum: 5de4160d42f5aeed8fb3a92c2c5c938f
+SHA1: 0df7e2d5b925b20ade8a69c46ba044f882818024
+SHA256: aebdc14bc3e041131241061ed71aa36fda603b2829a5e65aeb61d94a03e71d1c
 Section: python
 Priority: optional
 Description: Scans Python wheels for abi3 violations and inconsistencies
- This package was generated by wheel2deb v0
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-abi3info
-Version: 0:2023.7.22-1~w2d0
+Version: 0:2023.10.22-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 222
+Installed-Size: 225
 Depends: python3 (>= 3.8~), python3:any
-Filename: ./python3-abi3info_2023.7.22-1~w2d0_all.deb
-Size: 18088
-MD5sum: 26721029d850785b1c2424020d3e006a
-SHA1: ddc7cc00131a3c20925367be693887fd07ba316a
-SHA256: 462ee04bc91724046541fa2e6bc28a95c8c22535e3e073ce47c2a2a96fe8e714
+Filename: ./python3-abi3info_2023.10.22-1~w2d0_all.deb
+Size: 18212
+MD5sum: 88f433a8bc9b52eda91c4f04850ed491
+SHA1: da9524bf20f88b107f20b5cd017e4073c0ba0508
+SHA256: eaee7abe25d4ad2e675a8c9666d6a72d000105250b3bd364baf1b927fe008e16
 Section: python
 Priority: optional
 Description: A library for abi3 and other CPython API information
@@ -426,16 +426,16 @@ Priority: extra
 Description: A python library that can be used to gather all sorts of information about the storage devices connected to a system.
 
 Package: python3-pipdeptree
-Version: 0:2.13.0-1~w2d0
+Version: 0:2.13.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 100
 Depends: python3 (>= 3.8~), python3:any
-Filename: ./python3-pipdeptree_2.13.0-1~w2d0_all.deb
-Size: 20536
-MD5sum: fbf19d0b9370b4cb7325735e69fae514
-SHA1: bffd1247f0e81ee3edba3ad1c6eb8cda0c4ea349
-SHA256: 332ec9d0733ed826a8a4eb51b315387f5fe1b646f287e004778dff5ae9139652
+Filename: ./python3-pipdeptree_2.13.1-1~w2d0_all.deb
+Size: 20504
+MD5sum: bcec1b1488fc88604ac108b4839aff35
+SHA1: e57ef8e45a15c2d4df5bd9e6cae030200aeb935e
+SHA256: 63a4cbb459cd4f40f1a66a4752c35d577877d0dc753785233d38604adde1a4e0
 Section: python
 Priority: optional
 Description: Command line utility to show dependency tree of packages.
