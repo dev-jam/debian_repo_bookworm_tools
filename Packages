@@ -195,17 +195,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4+dfsg-1~bpo12+1
+Version: 6.4.01+dfsg-2~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 95226
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11), oss-compat, python3:any
+Installed-Size: 95144
+Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4+dfsg-1~bpo12+1_amd64.deb
-Size: 25127640
-MD5sum: 18dd511ccedadfb47776828d90c937d5
-SHA1: d66937e2f9a6b0bf59d2f5b51b76d46d0109dd21
-SHA256: ceceefb5bdf6f45a8c3505e244ee3b60b823a0e7ee6b4bd2f9392b979810c2a4
+Filename: ./praat_6.4.01+dfsg-2~bpo12+1_amd64.deb
+Size: 25071924
+MD5sum: be05e841c9836490f80551b8532814ac
+SHA1: e17ec540471711f1a6b165abd8c1310063ce270f
+SHA256: 3ebc1f43638264726118679fc8d099824daf31772624272a86d7f64a42629676
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -221,21 +221,21 @@ Description: program for speech analysis and synthesis
 
 Package: praat-dbgsym
 Source: praat
-Version: 6.4+dfsg-1~bpo12+1
+Version: 6.4.01+dfsg-2~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 56209
-Depends: praat (= 6.4+dfsg-1~bpo12+1)
-Filename: ./praat-dbgsym_6.4+dfsg-1~bpo12+1_amd64.deb
-Size: 51226016
-MD5sum: 45c4cff5a3f7396ad5dfff5b85681fca
-SHA1: a18469773cb1cb6a8bbe559c747c734332389dc2
-SHA256: d9d55a9c4192d79306dd2ecab30eb0760603732e3fae8a7f1e650b988dcaa558
+Installed-Size: 56230
+Depends: praat (= 6.4.01+dfsg-2~bpo12+1)
+Filename: ./praat-dbgsym_6.4.01+dfsg-2~bpo12+1_amd64.deb
+Size: 51241640
+MD5sum: c0af1dc6f4d4060a072dafaf9a43d604
+SHA1: 331e814b94deac8021e619f0db4a3eaccf402de3
+SHA256: fcfa4d61de512f6d303b3713829c3f96f7ef781763fb9bdb3da3bcdc83152fd2
 Section: debug
 Priority: optional
 Description: debug symbols for praat
-Build-Ids: 6186b14560cb91fb7c3ab7415639be40effe9124 b8fa7b39ae46a3346bc6549fd73b28aac7d098f8
+Build-Ids: 55079704f45d8b6942ce35b79e1721c1ebbb1a63 7fb197bd955e4a1ccebb22596fa675567bf33d5c
 
 Package: python3-abi3audit
 Version: 0:0.0.9-1~w2d0
