@@ -394,6 +394,78 @@ Description: Display and control your Android device - server binary
  This package contains the server (mobile) binary, which will be pushed to the
  Android device.
 
+Package: smplayer
+Version: 23.6.0+ds0-1~bpo12+1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 4778
+Depends: mpv | mplayer, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: smplayer-themes, smplayer-l10n
+Filename: ./smplayer_23.6.0+ds0-1~bpo12+1_amd64.deb
+Size: 2031504
+MD5sum: d4edf51c8c8476357166e47176314b14
+SHA1: 15f4c47f51fc7bd1495ff3c99c33678949ab9317
+SHA256: a0bde05ea0c6d33632a4475cda122d939dfa8f8b077d7055c3d304d700160b1d
+Section: video
+Priority: optional
+Homepage: https://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+
+Package: smplayer-dbgsym
+Source: smplayer
+Version: 23.6.0+ds0-1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 18717
+Depends: smplayer (= 23.6.0+ds0-1~bpo12+1)
+Filename: ./smplayer-dbgsym_23.6.0+ds0-1~bpo12+1_amd64.deb
+Size: 18652448
+MD5sum: d7054e92aa977f7fc96afb3d2d36a1f1
+SHA1: ad8173080b24b678cd89b7e5ce7583789c2005d1
+SHA256: 4f34b7a137a5f53a695374df5b57b4722c86fee4d07ea65698f70e8f3807d712
+Section: debug
+Priority: optional
+Description: debug symbols for smplayer
+Build-Ids: a570520cef82085cff3b2f74596255776d1a3090
+
+Package: smplayer-l10n
+Source: smplayer
+Version: 23.6.0+ds0-1~bpo12+1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 10958
+Depends: smplayer (>= 23.6.0+ds0-1~bpo12+1)
+Breaks: smplayer-translations (<< 14.3.0)
+Replaces: smplayer-translations (<< 14.3.0)
+Filename: ./smplayer-l10n_23.6.0+ds0-1~bpo12+1_all.deb
+Size: 1336756
+MD5sum: 34a923b74222e45c297ba06408684c64
+SHA1: a1361b2ed8d3610bbe3f308f3d4660077951c25e
+SHA256: e0487c8f3166f8467d5e262ceb8f730801d2e6107c776499a7261e16668a922e
+Section: localization
+Priority: optional
+Homepage: https://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv - translation files
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+ .
+ This package contains translation files.
+
 Package: strawberry
 Version: 1.0.21-1~bpo12+1
 Architecture: amd64
