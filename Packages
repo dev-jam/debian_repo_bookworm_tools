@@ -380,6 +380,72 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-urllib3
+Source: python-urllib3
+Version: 1.26.18-1~bpo12+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 462
+Depends: python3:any, python3-six
+Recommends: ca-certificates
+Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
+Filename: ./python3-urllib3_1.26.18-1~bpo12+1_all.deb
+Size: 116036
+MD5sum: aaf80166772ec3fc514594eaaef1901e
+SHA1: 25c4979fbf3d718112c2e4bb764af04a4c986343
+SHA256: d5e7637daf2847e87711eeb9fe25be6975e6fe9ea7fe5f9b197a4eaaaf48c77c
+Section: python
+Priority: optional
+Homepage: https://urllib3.readthedocs.org
+Description: HTTP library with thread-safe connection pooling for Python3
+ urllib3 supports features left out of urllib and urllib2 libraries.
+ .
+   - Re-use the same socket connection for multiple requests (HTTPConnectionPool
+     and HTTPSConnectionPool) (with optional client-side certificate
+     verification).
+   - File posting (encode_multipart_formdata).
+   - Built-in redirection and retries (optional).
+   - Supports gzip and deflate decoding.
+   - Thread-safe and sanity-safe.
+   - Small and easy to understand codebase perfect for extending and
+     building upon.
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-websockets
+Version: 0:12.0-1~w2d0
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 475
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-websockets_12.0-1~w2d0_amd64.deb
+Size: 78204
+MD5sum: a259f6fc6438b2b5311d2829dfcf7183
+SHA1: e72ef3fb0c5dff2e94663ced3395c42a260e15bf
+SHA256: c5e295ee53763e115f4f4e9b85c5b1bce313b8be3b1edd8539d264fa59a541b7
+Section: python
+Priority: optional
+Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-websockets-dbgsym
+Source: python3-websockets
+Version: 0:12.0-1~w2d0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 23
+Depends: python3-websockets (= 0:12.0-1~w2d0)
+Filename: ./python3-websockets-dbgsym_12.0-1~w2d0_amd64.deb
+Size: 10520
+MD5sum: 4b8f3ad66c6881647ff2c3dbe57b445c
+SHA1: b6f9aa1699ae2b4d70d169e6b4622fda83109a5c
+SHA256: 2291faf0fb820dc83134e8aba90c85e58887e382f396bdd33ef76e3ab3c2ff69
+Section: debug
+Priority: optional
+Description: debug symbols for python3-websockets
+Build-Ids: d19f4df4b250c9273c653027b7f09ed11cdd2294
+
 Package: scrcpy
 Version: 1.25-1
 Architecture: amd64
