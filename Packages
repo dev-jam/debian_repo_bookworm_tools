@@ -72,6 +72,19 @@ Description: GUI utility to change the CPU frequency
  as well as in group sudo. Local and active users not in this group must
  authenticate themselves as admin in order to apply the settings.
 
+Package: czkawka
+Version: 6.1.0-2
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./czkawka_6.1.0-2_amd64.deb
+Size: 10347548
+MD5sum: e513c0ece2a23259ac78fa59ac517818
+SHA1: 72d13487948384d7a130d6dec5dccef6f3b49488
+SHA256: 1c5014156a2cc2244a4c466a1b62db21cf145c0e63a9f85cb5fce39286ee2286
+Section: base
+Priority: optional
+Description: Czkawka for Debian
+
 Package: ddrescue-gui
 Version: 10:2.1.1-1
 Architecture: all
@@ -622,6 +635,19 @@ Section: debug
 Priority: optional
 Description: debug symbols for strawberry
 Build-Ids: 27538b04fcc6ffcd398cc65aa80d0cef87f31ba4 6a977185cabbc6d0f3cf97c7dd94e81531ed201b
+
+Package: szyszka
+Version: 3.0.0-1
+Architecture: amd64
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: ./szyszka_3.0.0-1_amd64.deb
+Size: 1893812
+MD5sum: 04a68cfb92392c633d25ae2fb09496b2
+SHA1: fbfd291813210c942b3ead24418b55f5fa150356
+SHA256: 5bcf05475b652dbb22a17f1771e81aa4d5a2a3c9384b018390d188628b3304a7
+Section: base
+Priority: optional
+Description: Szyszka for Debian
 
 Package: wheel2deb
 Version: 0:0.8.2.1-1~w2d0
