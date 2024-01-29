@@ -204,35 +204,6 @@ Description: Development files for the IJG JPEG library
  .
  This package contains the static library, headers and documentation.
 
-Package: memtest86+
-Version: 7.00-1~bpo12+1
-Architecture: amd64
-Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
-Installed-Size: 12711
-Depends: grub-common
-Suggests: grub-efi | grub-pc, memtester, mtools
-Filename: ./memtest86+_7.00-1~bpo12+1_amd64.deb
-Size: 129604
-MD5sum: a51a88dc2999d4f8e88d3ed629bf602f
-SHA1: e548747fd66193b1107c5902efaecde1333dac75
-SHA256: 5d34fbd3c83860659a843fcb2bdbee4b949876d00c32b9cbfe79b4bd3f69251f
-Section: misc
-Priority: optional
-Homepage: https://www.memtest.org/
-Description: stand-alone memory tester for x86 and x86-64
- Memtest86+ provides a more thorough memory check than
- that provided by BIOS memory tests. Can be loaded and run either
- directly by a PC BIOS (legacy or UEFI) or via an intermediate
- bootloader.
- .
- This tester runs independently of any OS - it is run at computer
- boot-up, so that it can test *all* of your memory.  You may want to
- look at `memtester', which allows one to test your memory within Linux,
- but this one won't be able to test your whole RAM.
- .
- It can output a list of bad RAM regions usable by the BadRAM kernel
- patch, so that you can still use your old RAM with one or two bad bits.
-
 Package: multiarch-support
 Source: glibc
 Version: 2.28-10
