@@ -47,6 +47,43 @@ Description: fast, cross-platform audio editor (data)
  .
  This package contains the architecture-independent data files.
 
+Package: cherrytree
+Version: 1.0.2+dfsg-1~bpo12+1
+Architecture: amd64
+Maintainer: Andrius Merkys <merkys@debian.org>
+Installed-Size: 10872
+Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl3-gnutls (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceviewmm-3.0-0v5 (>= 3.18.0), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
+Filename: ./cherrytree_1.0.2+dfsg-1~bpo12+1_amd64.deb
+Size: 3021728
+MD5sum: 78c670a509b42d3b90192d24a52b5d3b
+SHA1: de5d8a3e6b2516a1affa7e812963e8d2216867c0
+SHA256: cb38bb531c1eb7ce34f8cda0e1b7235344439cc9d6006c408b0db5448c0c0eb6
+Section: editors
+Priority: optional
+Homepage: https://www.giuspen.net/cherrytree/
+Description: hierarchical note taking application
+ CherryTree is a hierarchical note taking application, featuring rich text,
+ syntax highlighting, images handling, hyperlinks, import/export with support
+ for multiple formats, support for multiple languages, and more.
+
+Package: cherrytree-dbgsym
+Source: cherrytree
+Version: 1.0.2+dfsg-1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Andrius Merkys <merkys@debian.org>
+Installed-Size: 75711
+Depends: cherrytree (= 1.0.2+dfsg-1~bpo12+1)
+Filename: ./cherrytree-dbgsym_1.0.2+dfsg-1~bpo12+1_amd64.deb
+Size: 74742672
+MD5sum: 646bae86213254258fbd57ca9ee284be
+SHA1: 0696734dedf349ffe61d7aa3e40550cc39773ed2
+SHA256: 1bac0ed62b74848bceb815c943ea00d22324de3e71f071d4f5f6ec41f0de6490
+Section: debug
+Priority: optional
+Description: debug symbols for cherrytree
+Build-Ids: b759ff87deb9161bb990f15162c07c1f2e1bda91
+
 Package: cpupower-gui
 Version: 0.7.2-2.1~bpo12+1
 Architecture: amd64
