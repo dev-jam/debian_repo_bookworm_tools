@@ -283,17 +283,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4.04+dfsg-3~bpo12+1
+Version: 6.4.05+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 95586
+Installed-Size: 95590
 Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.04+dfsg-3~bpo12+1_amd64.deb
-Size: 25137880
-MD5sum: f1f0584b5a042bc451f46f67031c853d
-SHA1: d8771deb7e637e0e32805325ee4c8658aaf69963
-SHA256: d787bbded8a6e1da35c0020e4c217544e54dec342922eb373f949fa9a330a231
+Filename: ./praat_6.4.05+dfsg-1~bpo12+1_amd64.deb
+Size: 25126736
+MD5sum: 0356abeeb7d139cba2699906fc1c5151
+SHA1: dc341e25a59ce6eabeb49da7c5997f5f516caa98
+SHA256: c094e6f2e5da0b990bfe88845ab6064416e7120273d23eccf35504fb6fa7df45
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -309,21 +309,21 @@ Description: program for speech analysis and synthesis
 
 Package: praat-dbgsym
 Source: praat
-Version: 6.4.04+dfsg-3~bpo12+1
+Version: 6.4.05+dfsg-1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 56847
-Depends: praat (= 6.4.04+dfsg-3~bpo12+1)
-Filename: ./praat-dbgsym_6.4.04+dfsg-3~bpo12+1_amd64.deb
-Size: 51825628
-MD5sum: 8f34f21ad8c8d395d489e5edb81c2495
-SHA1: ea529a8ad3cad35d2beefd2318c871221a45d01f
-SHA256: 23b94ee6e87500be5c6413463afa090df6d9a3f9fde07131a6a688c07a0c6e10
+Installed-Size: 56855
+Depends: praat (= 6.4.05+dfsg-1~bpo12+1)
+Filename: ./praat-dbgsym_6.4.05+dfsg-1~bpo12+1_amd64.deb
+Size: 51835352
+MD5sum: 731cb68935aad0e135b737a6fbe84c4b
+SHA1: 153d11cefa5c0c2732577592a956fef81f0a8aa5
+SHA256: c22dfdc5c10030fb9c6f295db88e3cb939fd7f112fd51fbf8b944166834f7033
 Section: debug
 Priority: optional
 Description: debug symbols for praat
-Build-Ids: 1172afe313b4dd0eb1a5a1f5d0e3f13e7775a046 c9015cd0992c011fda4f9621d0e5aa6f6d397314
+Build-Ids: 5b5ea5eeaa4c18b6fb601826a8d4378ef722a183 abe44e88f745705b9182cc0027d1272f6c6f30e3
 
 Package: python3-abi3audit
 Version: 0:0.0.9-1~w2d0
@@ -441,18 +441,18 @@ Description: A utility to report core memory usage per program
 
 Package: python3-urllib3
 Source: python-urllib3
-Version: 1.26.18-1~bpo12+1
+Version: 1.26.18-2~bpo12+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 462
+Installed-Size: 463
 Depends: python3:any, python3-six
 Recommends: ca-certificates
 Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
-Filename: ./python3-urllib3_1.26.18-1~bpo12+1_all.deb
-Size: 116036
-MD5sum: aaf80166772ec3fc514594eaaef1901e
-SHA1: 25c4979fbf3d718112c2e4bb764af04a4c986343
-SHA256: d5e7637daf2847e87711eeb9fe25be6975e6fe9ea7fe5f9b197a4eaaaf48c77c
+Filename: ./python3-urllib3_1.26.18-2~bpo12+1_all.deb
+Size: 116108
+MD5sum: 49e601568528894016f3931d25e209bd
+SHA1: ecda2cd74c8865a991202ae19a98cb17d17f820f
+SHA256: 3d182fd3499c2f082d1f8f48e1ae9e11c5dc8b928bfbd5fdadefb46c4f76387c
 Section: python
 Priority: optional
 Homepage: https://urllib3.readthedocs.org
