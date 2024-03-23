@@ -125,19 +125,19 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: hardinfo2
-Version: 2.0.13
+Version: 2.0.19
 Architecture: amd64
 Maintainer: hwspeedy <hardinfo2@bigbear.dk>
-Installed-Size: 5203
-Depends: libjson-glib-1.0-0, zlib1g, libsoup2.4-1 (>=2.42), libgtk-3-0 (>=3.0)
+Installed-Size: 5210
+Depends: libjson-glib-1.0-0, zlib1g, libsoup-3.0-0 (>=3.0), libgtk-3-0 (>=3.0)
 Recommends: sysbench, udisks2, mesa-utils, lsscsi, lm-sensors, xdg-utils, iperf3
 Breaks: hardinfo
 Replaces: hardinfo
-Filename: ./hardinfo2_2.0.13-DebianGNULinux-12_amd64.deb
-Size: 1702140
-MD5sum: 5077f13658a488f1de4b3a81d614852f
-SHA1: e3cced6dc22c2f4ed7060babf80dc6a81ce120f4
-SHA256: 0be496a4e47d93a289bb067d6d8359a8a8c2e2302878042ade912116b18e03b7
+Filename: ./hardinfo2_2.0.19-DebianGNULinux-12_amd64.deb
+Size: 1706192
+MD5sum: b684e1dbfff76b0a8ac261789fbb5c8c
+SHA1: c1347d73ee5e2eee59bc92147ebacfc20d66d141
+SHA256: b821dea8955c61ae0355f10e4fe11ca75bb082b3b07281892ab8f25dd739b417
 Section: devel
 Priority: optional
 Homepage: https://github.com/hardinfo2/hardinfo2
