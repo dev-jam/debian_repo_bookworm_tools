@@ -268,6 +268,34 @@ Description: Transitional package to ensure multiarch compatibility
  in ld.so before unpacking libraries to the multiarch directories.  It can
  be removed once nothing on the system depends on it.
 
+Package: par2-turbo
+Source: par2cmdline-turbo
+Version: 1.1.1-0ubuntu1~jcfp1~22.04
+Architecture: amd64
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 1287
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Conflicts: par2, par2-mt, par2-tbb
+Provides: par2
+Filename: ./par2-turbo_1.1.1-0ubuntu1~jcfp1~22.04_amd64.deb
+Size: 437448
+MD5sum: fcac17990a44d70bfd985931aa96073b
+SHA1: 9cbb0fd2ba4974e2a43549d4ca331b7d30b7af81
+SHA256: fc32aacabad24d1c73f2a7142f200f3d825fa97ab2809851ba2b0eb578055ed3
+Section: utils
+Priority: optional
+Homepage: https://github.com/animetosho/par2cmdline-turbo
+Description: multithreaded PAR 2.0 compatible file verification and repair tool
+ par2cmdline-turbo is a command line utility for creating and using PAR2 files
+ to detect and repair damage in data files. It is most commonly used as
+ part of backup systems as well as on Usenet. This version differs from the
+ regular par2 by enhancements from parpar to increase performance.
+ .
+ In case files in a recovery set get damaged (e.g. while transmitted over
+ a network or stored on a faulty disk) the program can read the damaged
+ files and the (possibly damaged) PAR2 files, and regenerate the original
+ input files.
+
 Package: pdfgui-tools
 Version: 1.0.2
 Architecture: all
