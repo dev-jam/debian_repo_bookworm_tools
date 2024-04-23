@@ -48,16 +48,16 @@ Description: fast, cross-platform audio editor (data)
  This package contains the architecture-independent data files.
 
 Package: cherrytree
-Version: 1.1.0+dfsg-1~bpo12+1
+Version: 1.1.2+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Patrick Winnertz <winnie@debian.org>
-Installed-Size: 11166
+Installed-Size: 11167
 Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl3-gnutls (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceviewmm-3.0-0v5 (>= 3.18.0), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
-Filename: ./cherrytree_1.1.0+dfsg-1~bpo12+1_amd64.deb
-Size: 3066384
-MD5sum: 30997871398fb86fa7b6744203b5d852
-SHA1: 88441c6266044ce09d18fcf359e02c3d5e7502a8
-SHA256: 9b71ea6d65df191237724bdbab6ccb52d61a072caa0e765f945a15dd6a37dba2
+Filename: ./cherrytree_1.1.2+dfsg-1~bpo12+1_amd64.deb
+Size: 3062428
+MD5sum: cf3dfd85bc85083d3264d96e99168d8e
+SHA1: 1d3b1266bf80b7aca6b899d721e2bd235505299a
+SHA256: 861a32823524f9bc6a2738b02b95b3231b6b334417ecf7c4a8dde7143973ed54
 Section: editors
 Priority: optional
 Homepage: https://www.giuspen.net/cherrytree/
@@ -68,34 +68,34 @@ Description: hierarchical note taking application
 
 Package: cherrytree-dbgsym
 Source: cherrytree
-Version: 1.1.0+dfsg-1~bpo12+1
+Version: 1.1.2+dfsg-1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Patrick Winnertz <winnie@debian.org>
-Installed-Size: 76820
-Depends: cherrytree (= 1.1.0+dfsg-1~bpo12+1)
-Filename: ./cherrytree-dbgsym_1.1.0+dfsg-1~bpo12+1_amd64.deb
-Size: 75920012
-MD5sum: 8682d7fac75d06a833fedf76af85a037
-SHA1: e6a950e0f06067924c58cc93a6171c72ede2394d
-SHA256: ef8f70515ba0979b2559578f572914e93f0df4c53a398a292d42093703b47e05
+Installed-Size: 76865
+Depends: cherrytree (= 1.1.2+dfsg-1~bpo12+1)
+Filename: ./cherrytree-dbgsym_1.1.2+dfsg-1~bpo12+1_amd64.deb
+Size: 75938008
+MD5sum: 4b7a4fcde32bd11ad17774fc766c3723
+SHA1: 16ad2e3effde83dba9ca1ac26ff4e33c2d021217
+SHA256: 7edd706ecddb29aa635612104f6e65d4d821961196793f42c56ba3d07728d5aa
 Section: debug
 Priority: optional
 Description: debug symbols for cherrytree
-Build-Ids: 8a89232606221107f8b74be02fec23940f5af0ce
+Build-Ids: 094caa2a3e0910550c12d982eb9808116c550e5e
 
 Package: cpupower-gui
-Version: 0.7.2-2.1~bpo12+1
+Version: 0.7.2-2.2~bpo12+1
 Architecture: amd64
 Maintainer: Evangelos Rigas <e.rigas@cranfield.ac.uk>
 Installed-Size: 135
-Depends: libgtk-3-0, gir1.2-gtk-3.0, python3-gi, hicolor-icon-theme, policykit-1, python3-dbus, dconf-gsettings-backend | gsettings-backend, python3:any
+Depends: gir1.2-gtk-3.0, python3-gi, hicolor-icon-theme, policykit-1, python3-dbus, dconf-gsettings-backend | gsettings-backend, python3:any
 Suggests: policykit-1-gnome, lxqt-policykit, mate-polkit, lxsession
-Filename: ./cpupower-gui_0.7.2-2.1~bpo12+1_amd64.deb
-Size: 18172
-MD5sum: ba87a0e563146b79d35297aa37a121cf
-SHA1: 9a3679700eac4fb9a5a6e418f88963ac49a79d08
-SHA256: 7fccea1bce735f1908c99329dae8bcadaa972541d329d72efd320272243406a9
+Filename: ./cpupower-gui_0.7.2-2.2~bpo12+1_amd64.deb
+Size: 18284
+MD5sum: 48a16393406f7f7336ee5dbc20624fa6
+SHA1: f65ef3941806fef781aa3dfb0cb9961586eeb2f4
+SHA256: 3bdec202fa500f679df711a693162e9a59c05a1aed56ea15531379714e30da62
 Section: admin
 Priority: optional
 Homepage: https://github.com/vagnum08/cpupower-gui.git
