@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.4.2+dfsg-1~bpo12+1
+Version: 3.5.1+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 25745
-Depends: audacity-data (= 3.4.2+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Installed-Size: 26592
+Depends: audacity-data (= 3.5.1+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.4.2+dfsg-1~bpo12+1_amd64.deb
-Size: 6188100
-MD5sum: 8d609d4e84d96eb3b4d680a3f2069d0d
-SHA1: b685f69f859c826446637ec08c0335f48198c401
-SHA256: 8ccaffe2012760de1625bd4113f9d90faded7eb5228ddf404cc012a8f036d345
+Filename: ./audacity_3.5.1+dfsg-1~bpo12+1_amd64.deb
+Size: 6361544
+MD5sum: 1613e0790582af466168011a95950796
+SHA1: e6687b997b4812465f02c34a076934cddd84c35a
+SHA256: 029b110cde5194e0d8f84944891967337d833906a8deaae8f93f38c04d66fb32
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -24,16 +24,16 @@ Description: fast, cross-platform audio editor
 
 Package: audacity-data
 Source: audacity
-Version: 3.4.2+dfsg-1~bpo12+1
+Version: 3.5.1+dfsg-1~bpo12+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15100
+Installed-Size: 14846
 Recommends: audacity
-Filename: ./audacity-data_3.4.2+dfsg-1~bpo12+1_all.deb
-Size: 2437068
-MD5sum: 3131ee04aa249c25ed92c5350e323cfd
-SHA1: 722df301c2bdb78cc6e90d833d4e0b35a2afce0c
-SHA256: f12395ccae9b4680a3e82f6e619cac3cc33a443c2dbeedd4fcd3525bcabe6f53
+Filename: ./audacity-data_3.5.1+dfsg-1~bpo12+1_all.deb
+Size: 2351404
+MD5sum: 309c05695c240f4ae150ac62ab8ff306
+SHA1: f4d9f581afb8fb2e92d84f072186d987eec6c542
+SHA256: 58db011cef77e107fcc83b69d97059ab1079584c37f653d4810395256ccd1564
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -125,46 +125,48 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fooyin
-Version: 0.4.0-1
+Version: 0.4.3
 Architecture: amd64
 Maintainer: Luke Taylor <luket1@proton.me>
-Installed-Size: 9369
-Depends: libasound2, libtag1v5, libqt6core6, libqt6gui6, libqt6sql6, libqt6sql6-sqlite, libqt6widgets6, libqt6svg6, libqt6network6, ffmpeg
-Filename: ./fooyin_0.4.0-bookworm_amd64.deb
-Size: 2080262
-MD5sum: bffc890f2bd97c7002d38fe0de3c4d90
-SHA1: 1b3deb17730d88aa26694a3b12069711ced39a41
-SHA256: f530cb3e88189f31bff3bda45fd0a04ef9f2a7648b66ac0bc9efa0b139e62704
+Installed-Size: 13177
+Depends: libc6,
+        libstdc++6,
+        libqt6core6 (>= 6.2.0),
+        libqt6gui6 (>= 6.2.0),
+        libqt6widgets6 (>= 6.2.0),
+        libqt6network6 (>= 6.2.0),
+        libqt6sql6 (>= 6.2.0),
+        libqt6sql6-sqlite (>= 6.2.0),
+        libqt6svg6 (>= 6.2.0),
+        qt6-qpa-plugins,
+        libasound2,
+        libtag1v5,
+        ffmpeg (>= 7:4.4),
+        pipewire
+Filename: ./fooyin_0.4.3-bookworm_amd64.deb
+Size: 2522934
+MD5sum: 1f2b2fd79ab7da70c6fd3902dc2eeaf4
+SHA1: 1855b35262ccdd6907f1e42d47a57cd1cf7573ed
+SHA256: ac0d4dbdcec72d4a360078ef2d8eca65dff532b8ac3576e0470538b99e719fb7
 Section: sound
 Priority: optional
 Homepage: https://github.com/ludouzi/fooyin
 Description: A customisable music player
-  Fooyin is a music player built around customisation.
-  It offers a growing list of widgets to manage and play your local music collection.
-  It's extendable through the use of plugins and scriptable using FooScript.
- .
-  Features:
-   - Customisable layout
-   - Gapless playback
-   - Filter and search music collection
-   - Create and manage playlists
-   - Extendable through plugins
- - Tag editing
 
 Package: hardinfo2
-Version: 2.0.19
+Version: 2.1.7
 Architecture: amd64
 Maintainer: hwspeedy <hardinfo2@bigbear.dk>
-Installed-Size: 5210
+Installed-Size: 6779
 Depends: libjson-glib-1.0-0, zlib1g, libsoup-3.0-0 (>=3.0), libgtk-3-0 (>=3.0)
-Recommends: sysbench, udisks2, mesa-utils, lsscsi, lm-sensors, xdg-utils, iperf3
+Recommends: sysbench, udisks2, mesa-utils, lsscsi, lm-sensors, xdg-utils, iperf3, fwupd
 Breaks: hardinfo
 Replaces: hardinfo
-Filename: ./hardinfo2_2.0.19-DebianGNULinux-12_amd64.deb
-Size: 1706192
-MD5sum: b684e1dbfff76b0a8ac261789fbb5c8c
-SHA1: c1347d73ee5e2eee59bc92147ebacfc20d66d141
-SHA256: b821dea8955c61ae0355f10e4fe11ca75bb082b3b07281892ab8f25dd739b417
+Filename: ./hardinfo2_2.1.7-DebianGNULinux-12_amd64.deb
+Size: 3196286
+MD5sum: 19910decd2dd5b91346c2e8277c3513a
+SHA1: 289942ee302eba59f42161df75dca665985dc013
+SHA256: db33134062c37fc95f89cf6aba2f830a8fd457faead55ec3591589da6ccb9e31
 Section: devel
 Priority: optional
 Homepage: https://github.com/hardinfo2/hardinfo2
@@ -344,17 +346,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4.07+dfsg-1~bpo12+1
+Version: 6.4.12+dfsg-3~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 95768
+Installed-Size: 95886
 Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.07+dfsg-1~bpo12+1_amd64.deb
-Size: 25235752
-MD5sum: 97e24e68e44244d6de54af26961e4b8d
-SHA1: c83fd4556ee06d5b1bd383c5524d2baa6ea54c35
-SHA256: bdd62ec27e1e9f8974ba1aa555136671060e04da4d3a93cea8c41200e119efde
+Filename: ./praat_6.4.12+dfsg-3~bpo12+1_amd64.deb
+Size: 25221772
+MD5sum: 2812d46e4515ee8969c034035fadb536
+SHA1: c3336084f6a724ddf51ea785e75f87d5f9473992
+SHA256: fd6e3be7901322a6e52503245dd339b59fe097fc0e261ddfa2ef85131756c85e
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -370,21 +372,21 @@ Description: program for speech analysis and synthesis
 
 Package: praat-dbgsym
 Source: praat
-Version: 6.4.07+dfsg-1~bpo12+1
+Version: 6.4.12+dfsg-3~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 56878
-Depends: praat (= 6.4.07+dfsg-1~bpo12+1)
-Filename: ./praat-dbgsym_6.4.07+dfsg-1~bpo12+1_amd64.deb
-Size: 51860220
-MD5sum: 9da92f886bd5b5259c9d03fd4242866a
-SHA1: 4a55a1c4dab579cbb312a5c602184003e616e4c3
-SHA256: bd7d88aa910f3ed0964013693ced2d04db2975a63e5e81392ee0310b8a5c0aa9
+Installed-Size: 57154
+Depends: praat (= 6.4.12+dfsg-3~bpo12+1)
+Filename: ./praat-dbgsym_6.4.12+dfsg-3~bpo12+1_amd64.deb
+Size: 52126388
+MD5sum: 66b148640e085923f6f92f81d0c2a66b
+SHA1: 6fe34dbc40601bf31ad40b690d583cd5ccc1b8b0
+SHA256: 7f43424682768ebc838068870fcbe6737cf18fab5a3e50f81bd82c849decd021
 Section: debug
 Priority: optional
 Description: debug symbols for praat
-Build-Ids: 0f81a3adef4ec44aaa20a9253b1252f199cd8ca1 9f27b66c06c6dad22de02f622c8e80853c0899e5
+Build-Ids: 4ef9fc577ab10ae3fa404ebb8e4c94a399f63640 ea9c2bc3fa29a6c98434312c2dbd4d7996fa43b9
 
 Package: python3-abi3audit
 Version: 0:0.0.9-1~w2d0
