@@ -154,19 +154,19 @@ Homepage: https://github.com/ludouzi/fooyin
 Description: A customisable music player
 
 Package: hardinfo2
-Version: 2.1.7
+Version: 2.1.10
 Architecture: amd64
 Maintainer: hwspeedy <hardinfo2@bigbear.dk>
-Installed-Size: 6779
+Installed-Size: 6784
 Depends: libjson-glib-1.0-0, zlib1g, libsoup-3.0-0 (>=3.0), libgtk-3-0 (>=3.0)
 Recommends: sysbench, udisks2, mesa-utils, lsscsi, lm-sensors, xdg-utils, iperf3, fwupd
 Breaks: hardinfo
 Replaces: hardinfo
-Filename: ./hardinfo2_2.1.7-DebianGNULinux-12_amd64.deb
-Size: 3196286
-MD5sum: 19910decd2dd5b91346c2e8277c3513a
-SHA1: 289942ee302eba59f42161df75dca665985dc013
-SHA256: db33134062c37fc95f89cf6aba2f830a8fd457faead55ec3591589da6ccb9e31
+Filename: ./hardinfo2_2.1.10-DebianGNULinux-12_amd64.deb
+Size: 3196444
+MD5sum: eb5e06093541ac26753fc168cb779a54
+SHA1: 0aea6f378bc81b8325ab11facebd1eacce476f2e
+SHA256: 0f47174a9d9130fbe0797538461a55466b7b95c687478e5cc20325a354363d3a
 Section: devel
 Priority: optional
 Homepage: https://github.com/hardinfo2/hardinfo2
