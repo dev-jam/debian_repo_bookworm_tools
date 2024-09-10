@@ -125,10 +125,10 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fooyin
-Version: 0.5.3
+Version: 0.6.2
 Architecture: amd64
 Maintainer: Luke Taylor <luket1@proton.me>
-Installed-Size: 9104
+Installed-Size: 12099
 Depends: libc6,
         libstdc++6,
         libqt6core6 (>= 6.2.0),
@@ -142,15 +142,20 @@ Depends: libc6,
         libasound2,
         libtag1v5,
         ffmpeg (>= 7:4.4),
-        pipewire, libicu72
-Filename: ./fooyin_0.5.3-bookworm_amd64.deb
-Size: 3030424
-MD5sum: cfcb55dec4727fb5f2a46b64eb501954
-SHA1: c35aabad1a3221314e7d1f7081024fd7a5a522a6
-SHA256: 8913faced94161db9c6172094142d3a6cf8fa35250687d75ff9a1d7bb5dbbac7
+        pipewire,
+        libsdl2-2.0-0,
+        libgme0,
+        libopenmpt0,
+        libarchive13,
+        libsndfile1, libicu72
+Filename: ./fooyin_0.6.2-bookworm_amd64.deb
+Size: 4052048
+MD5sum: d27ff567251700ccb8f3cff9bef4d186
+SHA1: dabe542f64ad78ce32d3df1c75e20b2e626144ad
+SHA256: 1f065cfe95bc4aacac0ae437463a16fc7dacff3280826cad0547eb11d9e334f2
 Section: sound
 Priority: optional
-Homepage: https://github.com/ludouzi/fooyin
+Homepage: https://www.fooyin.org
 Description: A customisable music player
 
 Package: gir1.2-appindicator3-0.1
