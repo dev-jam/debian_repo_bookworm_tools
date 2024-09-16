@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.6.1+dfsg-1~bpo12+1
+Version: 3.6.3+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 27317
-Depends: audacity-data (= 3.6.1+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Installed-Size: 27409
+Depends: audacity-data (= 3.6.3+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.6.1+dfsg-1~bpo12+1_amd64.deb
-Size: 6492048
-MD5sum: 815990559b6fc2814373e53553cf394f
-SHA1: f75ca2879a5cc312c1d6558c7d003802ccddd22c
-SHA256: 9139b5a37e6a57cb81c25c186975c2d16e3e36eafb9e38f84ac33e2ba153ae12
+Filename: ./audacity_3.6.3+dfsg-1~bpo12+1_amd64.deb
+Size: 6518624
+MD5sum: a4a5dc3cd109dce138764704dc2b6957
+SHA1: c39b1704b75663678708fd1ff8242b7b28a11295
+SHA256: 7478691be10a255f05bfe7a441f7ad2b391f7ca656b3293e61b378b6b28e7899
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -24,16 +24,16 @@ Description: fast, cross-platform audio editor
 
 Package: audacity-data
 Source: audacity
-Version: 3.6.1+dfsg-1~bpo12+1
+Version: 3.6.3+dfsg-1~bpo12+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 14832
+Installed-Size: 15021
 Recommends: audacity
-Filename: ./audacity-data_3.6.1+dfsg-1~bpo12+1_all.deb
-Size: 2423572
-MD5sum: 685279c2b1b6c262c01aa3ec95447d67
-SHA1: 06b10e784a2cf1bf2b420eba11eea90a47ebba15
-SHA256: 7903d4d504cf2bf64eeb41832d3e8e91887e3cc1a2ef3fb9218bf6a62d150925
+Filename: ./audacity-data_3.6.3+dfsg-1~bpo12+1_all.deb
+Size: 2470716
+MD5sum: 2480b42e4b256b9c54593ff7870bca49
+SHA1: db769ee006878cee0960522eaa4e45b22c9358f3
+SHA256: ac87801fb14408c723276e4203595317007a37e54e0e86560d829436dcb5710a
 Section: sound
 Priority: optional
 Multi-Arch: foreign
