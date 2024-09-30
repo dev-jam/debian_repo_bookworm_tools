@@ -374,17 +374,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4.12+dfsg-3~bpo12+1
+Version: 6.4.20+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 95886
+Installed-Size: 106790
 Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.12+dfsg-3~bpo12+1_amd64.deb
-Size: 25221772
-MD5sum: 2812d46e4515ee8969c034035fadb536
-SHA1: c3336084f6a724ddf51ea785e75f87d5f9473992
-SHA256: fd6e3be7901322a6e52503245dd339b59fe097fc0e261ddfa2ef85131756c85e
+Filename: ./praat_6.4.20+dfsg-1~bpo12+1_amd64.deb
+Size: 28848552
+MD5sum: 2d3dd810e6c6f471527fb4921a9f33ea
+SHA1: b109d3a04e43fdbd7f2d7390135064fcc92025a7
+SHA256: 4a71efc4c6256605e06ab41d830d37a6b0f508d1a721cf1c7f94d34df9e3fdb8
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
@@ -397,24 +397,6 @@ Description: program for speech analysis and synthesis
  segmentation, labelling using the phonetic alphabet, and computation of
  statistics.  Praat is configurable and extensible through its own scripting
  language and has provisions for communicating with other programs.
-
-Package: praat-dbgsym
-Source: praat
-Version: 6.4.12+dfsg-3~bpo12+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 57154
-Depends: praat (= 6.4.12+dfsg-3~bpo12+1)
-Filename: ./praat-dbgsym_6.4.12+dfsg-3~bpo12+1_amd64.deb
-Size: 52126388
-MD5sum: 66b148640e085923f6f92f81d0c2a66b
-SHA1: 6fe34dbc40601bf31ad40b690d583cd5ccc1b8b0
-SHA256: 7f43424682768ebc838068870fcbe6737cf18fab5a3e50f81bd82c849decd021
-Section: debug
-Priority: optional
-Description: debug symbols for praat
-Build-Ids: 4ef9fc577ab10ae3fa404ebb8e4c94a399f63640 ea9c2bc3fa29a6c98434312c2dbd4d7996fa43b9
 
 Package: python3-abi3audit
 Version: 0:0.0.9-1~w2d0
@@ -563,38 +545,46 @@ Description: HTTP library with thread-safe connection pooling for Python3
  This package contains the Python 3 version of the library.
 
 Package: python3-websockets
-Version: 0:12.0-1~w2d0
+Source: python-websockets
+Version: 13.1-1~bpo12+1
 Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 475
-Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-websockets_12.0-1~w2d0_amd64.deb
-Size: 78204
-MD5sum: a259f6fc6438b2b5311d2829dfcf7183
-SHA1: e72ef3fb0c5dff2e94663ced3395c42a260e15bf
-SHA256: c5e295ee53763e115f4f4e9b85c5b1bce313b8be3b1edd8539d264fa59a541b7
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 602
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.4)
+Filename: ./python3-websockets_13.1-1~bpo12+1_amd64.deb
+Size: 87896
+MD5sum: 5d4af474016a2ef08aeedd53b032a883
+SHA1: 1a4261252a28fffa75bf51cfbc0d0b257809f2f7
+SHA256: 2d69afe11ed1991bb5c532fd89a1bd003d4ca17713bff4a6e1d9f7fce84ce977
 Section: python
 Priority: optional
-Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
- This package was automatically generated from the upstream wheel by wheel2deb.
+Homepage: https://github.com/aaugustin/websockets
+Description: implementation of the WebSocket Protocol (RFC 6455)
+ websockets is a library for developing WebSocket servers and clients in
+ Python. It implements RFC 6455 with a focus on correctness and simplicity.
+ It passes the Autobahn Testsuite.
+ .
+ Built on top of Python's asynchronous I/O support introduced in PEP 3156,
+ it provides an API based on coroutines, making it easy to write highly
+ concurrent applications.
 
 Package: python3-websockets-dbgsym
-Source: python3-websockets
-Version: 0:12.0-1~w2d0
+Source: python-websockets
+Version: 13.1-1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Maintainer: Piotr Ożarowski <piotr@debian.org>
 Installed-Size: 23
-Depends: python3-websockets (= 0:12.0-1~w2d0)
-Filename: ./python3-websockets-dbgsym_12.0-1~w2d0_amd64.deb
-Size: 10520
-MD5sum: 4b8f3ad66c6881647ff2c3dbe57b445c
-SHA1: b6f9aa1699ae2b4d70d169e6b4622fda83109a5c
-SHA256: 2291faf0fb820dc83134e8aba90c85e58887e382f396bdd33ef76e3ab3c2ff69
+Depends: python3-websockets (= 13.1-1~bpo12+1)
+Filename: ./python3-websockets-dbgsym_13.1-1~bpo12+1_amd64.deb
+Size: 10160
+MD5sum: 24861ffbaab015e2bf18a759d9e942f5
+SHA1: 0a6fb459753a8a09d68f6d19f379df49c769c33d
+SHA256: 745ba6558cc6802a99f713ea1c707d29821bff7bc4d173a654abb8e32504ed4d
 Section: debug
 Priority: optional
 Description: debug symbols for python3-websockets
-Build-Ids: d19f4df4b250c9273c653027b7f09ed11cdd2294
+Build-Ids: 585ec777500a54e0f661a4afa1e5fe2b70cb0b90
 
 Package: scrcpy
 Version: 1.25-1
@@ -640,17 +630,17 @@ Description: Display and control your Android device - server binary
  Android device.
 
 Package: smplayer
-Version: 23.12.0+ds0-1~bpo12+1
+Version: 24.5.0+ds-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 4851
+Installed-Size: 4862
 Depends: mpv | mplayer, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
 Recommends: smplayer-themes, smplayer-l10n
-Filename: ./smplayer_23.12.0+ds0-1~bpo12+1_amd64.deb
-Size: 2052552
-MD5sum: 99840581a896d6a6799aaeb4e3c84bf8
-SHA1: 9bd365781b9f573e618e0e9e47b4d2fa08dfd8b2
-SHA256: 985507d46e911a824ae1a702f64f9d21bf025784bb9dfa4ce75ccdb454d24124
+Filename: ./smplayer_24.5.0+ds-1~bpo12+1_amd64.deb
+Size: 2054904
+MD5sum: 6632c44af794203a8b71ae5e96be79ed
+SHA1: b5ac26c07cbe52e30fb686560ad868b67aaad1b6
+SHA256: 67121765dc0729d27f0fc643f4e99d66dc0a4d349f7d4b7a678c9c6aa2872970
 Section: video
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -666,36 +656,36 @@ Description: Complete front-end for MPlayer and mpv
 
 Package: smplayer-dbgsym
 Source: smplayer
-Version: 23.12.0+ds0-1~bpo12+1
+Version: 24.5.0+ds-1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19121
-Depends: smplayer (= 23.12.0+ds0-1~bpo12+1)
-Filename: ./smplayer-dbgsym_23.12.0+ds0-1~bpo12+1_amd64.deb
-Size: 19044840
-MD5sum: 2f540f070ef5bf2d5ef583235a9ff5d4
-SHA1: a0ae94799077adc208142054b36fd40042c7b2df
-SHA256: 803b5ea949806d5c4cc18b4d95797e41743106c3401b2c4f4081e7f1e65eb9f5
+Installed-Size: 19125
+Depends: smplayer (= 24.5.0+ds-1~bpo12+1)
+Filename: ./smplayer-dbgsym_24.5.0+ds-1~bpo12+1_amd64.deb
+Size: 19050344
+MD5sum: f651e40ed28eea3a7728d9d29112a52f
+SHA1: 971364e1000b56b4c4d244cd6d17fc8e7031ae0f
+SHA256: f78aa659e6a86dc87c860588112147c717c7444d18030939e999c51bb5e58d98
 Section: debug
 Priority: optional
 Description: debug symbols for smplayer
-Build-Ids: 130a8f5e12be2bc5e848b2f7937b403172e0c333
+Build-Ids: 506eefb8042c9cc5b4d285dd087548a9fbb6b844
 
 Package: smplayer-l10n
 Source: smplayer
-Version: 23.12.0+ds0-1~bpo12+1
+Version: 24.5.0+ds-1~bpo12+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 10953
-Depends: smplayer (>= 23.12.0+ds0-1~bpo12+1)
+Installed-Size: 10968
+Depends: smplayer (>= 24.5.0+ds-1~bpo12+1)
 Breaks: smplayer-translations (<< 14.3.0)
 Replaces: smplayer-translations (<< 14.3.0)
-Filename: ./smplayer-l10n_23.12.0+ds0-1~bpo12+1_all.deb
-Size: 1337632
-MD5sum: c20149c0bc2e71ca0147ff8b5674f8c0
-SHA1: 7edaaec55a0e353dd775d224bbb1f041820c968e
-SHA256: 09f0e7b7ff6a0e04aa07231470101ac502c0d6ff0f84fdf9f4f18aabcfe52c3e
+Filename: ./smplayer-l10n_24.5.0+ds-1~bpo12+1_all.deb
+Size: 1342536
+MD5sum: b5e77f202d2c4953396ecccbc4b2767f
+SHA1: 2fc7b7b423cf1974c7c1efa6f9296326f4a1d1c1
+SHA256: 756ea26cbe5b7b63ab8e76a43f0e4d917d000c8ee90c4faedcda4178dbf4dcfd
 Section: localization
 Priority: optional
 Homepage: https://smplayer.sourceforge.net/
@@ -712,18 +702,18 @@ Description: Complete front-end for MPlayer and mpv - translation files
  This package contains translation files.
 
 Package: strawberry
-Version: 1.1.1-1~bpo12+1
+Version: 1.1.3-1~bpo12+1
 Architecture: amd64
 Maintainer: Peter Blackman <peter@pblackman.plus.com>
-Installed-Size: 14196
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libprotobuf32 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libvlc5 (>= 2.1.0), libx11-6, libqt5sql5-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sqlite3
-Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, qt5ct
+Installed-Size: 13834
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libprotobuf32 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.3.0), libqt6network6 (>= 6.4.0), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libvlc5 (>= 2.1.0), libx11-6, libqt6sql6-sqlite, qt6-qpa-plugins, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sqlite3
+Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio, qt6ct
 Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly
-Filename: ./strawberry_1.1.1-1~bpo12+1_amd64.deb
-Size: 5500496
-MD5sum: 38cb1bbd6d26cd93f2fe4d33a8e3d84c
-SHA1: a3d911e740f448b2d4b4fe044e6f390f0c8e1005
-SHA256: 5eb57f6f73d279199f7cf592a07b0930b3990632e07726f1f95dcbd5a03050bd
+Filename: ./strawberry_1.1.3-1~bpo12+1_amd64.deb
+Size: 6048324
+MD5sum: 683b2bb77b68cfe93871ccf9261c000d
+SHA1: 4884891064fd4a0af63b9b69b5611a1a31d20a5a
+SHA256: 6faeb0a277bd84c1b31c3ac7c8b7bbdf8a146560d16129a60a1b0b908627c97d
 Section: sound
 Priority: optional
 Homepage: https://strawberrymusicplayer.org
@@ -753,24 +743,6 @@ Description: audio player and music collection organizer
   - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
   - Streaming support for Subsonic-compatible servers
   - Unofficial streaming support for Tidal and Qobuz
-
-Package: strawberry-dbgsym
-Source: strawberry
-Version: 1.1.1-1~bpo12+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Peter Blackman <peter@pblackman.plus.com>
-Installed-Size: 83187
-Depends: strawberry (= 1.1.1-1~bpo12+1)
-Filename: ./strawberry-dbgsym_1.1.1-1~bpo12+1_amd64.deb
-Size: 82974012
-MD5sum: 930dedb9f21f8ad72ea8b8bc0e4244cd
-SHA1: 3683f21693f6a9da30812d3d432a10f6ebd3822a
-SHA256: f1c42ec2ea7befc1e1e913d33e1073240c4fdc17fba24305d7f9751645536519
-Section: debug
-Priority: optional
-Description: debug symbols for strawberry
-Build-Ids: 643780b61c3725fe4b698b1408cd2022f49c5c10 c48484ed2b119dbe2caf4bc4ba4b4629a7204479
 
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
