@@ -125,10 +125,10 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fooyin
-Version: 0.6.2
+Version: 0.8.1
 Architecture: amd64
 Maintainer: Luke Taylor <luket1@proton.me>
-Installed-Size: 12099
+Installed-Size: 14603
 Depends: libc6,
         libstdc++6,
         libqt6core6 (>= 6.2.0),
@@ -147,12 +147,13 @@ Depends: libc6,
         libgme0,
         libopenmpt0,
         libarchive13,
-        libsndfile1, libicu72
-Filename: ./fooyin_0.6.2-bookworm_amd64.deb
-Size: 4052048
-MD5sum: d27ff567251700ccb8f3cff9bef4d186
-SHA1: dabe542f64ad78ce32d3df1c75e20b2e626144ad
-SHA256: 1f065cfe95bc4aacac0ae437463a16fc7dacff3280826cad0547eb11d9e334f2
+        libsndfile1,
+        libebur128-1, libicu72
+Filename: ./fooyin_0.8.1-bookworm_amd64.deb
+Size: 4852854
+MD5sum: b7641229de101ceb13fc43f44eb827e4
+SHA1: 7e00591b5044f56877c38e30d6151522a433db5f
+SHA256: c5988fd6dcb4855d2f874b72f3e4e403cbd258c049f1899ff3c68acfa58c2f0d
 Section: sound
 Priority: optional
 Homepage: https://www.fooyin.org
@@ -374,17 +375,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4.22+dfsg-1~bpo12+1
+Version: 6.4.23+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 106766
+Installed-Size: 106750
 Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.22+dfsg-1~bpo12+1_amd64.deb
-Size: 28755084
-MD5sum: 89a09b5536bd07679984ae0e0d10d0b1
-SHA1: 990fb27233b717c94b695a4f7d44c1ec4923d6d8
-SHA256: f5c6ac84b5c2bb1880e0f7603a716576a67f3bfcfb5178fbe9c06b3121a6c640
+Filename: ./praat_6.4.23+dfsg-1~bpo12+1_amd64.deb
+Size: 28755904
+MD5sum: 84c7c2779b920423874175d73e2ba9da
+SHA1: 14041e5f68b1e8cae4e10c02c787657ca0066dd1
+SHA256: a8e879c8c3ca97c38f389ecd9c8ce2f2d7065d479129c8a063f706bef6b8880b
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
