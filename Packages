@@ -763,18 +763,18 @@ Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: yt-dlp
-Version: 2024.11.18-1~bpo12+1
+Version: 2024.12.03-1~bpo12+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 10768
+Installed-Size: 10775
 Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
-Filename: ./yt-dlp_2024.11.18-1~bpo12+1_all.deb
-Size: 2047428
-MD5sum: ae76a0dacbdc16e870896400b7a04953
-SHA1: f14ba9122d36cd6b5caf2a03987ab95d6de466ea
-SHA256: 8929a6cf9eea3ca83afb3000d1022c0841a7159278dc3c67ec365a47b652ac08
+Filename: ./yt-dlp_2024.12.03-1~bpo12+1_all.deb
+Size: 2049208
+MD5sum: b1fcc618aacbf8d8c82730c60132a5a3
+SHA1: 9782656d352d44eac70cd3050e7166b20e4173a7
+SHA256: 3b8d6896c3604f843a508b0aa613018a43ccffaea2d302ce3c2055629f303659
 Section: web
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
