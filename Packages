@@ -547,16 +547,16 @@ Description: HTTP library with thread-safe connection pooling for Python3
 
 Package: python3-websockets
 Source: python-websockets
-Version: 13.1-1~bpo12+1
+Version: 14.1-1~bpo12+1
 Architecture: amd64
 Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 602
+Installed-Size: 618
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.4)
-Filename: ./python3-websockets_13.1-1~bpo12+1_amd64.deb
-Size: 87896
-MD5sum: 5d4af474016a2ef08aeedd53b032a883
-SHA1: 1a4261252a28fffa75bf51cfbc0d0b257809f2f7
-SHA256: 2d69afe11ed1991bb5c532fd89a1bd003d4ca17713bff4a6e1d9f7fce84ce977
+Filename: ./python3-websockets_14.1-1~bpo12+1_amd64.deb
+Size: 88868
+MD5sum: b1ebf03daac5f723690223d5199bb9cb
+SHA1: 80e98ee7ede730974a706340aa4e6ab9585a57a9
+SHA256: 80b6b69692b3aa1abd11116dc3d88916360d5750f41d0fcd153c8df1f42630a9
 Section: python
 Priority: optional
 Homepage: https://github.com/aaugustin/websockets
@@ -568,24 +568,6 @@ Description: implementation of the WebSocket Protocol (RFC 6455)
  Built on top of Python's asynchronous I/O support introduced in PEP 3156,
  it provides an API based on coroutines, making it easy to write highly
  concurrent applications.
-
-Package: python3-websockets-dbgsym
-Source: python-websockets
-Version: 13.1-1~bpo12+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Piotr Ożarowski <piotr@debian.org>
-Installed-Size: 23
-Depends: python3-websockets (= 13.1-1~bpo12+1)
-Filename: ./python3-websockets-dbgsym_13.1-1~bpo12+1_amd64.deb
-Size: 10160
-MD5sum: 24861ffbaab015e2bf18a759d9e942f5
-SHA1: 0a6fb459753a8a09d68f6d19f379df49c769c33d
-SHA256: 745ba6558cc6802a99f713ea1c707d29821bff7bc4d173a654abb8e32504ed4d
-Section: debug
-Priority: optional
-Description: debug symbols for python3-websockets
-Build-Ids: 585ec777500a54e0f661a4afa1e5fe2b70cb0b90
 
 Package: scrcpy
 Version: 1.25-1
