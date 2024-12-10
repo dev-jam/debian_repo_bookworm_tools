@@ -444,6 +444,22 @@ Section: utils
 Priority: extra
 Description: A python library that can be used to gather all sorts of information about the storage devices connected to a system.
 
+Package: python3-pip
+Version: 0:24.3.1-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 5790
+Depends: python3 (>= 3.8~), python3:any
+Filename: ./python3-pip_24.3.1-1~w2d0_all.deb
+Size: 1160760
+MD5sum: d299110ce683d42678a724c6f5ebaa50
+SHA1: 4677a708db2859ae70faa7e3c4cbbebda532aae4
+SHA256: f8326c556f03cdbfb687c514ccfdcf4f44b57eab63bbfe19fcba4280ef978eab
+Section: python
+Priority: optional
+Description: The PyPA recommended tool for installing Python packages.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-pipdeptree
 Version: 0:2.13.1-1~w2d0
 Architecture: all
