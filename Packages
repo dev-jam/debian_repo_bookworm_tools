@@ -493,6 +493,23 @@ Homepage: http://github.com/pixelb/ps_mem
 Description: A utility to report core memory usage per program
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-reactivex
+Version: 0:4.0.4-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 800
+Depends: python3 (>= 3.10~), python3-typing-extensions (<< 5.0.0), python3-typing-extensions (>= 4.1.1), python3:any
+Filename: ./python3-reactivex_4.0.4-1~w2d0_all.deb
+Size: 96008
+MD5sum: 96f344360bb729ed5c889fdbe84e6c69
+SHA1: c2c8f33e687829e6d2d1724b47fadec0557928ab
+SHA256: 7ed52e92e0947efafb43961c3f4c25a2aa9c754405e52f5c92694ad03d5d96f3
+Section: python
+Priority: optional
+Homepage: http://reactivex.io
+Description: ReactiveX (Rx) for Python
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-urllib3
 Source: python-urllib3
 Version: 1.26.18-2~bpo12+1
