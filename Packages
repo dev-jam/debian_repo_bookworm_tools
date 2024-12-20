@@ -170,12 +170,12 @@ Version: 0.7.7-1~bsr
 Architecture: amd64
 Maintainer: SwampRabbit <maintainer@mepiscommunity.org>
 Installed-Size: 458
-Depends: dconf-gsettings-backend | gsettings-backend, gobject-introspection, gir1.2-gtksource-3.0, gir1.2-appindicator3-0.1, python3-humanfriendly (>= 4.18), python3-injector (>= 0.18.2~), python3-gi (>= 3.34), python3-gi-cairo, python3-peewee (>= 3.13.1), python3-psutil, python3-requests (>= 2.22.0), python3-yaml (>= 5.3), python3-rx (>= 3.0.1), python3-xdg (>= 0.26), appstream-util, lm-sensors, libaio1, libbsd0, stress-ng, dmidecode, fonts-noto-color-emoji
+Depends: dconf-gsettings-backend | gsettings-backend, gobject-introspection, gir1.2-gtksource-3.0, gir1.2-appindicator3-0.1, python3-humanfriendly (>= 4.18), python3-injector (>= 0.18.2~), python3-gi (>= 3.34), python3-gi-cairo, python3-packaging, python3-peewee (>= 3.13.1), python3-psutil, python3-reactivex, python3-requests (>= 2.22.0), python3-yaml (>= 5.3), python3-rx (>= 3.0.1), python3-xdg (>= 0.26), appstream-util, lm-sensors, libaio1, libbsd0, stress-ng, dmidecode, fonts-noto-color-emoji
 Filename: ./gst_0.7.7-1~bsr_amd64.deb
-Size: 108148
-MD5sum: e9fca31802530a0c9dbf8944b234de33
-SHA1: e62bfc4a809fe8253d3727338c09cd0b8561a14d
-SHA256: 3f077822114aa373fb5eec2d9d648bc4a4db06d65af9b10b79ffb4f7a48c5e8b
+Size: 108160
+MD5sum: 64c82f5da31b35377b8390b3494f11a8
+SHA1: a98863807e6c55d2504ea961666d0d56fb62fbce
+SHA256: ce7aac93b46e3673a2605a4ccaee40d8c70d99caee63b86e0075576d38c535f9
 Section: utilities
 Priority: optional
 Homepage: https://gitlab.com/leinardi/gst
