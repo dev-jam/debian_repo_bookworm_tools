@@ -76,6 +76,44 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
 
+Package: btop
+Version: 1.4.0-0.1~mx23+1~bpo12+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1643
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Filename: ./btop_1.4.0-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 554760
+MD5sum: 4ab990036c098cc7f0aa75b0bb909041
+SHA1: c0684db8967176d93b7a6621d1c075c59c810c53
+SHA256: 7649c26efcc272719c6022641f429a69bac49c7778ac4eac417a65ca509a9903
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/aristocratos/btop
+Description: Modern, colorful CLI resource monitor that shows usage and stats
+ btop is a modern and colorful command line resource monitor that shows
+ usage and stats for processor, memory, disks, network and processes.
+ btop features:
+  - Easy to use, with a game inspired menu system.
+  - Full mouse support, all buttons with a highlighted key is clickable
+  and mouse scroll works in process list and menu boxes.
+  - Fast and responsive UI with UP, DOWN keys process selection.
+  - Function for showing detailed stats for selected process.
+  - Ability to filter processes.
+  - Easy switching between sorting options.
+  - Tree view of processes.
+  - Send any signal to selected process.
+  - UI menu for changing all config file options.
+  - Auto scaling graph for network usage.
+  - Shows IO activity and speeds for disks
+  - Battery meter
+  - Selectable symbols for the graphs
+  - Custom presets
+  - And more...
+  btop is written in C++ and is a continuation of bashtop and bpytop.
+Original-Maintainer: Marius Gripsgard <mariogrip@debian.org>
+
 Package: cherrytree
 Version: 1.2.0+dfsg-0.1~mx23+1~bpo12+1
 Architecture: amd64
