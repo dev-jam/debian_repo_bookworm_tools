@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.7.1+dfsg-0.1~mx23+1~bpo12+1
+Version: 3.7.1+dfsg-1~bpo12+1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 29518
-Depends: audacity-data (= 3.7.1+dfsg-0.1~mx23+1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 28196
+Depends: audacity-data (= 3.7.1+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.7.1+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 7977268
-MD5sum: fc55b1695d86d487e3265eac4ff2a13c
-SHA1: ccdc9e7603102be416ad058db71337c81af6de9e
-SHA256: 6026643302afaa7040bead85c027796728bfc523d2a1b9fa85a3b9543f3b08bd
+Filename: ./audacity_3.7.1+dfsg-1~bpo12+1_amd64.deb
+Size: 6634564
+MD5sum: 8c56bb4c84b56765181c78482131abc1
+SHA1: d11522d753be38bbe6dd66e720b40a2a783c06f9
+SHA256: fad378572a3759a781c313a2077b0b3416a268e635eff6f53f1381fa64b749e3
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -21,20 +21,19 @@ Description: fast, cross-platform audio editor
  undo/redo.
  .
  Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
-Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: audacity-data
 Source: audacity
-Version: 3.7.1+dfsg-0.1~mx23+1~bpo12+1
+Version: 3.7.1+dfsg-1~bpo12+1
 Architecture: all
-Maintainer: Steven Pusser <stevep@mxlinux.org>
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 15409
 Recommends: audacity
-Filename: ./audacity-data_3.7.1+dfsg-0.1~mx23+1~bpo12+1_all.deb
-Size: 2471532
-MD5sum: 90c8b9a90d96b294ccf85748d11ea972
-SHA1: eca15c77ee28061d773cb84e40209f42b89dd7f5
-SHA256: 9b4c2e5f0530f25875515c74af04f857ba8bf960de6cd572c1ae092eb56a1698
+Filename: ./audacity-data_3.7.1+dfsg-1~bpo12+1_all.deb
+Size: 2473900
+MD5sum: 3dfeea63c3f3b30e7ae941b378110bdd
+SHA1: 0e2f45d0b67a8ebc9905275912bd8add497702bb
+SHA256: b3bef36bece4c24f588f2f7806c05cfbcd629bdac9a998ae1ab60199d9ce62b6
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -47,7 +46,6 @@ Description: fast, cross-platform audio editor (data)
  undo/redo.
  .
  This package contains the architecture-independent data files.
-Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: birdtray
 Version: 1.11.0+ds-0.1~mx23+1~bpo12+1
@@ -173,6 +171,75 @@ Priority: optional
 Homepage: https://www.fooyin.org
 Description: A customisable music player
 
+Package: geany
+Version: 2.0-2~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 4826
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.8.0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.63.1), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), geany-common (= 2.0-2~bpo12+1)
+Recommends: sensible-utils, libvte-2.91-0
+Suggests: doc-base
+Breaks: geany-plugins-common (<< 0.21)
+Provides: geany-abi-18688, geany-api-247
+Filename: ./geany_2.0-2~bpo12+1_amd64.deb
+Size: 2028604
+MD5sum: 2b49be9c0ab8e5177b51211e1f407d87
+SHA1: ac9835c1766a6601a3db68a25966d6648e3637b8
+SHA256: 269450b0fef56c04c18fcfa8365c9fd6c94862694cc3d2df9d679c346258efa3
+Section: devel
+Priority: optional
+Homepage: http://www.geany.org
+Description: fast and lightweight IDE
+ Geany is a small and lightweight integrated development environment.
+ It was developed to provide a small and fast IDE, which has only a
+ few dependencies from other packages. It is using only the GTK3 toolkit
+ and therefore you need only the GTK3 runtime libraries to run Geany.
+ .
+ The basic features of Geany are:
+  - syntax highlighting
+  - code completion
+  - auto completion of constructs like if, for and while, XML and HTML
+  - call tips
+  - folding
+  - many supported filetypes like C, Java, PHP, HTML, Python, Perl, Pascal
+  - symbol lists
+  - embedded terminal emulation
+
+Package: geany-common
+Source: geany
+Version: 2.0-2~bpo12+1
+Architecture: all
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 10675
+Breaks: geany (<< 0.21-1~)
+Replaces: geany (<< 0.21-1~)
+Filename: ./geany-common_2.0-2~bpo12+1_all.deb
+Size: 3060156
+MD5sum: d841a2861c9d081c154ba6e1fd3ea3f4
+SHA1: e8addad155cb790635c1c07e51d0ad79aefc3518
+SHA256: 0d74468be191a5d58a6a62d7df1755ebf5c13889c2de1f29f40862cffd1860f6
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.geany.org
+Description: fast and lightweight IDE -- common files
+ Geany is a small and lightweight integrated development environment.
+ It was developed to provide a small and fast IDE, which has only a
+ few dependencies from other packages. It is using only the GTK3 toolkit
+ and therefore you need only the GTK3 runtime libraries to run Geany.
+ .
+ The basic features of Geany are:
+  - syntax highlighting
+  - code completion
+  - auto completion of constructs like if, for and while, XML and HTML
+  - call tips
+  - folding
+  - many supported filetypes like C, Java, PHP, HTML, Python, Perl, Pascal
+  - symbol lists
+  - embedded terminal emulation
+ .
+ This package contains arch independent files.
+
 Package: gir1.2-appindicator3-0.1
 Source: libappindicator
 Version: 0.4.92-7
@@ -242,10 +309,10 @@ Maintainer: Julian Andres Klode <jak@debian.org>
 Installed-Size: 80
 Depends: keepassxc-full | keepassxc-minimal
 Filename: ./keepassxc_2.7.9+dfsg1-1~bpo12+1_all.deb
-Size: 38420
-MD5sum: f7b881261517aa037276d0f8bd8678b1
-SHA1: 60da362f49d9d6bc6e03a9c459a2dfa1641d08ee
-SHA256: 86e4ccc53ee35c1d615fca0751e1ab3de831e1e23ee06b21135080dace170ace
+Size: 38404
+MD5sum: 0b5640179d7217159f42035116cb53a6
+SHA1: 6f81387197d8c875f711bb1f9436b37f89e9104c
+SHA256: 538813b30455abe503b930f4160d08d121d6478f5d0862ec68de7d4e8e53ba49
 Section: oldlibs
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -277,10 +344,10 @@ Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
 Provides: keepassxc (= 2.7.9+dfsg1-1~bpo12+1)
 Filename: ./keepassxc-full_2.7.9+dfsg1-1~bpo12+1_amd64.deb
-Size: 8114152
-MD5sum: 8688487e05a20cd6e2a1db2d167e9d10
-SHA1: 2589a4318ae5c2c1fd1a06dd8e9703f0afc29e57
-SHA256: 9853af87bd5c229425b845217fce51d58dcc6c37a096c522b2e67ac8f45f987a
+Size: 8112700
+MD5sum: a5cbf0627e397015ba8fabd7d9a2835c
+SHA1: bc289ed2925a684d03bacc9285942079156433cb
+SHA256: d5e1074e0b9fddab2955447c1d55b67a8906d7bd0d9b300b4e8b537ca8a4a7ee
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -313,10 +380,10 @@ Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
 Provides: keepassxc (= 2.7.9+dfsg1-1~bpo12+1)
 Filename: ./keepassxc-minimal_2.7.9+dfsg1-1~bpo12+1_amd64.deb
-Size: 7564708
-MD5sum: 9e35d9877edfcf24246216ecc28f527a
-SHA1: c661b4b57f9a4175e9b319aa034d767178826443
-SHA256: 595b15e5f274ec7b09cb46c70556992970d617039c2d5c82c0653bf8c9d59fe4
+Size: 7566592
+MD5sum: ae0957a8a9ddc1c6ff20eac02d3f61d5
+SHA1: 08e2d2ab489dd5ca2fddabc993562b5d06a4028c
+SHA256: ee0732b649f6a78a45a915c1c5ca3ba7fd3406157ffdfffcd4bf7f88c9d63dc9
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -402,6 +469,60 @@ Description: Development files for the IJG JPEG library
  .
  This package contains the static library, headers and documentation.
 
+Package: mkvtoolnix
+Version: 89.0-1~bpo12+1
+Architecture: amd64
+Maintainer: Christian Marillat <marillat@debian.org>
+Installed-Size: 27734
+Depends: libboost-filesystem1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.34), libdvdread8 (>= 4.1.3), libebml5 (>= 1.4.4), libflac12 (>= 1.3.0), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.4), libgmp10 (>= 2:6.2.1+dfsg1), libmatroska7 (>= 1.7.1), libogg0 (>= 1.0rc3), libpugixml1v5 (>= 1.7), libqt6core6 (>= 6.4.0), libstdc++6 (>= 11), libvorbis0a (>= 1.1.2), zlib1g (>= 1:1.1.4)
+Suggests: mkvtoolnix-gui
+Filename: ./mkvtoolnix_89.0-1~bpo12+1_amd64.deb
+Size: 5680296
+MD5sum: 0b38a90f90fb7a9c8996dbc85ba932b7
+SHA1: 24ae20064f1134160fc76f6351342d4e61622e01
+SHA256: 49a26985808d014b772f8275c8e8fd382b91fe91eff84590c0694c3f197c3178
+Section: graphics
+Priority: optional
+Homepage: https://mkvtoolnix.download/index.html
+Description: Set of command-line tools to work with Matroska files
+ Matroska is a new multimedia container format, based on EBML (Extensible
+ Binary Meta Language), which is a kind of binary XML.
+ These tools allow one to manipulate Matroska files.
+  * mkvmerge is a tool to create Matroska files from other formats
+  * mkvinfo allow one to get information about the tracks in a Matroska file
+  * mkvextract can extract tracks from Matroska files to other formats
+ .
+ This package only provides command-line tools. For graphical tools, you
+ should install the mkvtoolnix-gui package.
+
+Package: mkvtoolnix-gui
+Source: mkvtoolnix
+Version: 89.0-1~bpo12+1
+Architecture: amd64
+Maintainer: Christian Marillat <marillat@debian.org>
+Installed-Size: 14776
+Depends: mkvtoolnix (= 89.0-1~bpo12+1), libboost-filesystem1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.34), libcmark0.30.2 (>= 0.30.2), libdvdread8 (>= 4.1.3), libebml5 (>= 1.4.4), libflac12 (>= 1.3.0), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgmp10 (>= 2:6.2.1+dfsg1), libmatroska7 (>= 1.7.1), libpugixml1v5 (>= 1.7), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.3.0), libqt6gui6 (>= 6.4.0), libqt6multimedia6 (>= 6.2.1), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 11), libvorbis0a (>= 1.2.3), qt6-svg-plugins
+Suggests: mediainfo-gui
+Conflicts: mkvtoolnix (<< 35.0.0-1)
+Replaces: mkvtoolnix (<< 35.0.0-1)
+Filename: ./mkvtoolnix-gui_89.0-1~bpo12+1_amd64.deb
+Size: 6425132
+MD5sum: d0e0117ae282f3474afe473bac13a27d
+SHA1: 0b572eb6909d5c107a47c2602367daba678152af
+SHA256: f4904fc5fbb194b69b3257830d238f0c95fdb7d202760b8e11cb16615cbf1dd2
+Section: graphics
+Priority: optional
+Homepage: https://mkvtoolnix.download/index.html
+Description: Set of tools to work with Matroska files - GUI frontend
+ Matroska is a new multimedia container format, based on EBML (Extensible
+ Binary Meta Language), which is a kind of binary XML.
+ .
+ The mmg tool is a graphical user interface for the mkvmerge program, which
+ allow one to create Matroska files from other formats.
+ .
+ This package also contains a graphical version of the mkvinfo tool, which
+ allow one to get information about a Matroska file.
+
 Package: multiarch-support
 Source: glibc
 Version: 2.28-10
@@ -450,6 +571,28 @@ Description: multithreaded PAR 2.0 compatible file verification and repair tool
  a network or stored on a faulty disk) the program can read the damaged
  files and the (possibly damaged) PAR2 files, and regenerate the original
  input files.
+
+Package: pdfarranger
+Version: 1.11.1-1~bpo12+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 841
+Depends: python3-dateutil, python3-packaging, python3-pikepdf, python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-poppler-0.18, python3-cairo, python3-gi, python3-gi-cairo
+Recommends: python3-img2pdf
+Filename: ./pdfarranger_1.11.1-1~bpo12+1_all.deb
+Size: 161440
+MD5sum: 8e6a7306fa922328362882e2d892dc4a
+SHA1: 8d5cfb65d4b316d3665a5037ec4c46abd0937195
+SHA256: 4132bbfe2437f19638817c22e4aa9fd9585b25c11778bdff53d7e4671c1d2aa1
+Section: graphics
+Priority: optional
+Homepage: https://github.com/pdfarranger/pdfarranger
+Description: merge, split and re-arrange pages from PDF documents
+ PDF Arranger is a small application which allows one to merge or split pdf
+ documents and rotate, crop and rearrange their pages using an interactive
+ and intuitive graphical interface.
+ .
+ PDF Arranger was formerly known as PDF-Shuffler.
 
 Package: pdfgui-tools
 Version: 1.0.2
@@ -802,10 +945,10 @@ Architecture: all
 Maintainer: Sylvestre Ledru <sylvestre@debian.org>
 Installed-Size: 258
 Filename: ./spectre-meltdown-checker_0.46-1~bpo12+1_all.deb
-Size: 56480
-MD5sum: 4ca2cb4ced4ee5ec739ae9d59ed56a25
-SHA1: ee938a24c2fed29ee15247425073337a1848ba69
-SHA256: f11d652eec922a1eb979506ed375dd6370feb1f9ac2a1f6f070238b08d55e07c
+Size: 56472
+MD5sum: fd958b69f282ad416dc361e584d5ec5b
+SHA1: 8ce173d2701078e16b534e6d93928d81728f2e73
+SHA256: e9290a5120febe98f8fa0471cefa666f306319c63ce887d963231ee589b031af
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
@@ -856,6 +999,31 @@ Description: audio player and music collection organizer
   - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
   - Streaming support for Subsonic-compatible servers
   - Unofficial streaming support for Tidal and Qobuz
+
+Package: webext-keepassxc-browser
+Source: keepassxc-browser
+Version: 1.9.6+repack1-1~bpo12+1
+Architecture: all
+Maintainer: Bruno Kleinert <fuddl@debian.org>
+Installed-Size: 4014
+Depends: keepassxc-full
+Recommends: firefox | firefox-esr | chromium
+Built-Using: bootstrap-html (= 5.3.3+dfsg-1~bpo12+3), fonts-fork-awesome (= 1.2.0+ds1-1), node-tweetnacl (= 1.0.3+dfsg-3)
+Filename: ./webext-keepassxc-browser_1.9.6+repack1-1~bpo12+1_all.deb
+Size: 705816
+MD5sum: 0d7a612dda582f5b2aad43cf67e2ec28
+SHA1: f86a0c01ca2a49de2f596be094cc36ac858208a7
+SHA256: 38a00d1ff509c8e4da98d2fcea7e0fcb4b8fb49ac143e3d84b5df4a1e12045b7
+Section: web
+Priority: optional
+Homepage: https://github.com/keepassxreboot/keepassxc-browser
+Description: Web browser extension to organize web site credentials in KeePassXC
+ KeePassXC-Browser is a web browser extension for Firefox and Chromium that
+ allows users to easily store and load credentials for web sites in/from
+ databases of the KeePassXC password manager.
+ .
+ To use this extension users must run KeePassXC and configure it accordingly in
+ Tools→Settings→Browser Integration!
 
 Package: wheel2deb
 Version: 0:0.9.5+bsr-1~w2d0
