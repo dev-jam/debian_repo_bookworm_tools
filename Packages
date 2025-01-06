@@ -240,6 +240,1196 @@ Description: fast and lightweight IDE -- common files
  .
  This package contains arch independent files.
 
+Package: geany-plugin-addons
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 119
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-addons_2.0-5~bpo12+1_amd64.deb
+Size: 38588
+MD5sum: 3d9b690744da21c566a95d7ba58afd43
+SHA1: 050025dd17053c7dc7021a945d143de099c39eeb
+SHA256: 4ebd4f64949dbd733b70d7aad882acfb284366854dd9e193426ab86a06fc4d4d
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: miscellaneous plugins for Geany
+ This plugin adds various small addons to Geany which aren't worth an
+ individual plugin, but might still be useful for people.
+  * DocList: This addon places a new item in the toolbar and when clicked
+    offers a menu listing all open files plus the 'Close All' and 'Close Other
+    Documents' menu items. This can be useful to quickly access open files and
+    switch to them.
+  * OpenURI: Adds 'Open URI' and 'Copy URI' menu items to the editor menu when
+    the word under the cursor looks like a URI. 'Open URI' uses the browser
+    command configured in Geany to open it.
+  * Tasks: The tasks plugin goes through a file being edited and picks out
+    lines with "TODO" or "FIXME" in them. It collects the text after those words
+    and puts them in a new "Tasks" tab in the message window. Clicking on a task
+    in that tab takes you to the line in the file where the task was defined.
+  * Systray: Adds a status icon to the notification area (systray) and
+    provides a simple popup menu with some basic actions. It can also be used
+    to quickly show and hide the Geany main window.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-autoclose
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 63
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-autoclose_2.0-5~bpo12+1_amd64.deb
+Size: 19552
+MD5sum: c398eb8847eb1963b3239e9ea444f100
+SHA1: a0b29dbc9df65f53406d036ad8de117c55a7225a
+SHA256: 71fd525ee51d614234ca448f1cf137ebb40edb98263fc16ba28dac2f323aea8c
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: auto-closing plugin for Geany
+ This plugin enables auto-closing features. Auto-closing works while you typing
+ and intellectually helps you to write code.
+ .
+ Features:
+  * auto-close for: { }, [ ], ( ), " ", ' ', < >, ` `
+  * customizeable auto-closing inside strings and comments
+  * delete pairing character if you pressed BackSpace
+  * suppress inserting one char twice (if you type "{}" you will get "{}", not
+    "{}}")
+  * enclose selected text into brackets instead of removing selection (select
+    text and type "(" or ")" to enclose selection into "()")
+  * keep selection when enclosing
+  * for C-like languages enclosing selection into "{}" makes auto-indentation
+    (select text and type "{" or "}" - text will be enclosed and indented)
+  * enclosing in {} moves cursor to beginning (before "{" character)
+  * for C-like languages to insert {}-block you do not need to select text
+    precisely: plugin detects boundaries automatically, just ensure that
+    selection covers lines you need to indent (works like TAB indentation)
+  * fix auto-indent inside {} (makes full indent for this block)
+  * auto-close curly bracket by pressing Enter
+  * auto-close functions (``"sin(|" -> "sin(|);"``) with doubling suppression
+    (for C/C++ languages only)
+  * remove paring brace when pressing Shift+BackSpace, unindent {}-blocks
+  * add semicolon after ``struct {|};`` and ``class {|};``
+  * move cursor to closed char by pressing Tab
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-automark
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Enhances: geany
+Filename: ./geany-plugin-automark_2.0-5~bpo12+1_amd64.deb
+Size: 10160
+MD5sum: fc7e179cd68985e55c4eea578a15ac27
+SHA1: f6a01257d444401994fbc203a468e43b5c8f90c1
+SHA256: ecc4feac08a052ec01023f3e1f01c83fdcb7c1ef6e764baccd8015707400492f
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: auto-mark plugin for Geany
+ This is a simple plugin that highlights all words that match current word
+ under cursor (see screenshot).
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-codenav
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-codenav_2.0-5~bpo12+1_amd64.deb
+Size: 17380
+MD5sum: f9d5dcecc6fc1ec52e3697375dbb29cc
+SHA1: 8654590f7ef6fd8acb69c64d15681a6fb41f8bfc
+SHA256: 0421f8bb798697e960906f240d08d24c7aece517753a8605fed717d8024bc378
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: code navigation plugin for Geany
+ This plugin adds some facilities for navigating in code using Geany, making it
+ possible to:
+  * Switch between header and implementation
+  * Go to a file by typing its name
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-commander
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 58
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-commander_2.0-5~bpo12+1_amd64.deb
+Size: 15620
+MD5sum: 4595311ebf955b6da39e4268f906a6f2
+SHA1: 409130430d343ce05a4159bd426969e38a9683aa
+SHA256: 9ce4f38336ab45f7493c82b8f2f122e88c88179c022aae04dbdcb035f9821336
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: command panel plugin for Geany
+ This plugin adds a command panel to Geany for rapid access to any action.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-ctags
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 67
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), universal-ctags, geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-ctags_2.0-5~bpo12+1_amd64.deb
+Size: 21160
+MD5sum: 0df131159ccc075350fdcb54eabe36cf
+SHA1: 1cf058ab4e76be4c72b33b44a0c88bb849b6b836
+SHA256: 455cb0136acb759d9747588d289635bac0a95622dcbecea620e9cc9ce33edb6c
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: ctags plugin for Geany
+ GeanyCtags adds a simple support for generating and querying ctags files
+ for a Geany project.
+ .
+ Even though Geany supports symbol definition searching by itself within the
+ open files (and with a plugin support within the whole project), tag
+ regeneration can become too slow for really big projects. This is why this
+ plugin was created. It makes it possible to generate the tag file only once
+ and just query it when searching for a particular symbol
+ definition/declaration. This approach is fine for big projects where most
+ of the codebase remains unchanged and the tag positions remain more or
+ less static.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-debugger
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0, gdb (>= 7.7)
+Enhances: geany
+Filename: ./geany-plugin-debugger_2.0-5~bpo12+1_amd64.deb
+Size: 69576
+MD5sum: 7a30a71490bbfd7985cac36b8c4fb668
+SHA1: 2aeea35c06c43d670b1341ea168c22f2ce3f2261
+SHA256: 288e304c89e48e8d233a4e2c5c5629994f8dc9053ec488e3b2b3655f7742545f
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: debugger plugin for Geany
+ Features:
+  * Debugger panel
+  * Setting target, environment variables and command line arguments
+  * Breakpoints
+  * Watches, autos
+  * Debug terminal
+  * Debugger messages window
+  * Variables calltips while debugging
+  * Saving debug session data in a Geany project (can be switched through
+    settings)
+  * Double or single panel modes
+  * Hotkeys
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-defineformat
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Enhances: geany
+Filename: ./geany-plugin-defineformat_2.0-5~bpo12+1_amd64.deb
+Size: 10580
+MD5sum: 9a7c6f92ffe6e986ba96d5d102fb616b
+SHA1: d5d21b700540defa1087e5ccdb0f4dd88744f68e
+SHA256: 2c6bbbe6b1ef5b7ce8c02d6c0660c7dc2b457dc26d27dd0551c8232afb2c89e3
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: on-the-fly #define prettyprinter plugin for Geany
+ This plugin will help you to write multiline defines with aligned backslash.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-doc
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 58
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-doc_2.0-5~bpo12+1_amd64.deb
+Size: 15560
+MD5sum: 7e62ed6dc0c4de0f32383cecbb75d4e7
+SHA1: d72750e5ad3fd9178af319d5435101c1fbbe28fb
+SHA256: b528a19abbf59520d951591535e1e6129a4ac7996e1e8f5abd8fa6b4ac0a2048
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: documentation plugin for Geany
+ Geanydoc is a plugin for the Geany IDE which is intended to be used to search
+ for documentation API from different sources. It allows execution of specified
+ commands on the current word at the cursor position or otherwise specified via
+ a dialog to obtain this documentation. This documentation is displayed in the
+ geany buffer as a tab called *DOC*, or may be displayed in an external program.
+ .
+ After installing this package, you'll need to enable the "Doc" plugin
+ and then setup a keyword binding for it in Geany's preferences dialogue.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ GTK+ toolkit.
+
+Package: geany-plugin-extrasel
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-extrasel_2.0-5~bpo12+1_amd64.deb
+Size: 15820
+MD5sum: 3e5627d0bb65e2b76d685d5b1170e3ad
+SHA1: 22a3088b427cc72f9b84082b103719682ccbc1a5
+SHA256: f43f4fde873e40317b7b2ef8880fc9e83a23207ef132c416073dd1387bc35bda
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: extra selection plugin for Geany
+ The Extra Selection plugin adds the following functions to Geany:-
+  * Go to matching brace and select (select to matching brace)
+  * Go to line and select (select to line)
+  * Ctrl+Shift+Alt+Left/Right/Home/End key - same as Ctrl+Shift, but for
+    rectangular selection.
+  * Column mode - while active, all (Ctrl)-Shift-Arrow keys do rectangle
+    selection instead of stream.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-gendoc
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 161
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libctpl2 (>= 0.3), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Enhances: geany
+Filename: ./geany-plugin-gendoc_2.0-5~bpo12+1_amd64.deb
+Size: 53600
+MD5sum: 71bb554a49a7e4a9cbd70170ca3545e6
+SHA1: e14b3e5eaed56b19abb96d0ec774b91db6675788
+SHA256: 5b22b03ec120a253aa768b11e432813120eb14af6b02076efda8f8feba5bfc4d
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: documentation generation plugin for Geany
+ GeanyGenDoc is a plugin for Geany which provides support for automatically
+ generating documentation based on comments in the source code.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-geniuspaste
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 73
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.4.0)
+Enhances: geany
+Filename: ./geany-plugin-geniuspaste_2.0-5~bpo12+1_amd64.deb
+Size: 20940
+MD5sum: 3c0e3ab773dc47acfb224709c66b276c
+SHA1: 6391ccde6e0b92c022e23e0452fb23aace8f0a08
+SHA256: 43cb4b601aea345adb706c6e41be09f27a8e616a3c68d9bd80a396fb610c750b
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: GeniusPaste plugin for Geany
+ This plugin allows the user to paste the code from Geany into five different
+ pastebins. At the moment it supports this services:
+  - codepad.org
+  - tinypaste.com
+  - pastebin.geany.org
+  - dpaste.de
+  - sprunge.us
+ .
+ GeniusPaste detects automatically the syntax of the code and paste it with
+ syntax highlighting enabled. It can also display the pasted code opening a new
+ browser tab.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-git-changebar
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 78
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libgit2-1.5 (>= 1.5.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-git-changebar_2.0-5~bpo12+1_amd64.deb
+Size: 19860
+MD5sum: 50d440ea036b58f7b9afdd52082f3b25
+SHA1: 3dfce38a6eedd3e4bc4d4caad9a22281e8d94288
+SHA256: 83d474798ffbaa08c23eb623561f5b09e6f98c36d208541bb5ebcdf682ab59e9
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: git change bar plugin for Geany
+ This plugin highlights uncommitted changes to files tracked with Git, and
+ allows one to navigate through the hunks.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-gproject
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: all
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: geany-plugin-projectorganizer
+Filename: ./geany-plugin-gproject_2.0-5~bpo12+1_all.deb
+Size: 6808
+MD5sum: 8a972925a3857142ae8aef5b736d61c9
+SHA1: 4ffc4099cf22c53d7677214f86437cc2dc18b12f
+SHA256: fd75138a6b994959b47fdfeb99d914e65904dba2019e34afecb01a39299f93ab
+Section: oldlibs
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: transitional dummy package for geany-plugin-projectorganizer
+ This is a transitional dummy package. It can safely be removed.
+
+Package: geany-plugin-insertnum
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 55
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-insertnum_2.0-5~bpo12+1_amd64.deb
+Size: 15156
+MD5sum: ab0c042c9c4ea00bcbd487e8fa0b10c1
+SHA1: e80db8c80fc83b95e3489f65ef320dc6d77d7dc2
+SHA256: 6f5b0e28cb4eaa1e25fee8d49cfdd7e6b6811152b5b986208797654a14992178
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: number inserting plugin for Geany
+ This plugin for Geany replaces a (possibly zero-width) rectangular selection
+ with integer numbers, using start/step/base etc. specified by the user. For
+ practical reasons, the number of lines is limited to 500000.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-keyrecord
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-keyrecord_2.0-5~bpo12+1_amd64.deb
+Size: 10464
+MD5sum: 4875cb59dcff7cd8cc0e899f32f8635c
+SHA1: 91753b0f641687824d479f89f33075045c3b1c78
+SHA256: 7d5f1b5fe9f8151a14aa6a65f76995c904fb577d949cf162945e8db52537fa4f
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: git change bar plugin for Geany
+ This plugin allows you to record a sequence of keystrokes and to replay it
+ several times.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-latex
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 854
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-latex_2.0-5~bpo12+1_amd64.deb
+Size: 609116
+MD5sum: 869bf6e779117495a59b0f074bdf6cfe
+SHA1: 3799c40eab5be5bb9aaf0cedc553ffbbf169b335
+SHA256: a1ca4fcc677cecc2c54689c746303e5483a890a2c9000796c4ea3bdbddbe1566
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: improved LaTeX support plugin for Geany
+ GeanyLaTeX is a plugin for the Geany IDE to improve work with LaTeX. Features
+ include:
+  * Wizard for creating a new LaTeX-document
+  * Frontend for easy input of \ref{} and \label{}
+  * Easy adding of special characters and environments through plugin menu entry
+  * Support for adding new items to BibTeX database
+  * Toolbar with commonly used format options
+  * Bulk replacement and input replacement of special characters
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-lineoperations
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 55
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-lineoperations_2.0-5~bpo12+1_amd64.deb
+Size: 16676
+MD5sum: f5f891a9ccb15909767f7ddaf9c740cf
+SHA1: 45e4a3072321634a28aae9f6fd277ffe0e71c210
+SHA256: 9ddcf3613e2aef0fe2607d7e19ce0d4318829022eebbba2c3f4a06277bf89417
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Line Operations plugin for Geany
+ Line Operations is an assortment of simple line functions that can be applied
+ to an open file.
+ .
+ Features
+ .
+  * Remove Duplicate Lines, sorted
+  * Remove Duplicate Lines, ordered
+  * Remove Unique Lines
+  * Remove Empty Lines
+  * Remove Whitespace Lines
+  * Sort Lines Ascending
+  * Sort Lines Descending
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-lipsum
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 44
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-lipsum_2.0-5~bpo12+1_amd64.deb
+Size: 12288
+MD5sum: a6b99d6151bc9d95b2d0893aafa075c9
+SHA1: 318695b015b9267d26bf004095dbda8a89376901
+SHA256: 1e990cd03269b8dfb5363d33c44da8fe754a6c95266f84cc46b3431615dc6e88
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Lorem Ipsum generator plugin for Geany
+ GeanyLipsum is a plugin for Geany which implements a Lorem Ipsum generator to
+ insert placeholder text into your document.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-lua
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 508
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), liblua5.1-0
+Enhances: geany
+Filename: ./geany-plugin-lua_2.0-5~bpo12+1_amd64.deb
+Size: 99300
+MD5sum: d03cf55c4ca8784434b9f39e6930b5dd
+SHA1: 4515ac143da0bcc1370fdba6847a305bde816183
+SHA256: cd63f5ac02198470dc147dd9bf36bf6b93688b2b34c84df049d7b2d77601efcd
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Lua scripting plugin for Geany
+ GeanyLua is a plugin which provides a Lua scripting interface for the Geany
+ IDE.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-macro
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 85
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-macro_2.0-5~bpo12+1_amd64.deb
+Size: 24196
+MD5sum: f6474c3cf73b01b79f598cbe9d7fa9dd
+SHA1: ef1e189e48f93a3812c83bd8d64f358962f40293
+SHA256: 3051fb7afe66395c784baf98b96f40621e92d6a12b7944b8326051b1cb642881
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: macro plugin for Geany
+ Geanymacro is a plugin to provide user defined macros for Geany.
+ This plugin allows you to record and use your own macros. Macros are
+ sequences of actions that can then be repeated with a single key
+ combination. So if you had dozens of lines where you wanted to delete
+ the last 2 characters, you could simple start recording, press End,
+ Backspace, Backspace, down line and then stop recording. Then simply
+ trigger the macro and it would automatically edit the line and move to
+ the next.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-markdown
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 591
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.3.16), libmarkdown2 (>= 2.0.6), libpango-1.0-0 (>= 1.14.0), libwebkit2gtk-4.1-0 (>= 2.5.3)
+Enhances: geany
+Filename: ./geany-plugin-markdown_2.0-5~bpo12+1_amd64.deb
+Size: 523804
+MD5sum: 2dd66844ae61b39ca68384d531562036
+SHA1: 0793aeb97cc7ee295708c141edafa62e991a221c
+SHA256: 99eca4b8449fa7e006bb92e8857afebf3d58d9b2c5ad35fe1b8ec665ad8a7035
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: markdown plugin for Geany
+ This plugin provides a real-time preview of rendered Markdown in Geany.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-miniscript
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Enhances: geany
+Filename: ./geany-plugin-miniscript_2.0-5~bpo12+1_amd64.deb
+Size: 16896
+MD5sum: e9f8a939ff3ade07b298d10d245e07f7
+SHA1: 1443dd643c9867f21e03f71dcac4d76a40621f9c
+SHA256: 377bbd70a6ae3d909216aca6cd0e2c3c5a113f54caa0d4bf4c88364ec3d21e91
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Geany Mini-Script filter plugin
+ This plugin is a tool to apply a script filter on:
+  - the text selection,
+  - the current document,
+  - all documents of the current session.
+ .
+ The filter type can be:
+  - Unix shell script,
+  - Perl script,
+  - Python script,
+  - sed commands,
+  - awk script.
+ .
+ The output can be:
+  - the selection of the current document,
+  - all the current document,
+  - or a new document.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-numberedbookmarks
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 65
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-numberedbookmarks_2.0-5~bpo12+1_amd64.deb
+Size: 19528
+MD5sum: c9bd5dd1b22e8c870811e3d4dad944cc
+SHA1: a15f55ab7a3f6f355ca0c9863e5ffe407fe92c8d
+SHA256: 47ea7c4820bf7f658e92f83b36928cd5c20ef8538885a5787aa7e5b8cccd638d
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: numbered bookmarks plugin for Geany
+ Geanynumberedbookmarks is a plugin to provide users with 10 numbered
+ bookmarks (in addition to the usual bookkmarks).
+ Normally if you had more than one bookmark, you would have to cycle
+ through them until you reached the one you wanted. With this plugin you
+ can go straight to the bookmark that you want with a single key
+ combination.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-overview
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 118
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-overview_2.0-5~bpo12+1_amd64.deb
+Size: 29568
+MD5sum: 7fd012d0177de7c5c9ba900baa0ad8ec
+SHA1: def8c17a1b05d297fce820634d67ff96be046100
+SHA256: af2e4054559d3e22a338cf190dc1989065ba833cfb75178075e4b3f038bc4115
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: overview plugin for Geany
+ This plugin provides an overview of the active document.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-pairtaghighlighter
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-pairtaghighlighter_2.0-5~bpo12+1_amd64.deb
+Size: 12468
+MD5sum: 0ce6e4ee92779da7095779e7b340085a
+SHA1: 20bf863472b0f210f9a48845029570d526a20a28
+SHA256: a76c0ca68fad7956ef2bd84ba235552fdbd82960854bd42e472b67bab52145b3
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: tag pair highlighter plugin for Geany
+ Finds and highlights matching opening/closing HTML tag by clicking or
+ moving cursor inside a tag.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-pg
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 69
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.7), libglib2.0-0 (>= 2.18.0), libgpgme11 (>= 1.2.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-pg_2.0-5~bpo12+1_amd64.deb
+Size: 20220
+MD5sum: ac1b7cbf878c0eb1115aa6047d6e192f
+SHA1: a9f8f585dadc65fd0850b3f55abbc8395cd81ff3
+SHA256: f24782b678cf06a4aa341f804858cd5070e6f6e95708dae0c839e13201322518
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: pg plugin for Geany
+ GeanyPG is a plugin for Geany that allows the user to encrypt, decrypt
+ and verify signatures with GnuPG.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-pohelper
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 92
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-pohelper_2.0-5~bpo12+1_amd64.deb
+Size: 21900
+MD5sum: 7775bb929aafbabe0961b6955934410e
+SHA1: ede6d31923f3a3f5d868dda239939b08582c76e1
+SHA256: 7364799c0943900c7ef92f40a58e29f3c8c538932f378b8d453f065d8de69467
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Geany plugin for improved support for GetText translation files
+ Pohelper is a plugin for Geany that improves the support for
+ GetText translation files
+ .
+ Features:
+  * Navigation between all, untranslated or fuzzy messages
+  * Reformatting of the translation (reflow)
+  * Toggling the fuzziness of a translation
+  * Pasting of the untranslated string to the translation
+  * Automatic updating of the translation metadata
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-prettyprinter
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 60
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libxml2 (>= 2.7.4)
+Enhances: geany
+Filename: ./geany-plugin-prettyprinter_2.0-5~bpo12+1_amd64.deb
+Size: 18888
+MD5sum: 7ccd503b5e8f78a527fe8fa2341065c0
+SHA1: 39612e4204807455736cb05e2b94a27f4f0e9947
+SHA256: f93ef0a71b7130ed4fbfeab208dbf7e023d9f6f8fe65d6a55f8ed6d49f2cfab8
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: XML pretty printer for Geany
+ This plugin gives Geany XML pretty-printing functionality, allowing it to
+ beautify and enhance the readability of XML files.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-prj
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 80
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Enhances: geany
+Filename: ./geany-plugin-prj_2.0-5~bpo12+1_amd64.deb
+Size: 23916
+MD5sum: a8fc68810748fb59901f1ae32af09357
+SHA1: 029680751ca4abea2fdefa062a82abd97b98791a
+SHA256: 55742d218a472c6e665031453fbb4acdcf4c08b651fee672e89a1ed4180c02d6
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: alternative project manager for Geany
+ GeanyPrj is a plugin for Geany that provides an alternative method for managing
+ projects in Geany, which moves away from Geany's default project management
+ style, which is session-based, instead implementing a system which
+ automatically opens a project when oen of its files are opened.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ GTK+ toolkit.
+
+Package: geany-plugin-projectorganizer
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 115
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Enhances: geany
+Breaks: geany-plugin-grpoject (<< 1.25~)
+Replaces: geany-plugin-gproject (<< 1.25~)
+Filename: ./geany-plugin-projectorganizer_2.0-5~bpo12+1_amd64.deb
+Size: 37396
+MD5sum: 00cfc2e5012d6a98e0cef4fafbdcfa9f
+SHA1: 2da785ff853d22b64742b25640ad0f7ae49a841e
+SHA256: c2fe12ae8c1483c32ef692759d529235008bd2ef30d2331d9dd268e15402d56f
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: projectorganizer plugin for Geany
+ Project Organizer is an extension of Geany's project management displaying
+ a tree of files belonging to the project in the sidebar. In addition, it
+ enables complete indexing of the project files (and having code completion,
+ syntax highlighting and tag  definition/declaration jumps for the whole
+ project) quick swapping between header and source files, improved opening
+ of includes, searching project files by name and more. External
+ directories can be attached to the project to extend the plugin's
+ functionality to related directories outside the project tree. The plugin
+ was created with big projects in mind so everything works fast enough
+ even with projects consisting of tens of thousands of files.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ GTK+ toolkit.
+
+Package: geany-plugin-scope
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 781
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0 (>= 0.49.92)
+Enhances: geany
+Filename: ./geany-plugin-scope_2.0-5~bpo12+1_amd64.deb
+Size: 152312
+MD5sum: b26414bfcc72f3dbfb99cc0c33ace4ca
+SHA1: 692e62a2ba5bfb890f87acea92f3392a88cadf4c
+SHA256: 7e9e3947613ec9870007ce26d44abc1951b3849c595214d32aee942adfd8bf5c
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: graphical GDB front-end for Geany
+ Scope is a graphical GDB front-end with the normal functions you would
+ expect (stepping, breakpoints, etc.), and a few notable features:
+  * The comminication between Scope and gdb is asynchronous.
+  * You can enter any gdb command, at any time.
+  * All gdb I/O (along with some other messages) is displayed in a
+    terminal-like "Debug Console". Whenever you find the GUI lacking,
+    simply switch to that console and work directly with gdb.
+  * 7-bit/Locale/UTF-8 support for values.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ GTK+ toolkit.
+
+Package: geany-plugin-sendmail
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-sendmail_2.0-5~bpo12+1_amd64.deb
+Size: 17468
+MD5sum: 67fe0098e2684c1a2d2604326eae7b5f
+SHA1: 73083676e47fc0d4e2f73addef2ec117c1405118
+SHA256: 0d2f3efae219354163a3e2c6b34db14c6c2e62d2296ff3c385ccbb678ef77217
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: mailer plugin for Geany
+ GeanySendMail is a plugin to send a document as attachment using the
+ preferred mail client from inside Geany. It is similar to the envelope symbol
+ of most office tools and requires a mail client that is supporting remote
+ calls.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-shiftcolumn
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-shiftcolumn_2.0-5~bpo12+1_amd64.deb
+Size: 11828
+MD5sum: 40f16106041d4215ab264125e10d6c5d
+SHA1: 6266d6e8553e420ae6feb46d6cc064130b956288
+SHA256: 1c770f3fbfdb1bc5d4b4c9ac3ef7e40560374ff8eb6d405de66af191338a6359
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: text column shifting plugin for Geany
+ ShiftColumn is a plugin which allows text to be shifted horizontally in the
+ Geany IDE.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-spellcheck
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libenchant-2-2 (>= 2.2.3), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-spellcheck_2.0-5~bpo12+1_amd64.deb
+Size: 30132
+MD5sum: 52b82ba379b5b1aa9539f8a6d1a1c019
+SHA1: f84d6ca78bc410210f8705ded84f4e7b55e4db9c
+SHA256: 2fd4fe85c69fd717a4b91555424734058d664f4a80005091b6f58ece61817415
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: spellcheck plugin for Geany
+ Spellcheck is a plugin which  checks the content of the current document in
+ Geany with the spell check library Enchant. This plugin allows the whole
+ document, or only a selection to be checked for spelling mistakes. Misspelt
+ words are highlighted with a red squiggly underline, and wrong words are
+ printed in Geany's messages window along with available suggestions.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-tableconvert
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 49
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-tableconvert_2.0-5~bpo12+1_amd64.deb
+Size: 13668
+MD5sum: eb366229ad9bcab55509eaeeb062a7a6
+SHA1: 020e6ef782bc6212dc494ad918702a22ea02cbee
+SHA256: fe1bda709e642c03784c9fe6e543467f161346ca4043e071571acf322a36a371
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: table convert plugin for Geany
+ Tableconvert is a plugin which helps on converting a tabulator
+ separated selection into a table.
+ Currently the plugin supports:
+  * HTML
+  * LaTeX
+  * SQL
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-treebrowser
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 92
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.21.5)
+Enhances: geany
+Filename: ./geany-plugin-treebrowser_2.0-5~bpo12+1_amd64.deb
+Size: 29744
+MD5sum: c8d470c7c85a63484455bd91781b7cdc
+SHA1: ed7cf08b69c60f02b79ebae0c08a7473bd5eb5ce
+SHA256: 4f0ea4feefdbb63ca17d8d38f8da04bc507a0a0f52906a4fc1ead708e2b9e7a9
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: tree browser plugin for Geany
+ This plugin adds a tree browser to Geany, allowing the user to browse files
+ using a tree view of the directory being browsed.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-updatechecker
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.41.90)
+Enhances: geany
+Filename: ./geany-plugin-updatechecker_2.0-5~bpo12+1_amd64.deb
+Size: 12520
+MD5sum: 6e6653f50c0e57dd5e0633735f9a879d
+SHA1: 6b5cc03d6a04041f0792ba30e12ae0a7637ddc4b
+SHA256: 877f5c7a540052107e0a8a45c421bc21a088e15936223f46a1b23cb25c42ba8c
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: update checker plugin for Geany
+ This plugin adds an update checker plugin to Geany, allowing users to check
+ whether there is a more recent version of Geany available.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-vc
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 130
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libgtkspell3-3-0
+Enhances: geany
+Filename: ./geany-plugin-vc_2.0-5~bpo12+1_amd64.deb
+Size: 36888
+MD5sum: 96301dcda3c7ba25d59e4fa390a75d6b
+SHA1: 6bebd3c399cdb9b385c078d2c2eb52825e0da7a1
+SHA256: a3377f705cdfffdd17d37e56ea864aca6a788bd0522d0ffcecd728987b31cd00
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: VCS plugin for Geany
+ GeanyVC is a plugin for Geany that provides a uniform way of accessing the
+ different version-control systems inside the Geany IDE. Only a small subset of
+ vc operations are implemented, which are:
+  * diff
+  * log
+  * status
+  * revert
+  * commit
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-vimode
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 277
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
+Enhances: geany
+Filename: ./geany-plugin-vimode_2.0-5~bpo12+1_amd64.deb
+Size: 44012
+MD5sum: 3961f73b2655b436c63e7765dcee3815
+SHA1: 208266a59baabb3fe41f3854b6929512ed1b63fd
+SHA256: 6c11572ec98e6f314606e44923544d914d5ba4116a8e27f38caa70f806b69f23
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: Vim-mode plugin for Geany
+ The vimode plugin is a Vim-mode plugin for Geany.
+ .
+ Vim is another UNIX editor.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-webhelper
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 101
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0), libwebkit2gtk-4.1-0 (>= 2.17.3)
+Enhances: geany
+Filename: ./geany-plugin-webhelper_2.0-5~bpo12+1_amd64.deb
+Size: 29388
+MD5sum: 931b1967cb8ff48d788486819ca01692
+SHA1: 70bc4cd625c9a5425cfab934da824ae400e7e840
+SHA256: 0e962baab0c57fb72a13bbe5291b5917fbfc150267074b1626a95675cb8ce1c0
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: web helper plugin for Geany
+ This plugin provides some web development facilities such as web page preview
+ and some debugging tools (web inspector) for Geany.
+ .
+ Its prominent features include:-
+  * A basic web view, which provides a display of any web page (using WebKit)
+  * Automatic reloading of web view upon document saving
+  * A web inspector/debugging tool for the web view's content (including a
+    Javascript console, a viewer and editor of processed HTML and CSS, a network
+    usage analysis tool and many more, thanks to WebKit)
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-workbench
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libgit2-1.5 (>= 1.5.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.5)
+Enhances: geany
+Filename: ./geany-plugin-workbench_2.0-5~bpo12+1_amd64.deb
+Size: 44708
+MD5sum: a9324e1ca745e14e9bddec596a1de0f5
+SHA1: d1c9767c9da238be8ea6070a11b25b8226f425fe
+SHA256: 12715049cf21e3899558a8f9321fa39c1882b0e01d450c0f3dd0a999f1064138
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: workbench plugin for Geany
+ The Workbench plugin is an extension that makes it possible to manage multiple
+ projects in geany. You can add geany projects to a workbench. From there you
+ can add directories to the project to manage the files belonging to the
+ project.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugin-xmlsnippets
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 45
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Enhances: geany
+Filename: ./geany-plugin-xmlsnippets_2.0-5~bpo12+1_amd64.deb
+Size: 12128
+MD5sum: 26f8d271604842e48306ab340fe6619e
+SHA1: 51e9190822fc34a7d287ad00da03afbb1012d04f
+SHA256: c5e540f1d9a58bbc543aee3c1962306a57490245eeba2f71a6ab306a6c238545
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: XMLSnippets plugin for Geany
+ This plugin extends XML/HTML tag autocompletion provided by Geany.
+ It automatically inserts a matching snippet after you type an opening tag.
+ .
+ Geany is a small and lightweight integrated development environment using the
+ Gtk+ toolkit.
+
+Package: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: all
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: geany-plugin-addons (>= 2.0-5~bpo12+1), geany-plugin-autoclose (>= 2.0-5~bpo12+1), geany-plugin-automark (>= 2.0-5~bpo12+1), geany-plugin-codenav (>= 2.0-5~bpo12+1), geany-plugin-commander (>= 2.0-5~bpo12+1), geany-plugin-ctags (>= 2.0-5~bpo12+1), geany-plugin-debugger (>= 2.0-5~bpo12+1), geany-plugin-defineformat (>= 2.0-5~bpo12+1), geany-plugin-doc (>= 2.0-5~bpo12+1), geany-plugin-extrasel (>= 2.0-5~bpo12+1), geany-plugin-gendoc (>= 2.0-5~bpo12+1), geany-plugin-geniuspaste (>= 2.0-5~bpo12+1), geany-plugin-git-changebar (>= 2.0-5~bpo12+1), geany-plugin-insertnum (>= 2.0-5~bpo12+1), geany-plugin-keyrecord (>= 2.0-5~bpo12+1), geany-plugin-latex (>= 2.0-5~bpo12+1), geany-plugin-lipsum (>= 2.0-5~bpo12+1), geany-plugin-lua (>= 2.0-5~bpo12+1), geany-plugin-lineoperations (>= 2.0-5~bpo12+1), geany-plugin-macro (>= 2.0-5~bpo12+1), geany-plugin-markdown (>= 2.0-5~bpo12+1), geany-plugin-miniscript (>= 2.0-5~bpo12+1), geany-plugin-overview (>= 2.0-5~bpo12+1), geany-plugin-numberedbookmarks (>= 2.0-5~bpo12+1), geany-plugin-pairtaghighlighter (>= 2.0-5~bpo12+1), geany-plugin-pg (>= 2.0-5~bpo12+1), geany-plugin-pohelper (>= 2.0-5~bpo12+1), geany-plugin-prj (>= 2.0-5~bpo12+1), geany-plugin-projectorganizer (>= 2.0-5~bpo12+1), geany-plugin-scope (>= 2.0-5~bpo12+1), geany-plugin-sendmail (>= 2.0-5~bpo12+1), geany-plugin-tableconvert (>= 2.0-5~bpo12+1), geany-plugin-vc (>= 2.0-5~bpo12+1), geany-plugin-prettyprinter (>= 2.0-5~bpo12+1), geany-plugin-shiftcolumn (>= 2.0-5~bpo12+1), geany-plugin-spellcheck (>= 2.0-5~bpo12+1), geany-plugin-treebrowser (>= 2.0-5~bpo12+1), geany-plugin-updatechecker (>= 2.0-5~bpo12+1), geany-plugin-webhelper (>= 2.0-5~bpo12+1), geany-plugin-workbench (>= 2.0-5~bpo12+1), geany-plugin-vimode (>= 2.0-5~bpo12+1), geany-plugin-xmlsnippets (>= 2.0-5~bpo12+1)
+Enhances: geany
+Filename: ./geany-plugins_2.0-5~bpo12+1_all.deb
+Size: 7104
+MD5sum: 12e420d100e2ed7fe1472832f8c4e7c6
+SHA1: a99df3a70d240e60846228ba615a18ce6e0508b0
+SHA256: dd4e21c8f208b79dc58a6314af9d874e5487e63367d1394bfbb924994364a8c2
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: set of plugins for Geany
+ This is a metapackage which installs the whole set of plugins for Geany.
+ .
+ Geany is a fast and lightweight IDE.
+
+Package: geany-plugins-common
+Source: geany-plugins
+Version: 2.0-5~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 1520
+Depends: geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18), libpango-1.0-0 (>= 1.14.0), libvte-2.91-0
+Breaks: geany-plugin-addons (<< 0.19), geany-plugin-doc (<< 0.19), geany-plugin-gdb (<< 0.19), geany-plugin-latex (<< 0.19), geany-plugin-lipsum (<< 0.19), geany-plugin-lua (<< 0.19), geany-plugin-prj (<< 0.19), geany-plugin-sendmail (<< 0.19), geany-plugin-shiftcolumn (<< 0.19), geany-plugin-spellcheck (<< 0.19), geany-plugin-vc (<< 0.19)
+Filename: ./geany-plugins-common_2.0-5~bpo12+1_amd64.deb
+Size: 281548
+MD5sum: 7bab816dcea8f230cb0e9efbaf9ac1e0
+SHA1: 5e12d0eb5ecea8d76a5b199190bfd001de1fd262
+SHA256: 861be1284c53c269d428987d3c2f37d12eeece9b22f4e6ad3852cca66877d5a9
+Section: devel
+Priority: optional
+Homepage: http://plugins.geany.org
+Description: set of plugins for Geany (translations)
+ This package contains translations for the Geany Plugins. You probably do not
+ want to install this package directly, but instead install one of the other
+ plugins packages.
+
 Package: gir1.2-appindicator3-0.1
 Source: libappindicator
 Version: 0.4.92-7
