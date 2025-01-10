@@ -135,17 +135,17 @@ Description: hierarchical note taking application
 Original-Maintainer: Patrick Winnertz <winnie@debian.org>
 
 Package: cpupower-gui
-Version: 1.0.0-1~bpo12+1
+Version: 1.0.0-3~bpo12+1
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 273
-Depends: gir1.2-gtk-3.0, python3-gi, hicolor-icon-theme, polkitd, python3-dbus, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52), python3:any
+Installed-Size: 274
+Depends: gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-glib-2.0, python3-gi, hicolor-icon-theme, polkitd, python3-dbus, python3-xdg, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52), python3:any
 Suggests: policykit-1-gnome, lxqt-policykit, mate-polkit, lxsession
-Filename: ./cpupower-gui_1.0.0-1~bpo12+1_amd64.deb
-Size: 38420
-MD5sum: 94c9c4a03e1c4a276ae9e019ddc335e6
-SHA1: e44062eb4e3793d51c225403dbea17fab5129588
-SHA256: e067ea478b3059407512bf0c09143701f46879fa29162207a46ca71a062da9e9
+Filename: ./cpupower-gui_1.0.0-3~bpo12+1_amd64.deb
+Size: 38592
+MD5sum: a5ee41b7366eb47506c306b2b8aca5a9
+SHA1: cd1b5bad1bad97b919a66967038d93cdd6555683
+SHA256: fa82e9ad86f2b91bc50935f0954ace54edb5cacc34c652605b46b2085e47df41
 Section: admin
 Priority: optional
 Homepage: https://github.com/vagnum08/cpupower-gui
@@ -1470,27 +1470,24 @@ Description: set of plugins for Geany (translations)
 
 Package: gir1.2-appindicator3-0.1
 Source: libappindicator
-Version: 0.4.92-7
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
 Architecture: amd64
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 55
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 18
 Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 2.91.3), libappindicator3-1 (>= 0.4.90)
-Filename: ./gir1.2-appindicator3-0.1_0.4.92-7_amd64.deb
-Size: 39312
-MD5sum: c53e1db8aaa39abfa1f4a73d05ddcb39
-SHA1: f8b99977565c13fd2380a1fc21a13bdaffcd991f
-SHA256: ff48e6aa96b5901698047f38a915390c85b41e14b545068d6309025fd76252b6
-Section: oldlibs
+Filename: ./gir1.2-appindicator3-0.1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 4564
+MD5sum: e25b33def4cf28c5011beae73334845a
+SHA1: 8bb53e287cf18583df1fb28ed2437e7800a39c99
+SHA256: f3c6f4fe1f463abdd5c2a5d490c219ae7a627d620c81e9df305c1006ccecb44f
+Section: introspection
 Priority: optional
-Multi-Arch: same
 Homepage: https://launchpad.net/libappindicator
-Description: Typelib files for libappindicator3-1
- A library to allow applications to export a menu into the panel.
- Based on KSNI it also works in KDE and will fallback to generic Systray
- support if none of those are available.
+Description: Typelib files for libappindicator3-1.
  .
  This package can be used by other packages using the GIRepository format
- to generate dynamic bindings for libappindicator3.
+ to generate dynamic bindings.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: gst
 Version: 0.7.7-1~bsr
@@ -1630,6 +1627,161 @@ Description: Cross Platform Password Manager
  This package includes only the bare minimal functionality, and no security
  complications like networking, SSH agent, browser plugin, fdo secret storage.
  See keepassxc-full if you absolutely need those.
+
+Package: libappindicator-dev
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 33
+Depends: libappindicator1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk2.0-dev
+Filename: ./libappindicator-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 6336
+MD5sum: 1b1b5df6c3e722ba30e76a4f7b56524d
+SHA1: a6377f939c92754df7af70c7ff1d44682ad72f85
+SHA256: aeac1148fdfb031279a5f46ed193daefb990fd0c63c79cf7856333aa9560e386
+Section: libdevel
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains files that are needed to build applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator-doc
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 205
+Filename: ./libappindicator-doc_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
+Size: 20532
+MD5sum: 220ed2093cde41f2b0e25388ac38486f
+SHA1: f9142a81bc8312ae541e780f3d389e9334674a27
+SHA256: e331b9fc40629dc14c5757acd9f03e29339a435c4a8c5b97323b9f4eb5187826
+Section: doc
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains developer documentation.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator0.1-cil
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 48
+Depends: cli-common (>= 0.5.1), libappindicator1, libglib2.0-cil (>= 2.12.40), libgtk2.0-cil (>= 2.12.40), libmono-corlib4.5-cil (>= 5.18.0.240)
+Filename: ./libappindicator0.1-cil_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
+Size: 10780
+MD5sum: 3ec97ef17665da8dc881dd472f6216f9
+SHA1: 5758fe227397f978551758d466ca8c6a00f1a71a
+SHA256: 67f9d58eb94b23236bdb2f76bc98d82d8781af2aecc47cadb0661c5dfe8ed3eb
+Section: cli-mono
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: CLI bindings for libappindicator
+ This package provides the appindicator-sharp assembly that allows CLI (.NET)
+ programs to take menus from applications and place them in the panel.
+ .
+ This package contains assemblies to be used by applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator0.1-cil-dev
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 10
+Depends: libappindicator0.1-cil (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1)
+Filename: ./libappindicator0.1-cil-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
+Size: 2740
+MD5sum: a7ab2c96d0be5f38b8a10a14b81fa371
+SHA1: 15abf3e5fa6ab1a1b09c3fbeb831154fa681c08f
+SHA256: 4c4538ed6f75e56b3a6db305f03b7de99622e28f26d5e077634932b20c707087
+Section: libdevel
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains files that are needed to build applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator1
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.20.0)
+Suggests: indicator-application (>= 0.2.93)
+Filename: ./libappindicator1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 22796
+MD5sum: 467fc3f1cb3d224d1a01a3fd62c277d6
+SHA1: 1336f12bb02a7e6eed24ea9a407b72dcbd03cb6b
+SHA256: fe35ff62987e182d925c309fb7b0f04335792307f92a0448d6b2954da636d082
+Section: libs
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains shared libraries to be used by applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator3-1
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk3-4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
+Suggests: indicator-application (>= 0.2.93)
+Filename: ./libappindicator3-1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 22796
+MD5sum: 2d923e4c1b962d9ae937fd02033e67cb
+SHA1: f9e7385fca646006018829ad8c3062cb0e619851
+SHA256: 53475d8a7f71927268d66d2c27bf3f4d754222ccb49b9caef886de92522509b1
+Section: libs
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains shared libraries to be used by applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+
+Package: libappindicator3-dev
+Source: libappindicator
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Architecture: amd64
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 114
+Depends: gir1.2-appindicator3-0.1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libappindicator3-1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk-3-dev
+Filename: ./libappindicator3-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 13124
+MD5sum: ad6791b846945961a53c11dddf37c5d7
+SHA1: 6c09ebe029a98e5469498dc812cd130f53ae370e
+SHA256: edee3030690e29c3f32bcbc28e9a0dc6ea2c329796670b74abb56be5902e9baa
+Section: libdevel
+Priority: optional
+Homepage: https://launchpad.net/libappindicator
+Description: Application Indicators
+ A library and indicator to take menus from applications and place them in
+ the panel.
+ .
+ This package contains files that are needed to build applications.
+Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libjpeg8
 Version: 8d1-2.1
