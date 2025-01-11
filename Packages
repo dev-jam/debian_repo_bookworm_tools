@@ -202,26 +202,6 @@ Section: utils
 Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
-Package: fastfetch
-Version: 2.34.0+dfsg-1~bpo12+1
-Architecture: amd64
-Maintainer: Hiago De Franco <hiagofranco@gmail.com>
-Installed-Size: 1672
-Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
-Filename: ./fastfetch_2.34.0+dfsg-1~bpo12+1_amd64.deb
-Size: 498680
-MD5sum: e7ec799e6b2a00ff6f5edb72928efbf9
-SHA1: 37bd37932f2fc53c0c7dce62f95c1ba6098042c9
-SHA256: e002753d2709387f7a4a46b22d8ef04c418750705c5354c562656129af69c1e5
-Section: utils
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/fastfetch-cli/fastfetch
-Description: neofetch-like tool for fetching system information
- Fastfetch is a neofetch-like tool for fetching system information and
- displaying them in a pretty way. It is written mainly in C, with
- performance and customizability in mind.
-
 Package: fooyin
 Version: 0.8.1
 Architecture: amd64
