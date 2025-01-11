@@ -76,6 +76,34 @@ Description: system tray notifications for Thunderbird
  possibly by the time you read these words.
 Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
 
+Package: bleachbit
+Version: 4.6.2-1~bpo12+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>,
+Installed-Size: 2842
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, pkexec, python3-chardet, python3-gi, python3-requests, python3:any
+Filename: ./bleachbit_4.6.2-1~bpo12+1_all.deb
+Size: 473732
+MD5sum: d5cd603fcfe4e85a9432408bc963ee6f
+SHA1: fea6b744cfbd1365a2b553e608baa0498d91f5f3
+SHA256: f4fa5db04810b533901aca2fb164273c2388549afb8b47f3affc14ded14cc59b
+Section: admin
+Priority: optional
+Homepage: https://www.bleachbit.org/
+Description: delete unnecessary files from the system
+ BleachBit deletes unnecessary files to free valuable disk space, maintain
+ privacy, and remove junk. It removes cache, Internet history, temporary files,
+ cookies, and broken shortcuts.
+ .
+ It handles cleaning of Adobe Reader, Bash, Beagle, Epiphany, Firefox, Flash,
+ GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera, RealPlayer, rpmbuild,
+ Second Life Viewer, VIM, XChat, and more.
+ .
+ Beyond simply erasing junk files, BleachBit wipes free disk space (to hide
+ previously deleted files for privacy and to improve compression of images),
+ vacuums Firefox databases (to improve performance without deleting data), and
+ securely shreds arbitrary files.
+
 Package: btop
 Version: 1.4.0-0.1~mx23+1~bpo12+1
 Architecture: amd64
@@ -173,6 +201,26 @@ SHA256: 96797714a3c811be2afba25c54268ca2e277093e41568e21db66f093db42d60a
 Section: utils
 Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
+
+Package: fastfetch
+Version: 2.34.0+dfsg-1~bpo12+1
+Architecture: amd64
+Maintainer: Hiago De Franco <hiagofranco@gmail.com>
+Installed-Size: 1672
+Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
+Filename: ./fastfetch_2.34.0+dfsg-1~bpo12+1_amd64.deb
+Size: 498680
+MD5sum: e7ec799e6b2a00ff6f5edb72928efbf9
+SHA1: 37bd37932f2fc53c0c7dce62f95c1ba6098042c9
+SHA256: e002753d2709387f7a4a46b22d8ef04c418750705c5354c562656129af69c1e5
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: neofetch-like tool for fetching system information
+ Fastfetch is a neofetch-like tool for fetching system information and
+ displaying them in a pretty way. It is written mainly in C, with
+ performance and customizability in mind.
 
 Package: fooyin
 Version: 0.8.1
