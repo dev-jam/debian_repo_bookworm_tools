@@ -202,6 +202,26 @@ Section: utils
 Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
+Package: fastfetch
+Version: 2.34.0+dfsg-1~bpo12+1
+Architecture: amd64
+Maintainer: Hiago De Franco <hiagofranco@gmail.com>
+Installed-Size: 1672
+Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
+Filename: ./fastfetch_2.34.0+dfsg-1~bpo12+1_amd64.deb
+Size: 498680
+MD5sum: e7ec799e6b2a00ff6f5edb72928efbf9
+SHA1: 37bd37932f2fc53c0c7dce62f95c1ba6098042c9
+SHA256: e002753d2709387f7a4a46b22d8ef04c418750705c5354c562656129af69c1e5
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: neofetch-like tool for fetching system information
+ Fastfetch is a neofetch-like tool for fetching system information and
+ displaying them in a pretty way. It is written mainly in C, with
+ performance and customizability in mind.
+
 Package: fooyin
 Version: 0.8.1
 Architecture: amd64
@@ -1876,6 +1896,108 @@ Description: Development files for the IJG JPEG library
  JPEG files.
  .
  This package contains the static library, headers and documentation.
+
+Package: libyyjson-dev
+Source: yyjson
+Version: 0.10.0+ds-1~bpo12+1
+Architecture: amd64
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 330
+Depends: libyyjson0 (= 0.10.0+ds-1~bpo12+1)
+Suggests: libyyjson-doc
+Filename: ./libyyjson-dev_0.10.0+ds-1~bpo12+1_amd64.deb
+Size: 36640
+MD5sum: e8af04b6a19706f2630e118e2c482c94
+SHA1: 652f36058e2da60ede03f1f93f6538c896dc34a1
+SHA256: 5e8ef8f2e0d9bbdd51259031766a0a36d3b050aead0f811bcb0bd06d97bb6b81
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C (development files)
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the development files for libyyjson.
+
+Package: libyyjson-doc
+Source: yyjson
+Version: 0.10.0+ds-1~bpo12+1
+Architecture: all
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 2546
+Filename: ./libyyjson-doc_0.10.0+ds-1~bpo12+1_all.deb
+Size: 327832
+MD5sum: 627b4eaa1080d68ea521d6f09117365e
+SHA1: fbe04aebe7146aec43fffa7b27d79f405b7e270e
+SHA256: 2660f867d881c93f41122c62c6113bcf83b9c95c09bced408daa80fc037e8240
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C (documentation)
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the documentation files for libyyjson.
+
+Package: libyyjson0
+Source: yyjson
+Version: 0.10.0+ds-1~bpo12+1
+Architecture: amd64
+Maintainer: Carlos Henrique Lima Melara <charlesmelara@riseup.net>
+Installed-Size: 232
+Depends: libc6 (>= 2.14)
+Filename: ./libyyjson0_0.10.0+ds-1~bpo12+1_amd64.deb
+Size: 88652
+MD5sum: 1faf33a8194fde791b71c199c0bf1437
+SHA1: 30699efe1554fc658c000e9d58675974ba7b59ad
+SHA256: 35c2f1b05c3acb1d042154be27ffe10fbe4efa6099b527f3d3fac35eb5c3df6f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/ibireme/yyjson
+Description: high performance JSON library written in ANSI C
+ Some features of the library are:
+ .
+  - Fast: can read or write gigabytes per second JSON data on modern CPUs.
+  - Portable: complies with ANSI C (C89) for cross-platform compatibility.
+  - Strict: complies with RFC 8259 JSON standard, ensuring strict number format
+    and UTF-8 validation.
+  - Extendable: offers options to allow comments, trailing commas, NaN/Inf, and
+    custom memory allocator.
+  - Accuracy: can accurately read and write int64, uint64, and double numbers.
+  - Flexible: supports unlimited JSON nesting levels, \u0000 characters, and non
+    null-terminated strings.
+  - Manipulation: supports querying and modifying using JSON Pointer, JSON Patch
+    and JSON Merge Patch.
+  - Developer-Friendly: easy integration with only one .h and one .c file.
+ .
+ This package contains the shared library.
 
 Package: multiarch-support
 Source: glibc
