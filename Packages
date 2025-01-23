@@ -2262,23 +2262,6 @@ Homepage: http://reactivex.io
 Description: ReactiveX (Rx) for Python
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-repolib
-Version: 1:1.5.1-1~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 227
-Depends: python3:any
-Filename: ./python3-repolib_1.5.1-1~w2d0_all.deb
-Size: 40372
-MD5sum: 13bd3633fc076012909da5b09e27d49a
-SHA1: dcf9e4257118930edaf442871b513796dead908b
-SHA256: 18d841800407d9e9a6a7f28d60da3e4f64627dce9e09e43649c02fb39cea11cc
-Section: python
-Priority: optional
-Homepage: https://github.com/pop-os/repolib
-Description: Easily manage software sources
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-urllib3
 Source: python-urllib3
 Version: 1.26.18-2~bpo12+1
