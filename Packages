@@ -1555,6 +1555,68 @@ Description: GtkStressTesting (gst)
  GTK system utility designed to stress and monitor various hardware components like CPU and RAM.
 Original-Maintainer: Roberto Leinardi <@leinardi>
 
+Package: kde-servicemenu-reimage
+Version: 2.6.3
+Architecture: amd64
+Maintainer: Irfan Hakim <irfanhakim.as@yahoo.com>
+Installed-Size: 78
+Depends: dolphin (>= 4) | konqueror (>= 4), imagemagick, jhead, webp
+Filename: ./kde-servicemenu-reimage_2.6.3_amd64.deb
+Size: 17260
+MD5sum: 666e7f1b729785d56479547b24f3a4d1
+SHA1: ec9e995aab4361007e512814de094c7aed2d1e61
+SHA256: 48ab401e588bdedbcd1a8cca3733035ba9dfb1c077f6e7e6262467602371b6b5
+Section: kde
+Priority: optional
+Homepage: http://www.egregorion.net
+Description: Manipulate images and their metadata.
+ kde-service-menu-reimage is a package that extends the functionalities of
+ Dolphin/Konqueror adding many additionally sensible menu, reachables with right
+ click on the files. These actions are related to picture files.
+ .
+ Compress and resize
+ Advanced optimization for web
+ Compress in % (change quality)
+ Resize in % or square
+ .
+ Convert and rotate
+ Convert to all formats supported by ImageMagick
+ Convert to PDF or PDF/A-1
+ Generate favicons for browser/android/apple/ms
+ Convert to Base64
+ Rotate
+ Overturn vertically/horizontally
+ .
+ Metadata:
+ Rename jpg and tiff files with data content in Exif metadata.
+ (For example: 001.jpg -> 2018-04-27_133741.jpg)
+ Rename jpg and tiff files with file's data.
+ Set file's datetime from Exif date.
+ Set file date from file's name
+ Set Exif datetime from file's date.
+ Set Exif datetime from file's name.
+ Add comment
+ View metadata
+ Extract metadata to file
+ Delete comment field
+ Strip Exif section
+ Delete IPTC section
+ Delete XMP section
+ Strip all unnecessary data
+ Add timestamp from Exif
+ .
+ Tools
+ Create animated GIF
+ Append to right
+ GrayScale
+ Sepia filter
+ Change transparent to color
+ Add colored border
+ Add transparent border
+ Drop shadow
+ .
+ Copyright (C) 2018-2019 Giuseppe Benigno <giuseppe.benigno(at)gmail.com>
+
 Package: kdiskmark
 Version: 3.1.3+ds-5~bpo12+1
 Architecture: amd64
