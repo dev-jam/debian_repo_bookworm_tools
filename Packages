@@ -2153,17 +2153,17 @@ Description: pdfgui_tools is a user interface tool developed in Qt
  features will be added.
 
 Package: praat
-Version: 6.4.25+dfsg-1~bpo12+1
+Version: 6.4.26+dfsg-1~bpo12+1
 Architecture: amd64
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Installed-Size: 106832
+Installed-Size: 106900
 Depends: file, oss-compat, libasound2 (>= 1.0.16), libc6 (>= 2.36), libcairo2 (>= 1.6.0), libgcc-s1 (>= 4.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libstdc++6 (>= 11)
 Suggests: libasound2-plugins
-Filename: ./praat_6.4.25+dfsg-1~bpo12+1_amd64.deb
-Size: 28788124
-MD5sum: 47f7fa5dee6674e51a4026c838015238
-SHA1: 05c0e8c879593f16d45909bf5984cb70a3463577
-SHA256: dab067e4bb5b7f89668350ae0a38d6649fa97b7d743af287f1e901b809e35050
+Filename: ./praat_6.4.26+dfsg-1~bpo12+1_amd64.deb
+Size: 28770748
+MD5sum: e9036afe0a0057eff35b16b35da49805
+SHA1: 62c4644e925bbfa465732ad0364e430479897b55
+SHA256: 304f1e2c6d4ec60adec830059e6365bf1b00f3e0f152549ce07f46f30b30b755
 Section: science
 Priority: optional
 Homepage: https://www.praat.org
