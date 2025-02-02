@@ -203,16 +203,16 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fastfetch
-Version: 2.34.0+dfsg-1~bpo12+1
+Version: 2.35.0+dfsg-0.1~mx23+1~bpo12+1
 Architecture: amd64
-Maintainer: Hiago De Franco <hiagofranco@gmail.com>
-Installed-Size: 1672
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1681
 Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
-Filename: ./fastfetch_2.34.0+dfsg-1~bpo12+1_amd64.deb
-Size: 498680
-MD5sum: e7ec799e6b2a00ff6f5edb72928efbf9
-SHA1: 37bd37932f2fc53c0c7dce62f95c1ba6098042c9
-SHA256: e002753d2709387f7a4a46b22d8ef04c418750705c5354c562656129af69c1e5
+Filename: ./fastfetch_2.35.0+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 502400
+MD5sum: 647c184d0d7ba72d278e1f6f76aa8740
+SHA1: 3640337c03e0c4cdec80efac05298d7337ef1b37
+SHA256: 246d0bf81d482d24a28642b5632d12e3fa6b7080c7d7772ff0ed9bbb98351750
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -221,6 +221,7 @@ Description: neofetch-like tool for fetching system information
  Fastfetch is a neofetch-like tool for fetching system information and
  displaying them in a pretty way. It is written mainly in C, with
  performance and customizability in mind.
+Original-Maintainer: Hiago De Franco <hiagofranco@gmail.com>
 
 Package: fooyin
 Version: 0.8.1
@@ -328,17 +329,17 @@ Description: fast and lightweight IDE -- common files
 
 Package: geany-plugin-addons
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 119
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-addons_2.0-5~bpo12+1_amd64.deb
-Size: 38588
-MD5sum: 3d9b690744da21c566a95d7ba58afd43
-SHA1: 050025dd17053c7dc7021a945d143de099c39eeb
-SHA256: 4ebd4f64949dbd733b70d7aad882acfb284366854dd9e193426ab86a06fc4d4d
+Filename: ./geany-plugin-addons_2.0-6~bpo12+1_amd64.deb
+Size: 38804
+MD5sum: e8491680a311b19dcbb77b70c25aefc5
+SHA1: 0b2157db36bf31a625cecbfb3b59eaa9a38420a8
+SHA256: 666cb803e5c9f7252586bfe3b5b138286b15dfbe11b3c90319de6dfb08d9e828
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -363,19 +364,37 @@ Description: miscellaneous plugins for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-addons-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 118
+Depends: geany-plugin-addons (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-addons-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 91128
+MD5sum: e08e9a5bcae602f36915da60becf870b
+SHA1: bd105108b90326e050db49817f0c5f3fe28465b2
+SHA256: f27bde2e8a0b11aa1ce5e92419347659fdb90b4c308e0ee0801a73a237849619
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-addons
+Build-Ids: be94c4e4cf60047af270079c6ebd25c9f870109b
+
 Package: geany-plugin-autoclose
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 63
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-autoclose_2.0-5~bpo12+1_amd64.deb
-Size: 19552
-MD5sum: c398eb8847eb1963b3239e9ea444f100
-SHA1: a0b29dbc9df65f53406d036ad8de117c55a7225a
-SHA256: 71fd525ee51d614234ca448f1cf137ebb40edb98263fc16ba28dac2f323aea8c
+Filename: ./geany-plugin-autoclose_2.0-6~bpo12+1_amd64.deb
+Size: 19624
+MD5sum: 872f9c3c26113c2d0e01ff923f316511
+SHA1: 1df9a3cec02a6d10a3169f9243619e74dc3c142d
+SHA256: 61287ba9f1b1ce39b0d06fbb4085821762e7e0c197630e1b754e2d7b2468d775
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -409,19 +428,37 @@ Description: auto-closing plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-autoclose-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 53
+Depends: geany-plugin-autoclose (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-autoclose-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 37768
+MD5sum: 97a7ddd0e2851777dbc3cc9237c004e1
+SHA1: 533126c0d38f6b68f17024ce4b8f6b31c5e12495
+SHA256: aa931c57e3678d9284162a8cd772f7c4ca9d16d90ef64b1c2c97d9cb90799fca
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-autoclose
+Build-Ids: c51df7ccfe118fd22e3d29ae9fe3d02ce64baeb5
+
 Package: geany-plugin-automark
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 42
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
 Enhances: geany
-Filename: ./geany-plugin-automark_2.0-5~bpo12+1_amd64.deb
-Size: 10160
-MD5sum: fc7e179cd68985e55c4eea578a15ac27
-SHA1: f6a01257d444401994fbc203a468e43b5c8f90c1
-SHA256: ecc4feac08a052ec01023f3e1f01c83fdcb7c1ef6e764baccd8015707400492f
+Filename: ./geany-plugin-automark_2.0-6~bpo12+1_amd64.deb
+Size: 10256
+MD5sum: 377509a8ad53742634ae4e85eba6871a
+SHA1: bfb00b45884385e0e90bcd2a3d56ac34065bf7d8
+SHA256: 6b13d5f536ec217a7db86cbd3c6e3547d769d8b1a612bbc2c81509bcde358e38
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -432,19 +469,37 @@ Description: auto-mark plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-automark-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 28
+Depends: geany-plugin-automark (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-automark-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 14496
+MD5sum: 550f6b2623186305a8fe20e9581f5c43
+SHA1: b0d08d615c9e650691599673dadd7eaeb8cf018e
+SHA256: c38f1abbf41787911cb22bfb2e281f278001507f2f3081895605e52557504823
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-automark
+Build-Ids: 6ffabf4513daf1de837dd419cd24b12c00e09bc4
+
 Package: geany-plugin-codenav
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 59
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-codenav_2.0-5~bpo12+1_amd64.deb
-Size: 17380
-MD5sum: f9d5dcecc6fc1ec52e3697375dbb29cc
-SHA1: 8654590f7ef6fd8acb69c64d15681a6fb41f8bfc
-SHA256: 0421f8bb798697e960906f240d08d24c7aece517753a8605fed717d8024bc378
+Filename: ./geany-plugin-codenav_2.0-6~bpo12+1_amd64.deb
+Size: 17496
+MD5sum: 9889d75a6ecae28139248c44a06c5c5d
+SHA1: 757d78de750a043e572f7a457db08ab801f0e033
+SHA256: d7ca182b525e54216a609926cff5d3ba085a00338939eefca4f70295798bfe34
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -457,19 +512,37 @@ Description: code navigation plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-codenav-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: geany-plugin-codenav (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-codenav-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 31504
+MD5sum: ebdca66eda1ce6ae052525ba400a2ee6
+SHA1: 3cfae0451b659b883e391026cd795a262dccec5e
+SHA256: a724143a591545f0bcbd629aa40213f53b69a6982f7204361384a9c28e75c549
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-codenav
+Build-Ids: 6df0428a8402d14be974922e031b831443add0e6
+
 Package: geany-plugin-commander
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 58
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-commander_2.0-5~bpo12+1_amd64.deb
-Size: 15620
-MD5sum: 4595311ebf955b6da39e4268f906a6f2
-SHA1: 409130430d343ce05a4159bd426969e38a9683aa
-SHA256: 9ce4f38336ab45f7493c82b8f2f122e88c88179c022aae04dbdcb035f9821336
+Filename: ./geany-plugin-commander_2.0-6~bpo12+1_amd64.deb
+Size: 15720
+MD5sum: 25fb845ec7545b88e77d0af1bfbcf403
+SHA1: 26fcfa69daff211c6ccd112506e07f32c6db91e9
+SHA256: 6293ba1092cbc91d3f39e98c52c36115c1e1d86ac1db4c6816664d1680d5f148
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -479,19 +552,37 @@ Description: command panel plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-commander-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: geany-plugin-commander (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-commander-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 29972
+MD5sum: 7b34261b17ab7e549a8cac855cfea484
+SHA1: 64fe84a0f627c345acc997c6140e59256c513529
+SHA256: 863994f42ad99b380b87876702a190d44b83eda841a993d8de4a3169fda28c7c
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-commander
+Build-Ids: c065d6ac39b289044fcc3c4ecfe49b7ba05d0d01
+
 Package: geany-plugin-ctags
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 67
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), universal-ctags, geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), universal-ctags, geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-ctags_2.0-5~bpo12+1_amd64.deb
-Size: 21160
-MD5sum: 0df131159ccc075350fdcb54eabe36cf
-SHA1: 1cf058ab4e76be4c72b33b44a0c88bb849b6b836
-SHA256: 455cb0136acb759d9747588d289635bac0a95622dcbecea620e9cc9ce33edb6c
+Filename: ./geany-plugin-ctags_2.0-6~bpo12+1_amd64.deb
+Size: 21260
+MD5sum: 71b16b9c12d455ec0f3db627ea0e8648
+SHA1: c8e1514243d0b183dbdd080c1814f3899ffbce0c
+SHA256: 1d84c466b3311a1578c010a7f1e44946bd6d4bc6c4433167bc447239267a555f
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -511,19 +602,37 @@ Description: ctags plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-ctags-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: geany-plugin-ctags (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-ctags-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 45532
+MD5sum: c343a7d6d74afa10006ba6727529091d
+SHA1: 4e3497e98cdda3d540e03bf73a2d36bb37280300
+SHA256: e8f042605b62f86186287d92324831633984106df2d7110edda6b3837baefb8a
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-ctags
+Build-Ids: 8979b22f393b81bbe76c841bded00926ddb78fab
+
 Package: geany-plugin-debugger
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 236
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0, gdb (>= 7.7)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0, gdb (>= 7.7)
 Enhances: geany
-Filename: ./geany-plugin-debugger_2.0-5~bpo12+1_amd64.deb
-Size: 69576
-MD5sum: 7a30a71490bbfd7985cac36b8c4fb668
-SHA1: 2aeea35c06c43d670b1341ea168c22f2ce3f2261
-SHA256: 288e304c89e48e8d233a4e2c5c5629994f8dc9053ec488e3b2b3655f7742545f
+Filename: ./geany-plugin-debugger_2.0-6~bpo12+1_amd64.deb
+Size: 70128
+MD5sum: 2f2e6098607ca4bdb63c53a7f10783e6
+SHA1: dccf35a2c8dc29af4b902ffa9f50cbc215bc1ef3
+SHA256: 422283eb72aa5c56bc76dd7917245fbaf9fbae785ce611e679da561d7805c71f
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -544,19 +653,37 @@ Description: debugger plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-debugger-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 208
+Depends: geany-plugin-debugger (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-debugger-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 170460
+MD5sum: 8ac194802adad0362bb8af8e850cfa63
+SHA1: 4a8636fb17cd7b6fa3f560cbdf6a5d9090ac3e5f
+SHA256: e291533e732680fae832d2b643d84e345777c5351bcede6c02d4303c6ece5e9a
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-debugger
+Build-Ids: 183aec276df593bed4eb459974e233b59904eadb
+
 Package: geany-plugin-defineformat
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 42
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
 Enhances: geany
-Filename: ./geany-plugin-defineformat_2.0-5~bpo12+1_amd64.deb
-Size: 10580
-MD5sum: 9a7c6f92ffe6e986ba96d5d102fb616b
-SHA1: d5d21b700540defa1087e5ccdb0f4dd88744f68e
-SHA256: 2c6bbbe6b1ef5b7ce8c02d6c0660c7dc2b457dc26d27dd0551c8232afb2c89e3
+Filename: ./geany-plugin-defineformat_2.0-6~bpo12+1_amd64.deb
+Size: 10680
+MD5sum: edce0fa18ea66ca552cbc12ed9303e8b
+SHA1: e3938d30225518b81dd8f55eefb5abf83858ca38
+SHA256: 1273b83eb0622bbf722aa985fc28ad63b2ff11cb9200920a21bfb927c3845eb4
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -566,19 +693,37 @@ Description: on-the-fly #define prettyprinter plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-defineformat-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: geany-plugin-defineformat (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-defineformat-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 15620
+MD5sum: a4885d1492fb811422bd0244d3cdd9fe
+SHA1: d1089b8cab7ec5956922ac9fe522f894e722b2d3
+SHA256: 54a5f87508e33c627ba85462bc576df39fb58de59f8833c59c6538f45f857c65
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-defineformat
+Build-Ids: 193b6a89c6d08ea86fca38556d00121761927803
+
 Package: geany-plugin-doc
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 58
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-doc_2.0-5~bpo12+1_amd64.deb
-Size: 15560
-MD5sum: 7e62ed6dc0c4de0f32383cecbb75d4e7
-SHA1: d72750e5ad3fd9178af319d5435101c1fbbe28fb
-SHA256: b528a19abbf59520d951591535e1e6129a4ac7996e1e8f5abd8fa6b4ac0a2048
+Filename: ./geany-plugin-doc_2.0-6~bpo12+1_amd64.deb
+Size: 15652
+MD5sum: badc25daf5a0dcd017ac6b5ad84edeac
+SHA1: 61228fc009b0f34a989c3ae19a50b8d1a2481174
+SHA256: 5a777a2b0437bb5fbd7c77156119260de891ca73990c3c82b3aa2a82b6d99e4e
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -595,19 +740,37 @@ Description: documentation plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  GTK+ toolkit.
 
+Package: geany-plugin-doc-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: geany-plugin-doc (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-doc-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 26160
+MD5sum: 8f9784ab35d6730bfa9a812c91b62a4b
+SHA1: 1d139adf2800ea7e57dfa04313b6ec7c33f99543
+SHA256: fa7bf67e55c2e65439fd0b049e287e63be82e2f6500969ce03430d34f6ed7236
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-doc
+Build-Ids: e90493f6a9a29c683d961651dee8cc40e3ad3f37
+
 Package: geany-plugin-extrasel
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 54
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-extrasel_2.0-5~bpo12+1_amd64.deb
-Size: 15820
-MD5sum: 3e5627d0bb65e2b76d685d5b1170e3ad
-SHA1: 22a3088b427cc72f9b84082b103719682ccbc1a5
-SHA256: f43f4fde873e40317b7b2ef8880fc9e83a23207ef132c416073dd1387bc35bda
+Filename: ./geany-plugin-extrasel_2.0-6~bpo12+1_amd64.deb
+Size: 15924
+MD5sum: d541ba54bacbac57adbfa6d65d576093
+SHA1: f91b4d27bd63c3ee676243226caa26d74b0fa868
+SHA256: 9f8146b63df3064ed2b623a1c794c5a6d359563d9a223d1c676fc52b09cf01d7
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -623,19 +786,37 @@ Description: extra selection plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
-Package: geany-plugin-gendoc
+Package: geany-plugin-extrasel-dbgsym
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
-Installed-Size: 161
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libctpl2 (>= 0.3), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Installed-Size: 40
+Depends: geany-plugin-extrasel (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-extrasel-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 26028
+MD5sum: 138236725bb4fa4ad94e11ae6df77ca7
+SHA1: 623cb8ec7dd413e9084996fdccb8b34de034665c
+SHA256: e8dbae1aa97e2a178205b8822fc4c53e09a15031dddcfcaf8de5f76c5e6218c7
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-extrasel
+Build-Ids: 68c14499e3a3a507c1ad9ba69aab7c344cecf3ca
+
+Package: geany-plugin-gendoc
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 164
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libctpl2 (>= 0.3), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
 Enhances: geany
-Filename: ./geany-plugin-gendoc_2.0-5~bpo12+1_amd64.deb
-Size: 53600
-MD5sum: 71bb554a49a7e4a9cbd70170ca3545e6
-SHA1: e14b3e5eaed56b19abb96d0ec774b91db6675788
-SHA256: 5b22b03ec120a253aa768b11e432813120eb14af6b02076efda8f8feba5bfc4d
+Filename: ./geany-plugin-gendoc_2.0-6~bpo12+1_amd64.deb
+Size: 53764
+MD5sum: 04b18ebb19e3bfe40389513c9b04cd57
+SHA1: e16f46ed110069b1eb04361595107912a551b1a0
+SHA256: 2afc04ec3479bae697a58d17fe133ab2b7db2e6d00f9d132dc8caf585b4d9589
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -646,19 +827,37 @@ Description: documentation generation plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-gendoc-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 128
+Depends: geany-plugin-gendoc (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-gendoc-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 102452
+MD5sum: 811980fd5cc17dfda586c1db0c3f0471
+SHA1: 400ddbd5705405f612954f4e03d3007dd7d8224d
+SHA256: 25b1e4467cc9efe2ce1dd97a7276ff379f2ff9e56c872131d87297b6f0a534dc
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-gendoc
+Build-Ids: 4a210646254b789c1ebd8c5af456ddeae00e30b6
+
 Package: geany-plugin-geniuspaste
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 73
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.4.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.4.0)
 Enhances: geany
-Filename: ./geany-plugin-geniuspaste_2.0-5~bpo12+1_amd64.deb
-Size: 20940
-MD5sum: 3c0e3ab773dc47acfb224709c66b276c
-SHA1: 6391ccde6e0b92c022e23e0452fb23aace8f0a08
-SHA256: 43cb4b601aea345adb706c6e41be09f27a8e616a3c68d9bd80a396fb610c750b
+Filename: ./geany-plugin-geniuspaste_2.0-6~bpo12+1_amd64.deb
+Size: 21056
+MD5sum: 908e797e7b627db3a6b77ecbc0ee3c37
+SHA1: 055c2274072f88529c1500467dfe8236ec04ab00
+SHA256: 240ced2ca245dafe2a9be77b21dc6657c3ae1154201eed0abe80798c79321f8f
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -678,19 +877,37 @@ Description: GeniusPaste plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-geniuspaste-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: geany-plugin-geniuspaste (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-geniuspaste-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 33888
+MD5sum: df535dbaa4c18188d5a8c8a1ba894340
+SHA1: 872023467b1ff3e0d14b089e64f64737002a36e9
+SHA256: e8c48871086962c6e4e6f70e96231b6d085f18bc1d9a4f7527ff1c0faf238d56
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-geniuspaste
+Build-Ids: 2e30dbce3481559745555c6713fd2a2058b86997
+
 Package: geany-plugin-git-changebar
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 78
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libgit2-1.5 (>= 1.5.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libgit2-1.8 (>= 1.8.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-git-changebar_2.0-5~bpo12+1_amd64.deb
-Size: 19860
-MD5sum: 50d440ea036b58f7b9afdd52082f3b25
-SHA1: 3dfce38a6eedd3e4bc4d4caad9a22281e8d94288
-SHA256: 83d474798ffbaa08c23eb623561f5b09e6f98c36d208541bb5ebcdf682ab59e9
+Filename: ./geany-plugin-git-changebar_2.0-6~bpo12+1_amd64.deb
+Size: 19992
+MD5sum: 32473df435539ac55832800015d8929d
+SHA1: d938dc1bdd19d5c116bef33288c8ce34fd501818
+SHA256: e7b31e567fc97f535ff313418d92ae0af853a545b6ebc40158a9629e955c1694
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -701,18 +918,36 @@ Description: git change bar plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-git-changebar-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: geany-plugin-git-changebar (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-git-changebar-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 44348
+MD5sum: 30e6862ffb6cddfbd4faa9be90af88ed
+SHA1: f6e771e20fc9578be47ea0c21081316080580792
+SHA256: 1e6b216a6ab377e312463f66c96431b8ef73927a70460a2566bc118cea95ae56
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-git-changebar
+Build-Ids: 4c59b488c9eebdbecefb6c3028aa0d9b2359c4a9
+
 Package: geany-plugin-gproject
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: all
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 22
 Depends: geany-plugin-projectorganizer
-Filename: ./geany-plugin-gproject_2.0-5~bpo12+1_all.deb
-Size: 6808
-MD5sum: 8a972925a3857142ae8aef5b736d61c9
-SHA1: 4ffc4099cf22c53d7677214f86437cc2dc18b12f
-SHA256: fd75138a6b994959b47fdfeb99d914e65904dba2019e34afecb01a39299f93ab
+Filename: ./geany-plugin-gproject_2.0-6~bpo12+1_all.deb
+Size: 6928
+MD5sum: 2b904ae7da13bc93313171b5ec717f82
+SHA1: 69243531f00652be3af6b43893e59f6d07181cb7
+SHA256: 2a976a40f3670b5d257f338d49795978167171c983b6a01261263187aeb57262
 Section: oldlibs
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -721,17 +956,17 @@ Description: transitional dummy package for geany-plugin-projectorganizer
 
 Package: geany-plugin-insertnum
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 55
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-insertnum_2.0-5~bpo12+1_amd64.deb
-Size: 15156
-MD5sum: ab0c042c9c4ea00bcbd487e8fa0b10c1
-SHA1: e80db8c80fc83b95e3489f65ef320dc6d77d7dc2
-SHA256: 6f5b0e28cb4eaa1e25fee8d49cfdd7e6b6811152b5b986208797654a14992178
+Filename: ./geany-plugin-insertnum_2.0-6~bpo12+1_amd64.deb
+Size: 15260
+MD5sum: befa3182baa498cde771a9322ce0fdb3
+SHA1: 2bf41149918936bc41ad4f47c8c598558011c7a0
+SHA256: 6427c82afb4265b331631cc38d421fcc74c027b47cc14c0419e340f3e209639b
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -743,19 +978,37 @@ Description: number inserting plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
-Package: geany-plugin-keyrecord
+Package: geany-plugin-insertnum-dbgsym
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 41
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-plugin-insertnum (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-insertnum-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 24556
+MD5sum: 333a1311136512b481c09c9fbed5cf0e
+SHA1: 69ec9a6e16e9518fc6644a05c7a73dd2da6f3b93
+SHA256: b4f922eae946f00f7c5e0d90b1ac37b1e4954129b8ef9088721a22ac750bdea2
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-insertnum
+Build-Ids: 46cf69d41b7857c2f9fe7e811282dd0f23fcadf2
+
+Package: geany-plugin-keyrecord
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-keyrecord_2.0-5~bpo12+1_amd64.deb
-Size: 10464
-MD5sum: 4875cb59dcff7cd8cc0e899f32f8635c
-SHA1: 91753b0f641687824d479f89f33075045c3b1c78
-SHA256: 7d5f1b5fe9f8151a14aa6a65f76995c904fb577d949cf162945e8db52537fa4f
+Filename: ./geany-plugin-keyrecord_2.0-6~bpo12+1_amd64.deb
+Size: 10576
+MD5sum: b6e14cb1dd5fd28c1be2be4e4a2f57d8
+SHA1: a16c6046e940c2b09c6409d99cb897927f0d48b5
+SHA256: f7db2acd7a67a6c1c87e119554cf665076a3e3ade6795946bf6792dfcfde171d
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -766,19 +1019,37 @@ Description: git change bar plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-keyrecord-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 32
+Depends: geany-plugin-keyrecord (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-keyrecord-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 19332
+MD5sum: 1bfe535e5853a287a73bc26bd7f01f52
+SHA1: 5be6804183c5edc137a6574414ac7d1e7c8df6e6
+SHA256: 883645b034a5b6e65e12295449c5b6c600b13b5bcca84e74dd2f812e297ddb43
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-keyrecord
+Build-Ids: 8120030b5b6300fe36cf3d9e061312469d3633d6
+
 Package: geany-plugin-latex
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 854
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-latex_2.0-5~bpo12+1_amd64.deb
-Size: 609116
-MD5sum: 869bf6e779117495a59b0f074bdf6cfe
-SHA1: 3799c40eab5be5bb9aaf0cedc553ffbbf169b335
-SHA256: a1ca4fcc677cecc2c54689c746303e5483a890a2c9000796c4ea3bdbddbe1566
+Filename: ./geany-plugin-latex_2.0-6~bpo12+1_amd64.deb
+Size: 609112
+MD5sum: d825f72d1b1b68d0d4723a1571b5ed12
+SHA1: 6d263173f468a8df272cf7f7656c84bd4a7cf984
+SHA256: 91edb7fcb119191d8fd8bc99d012ddf2fa0aed6392c09f6d75eea361f34ded34
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -795,19 +1066,37 @@ Description: improved LaTeX support plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-latex-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 97
+Depends: geany-plugin-latex (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-latex-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 74120
+MD5sum: 18b381f1fe05443ac6cb50211a9b9cb7
+SHA1: 7a59b68999b800eee8f00156d06432fb2b6bda48
+SHA256: 66efa9b92da1ec45b6d96033e2963d3d9ae2c115945e2df0bc0e5ac482ba34a0
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-latex
+Build-Ids: 000ba131adff7bffabda24521a2258936af96dd4
+
 Package: geany-plugin-lineoperations
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 55
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-lineoperations_2.0-5~bpo12+1_amd64.deb
-Size: 16676
-MD5sum: f5f891a9ccb15909767f7ddaf9c740cf
-SHA1: 45e4a3072321634a28aae9f6fd277ffe0e71c210
-SHA256: 9ddcf3613e2aef0fe2607d7e19ce0d4318829022eebbba2c3f4a06277bf89417
+Filename: ./geany-plugin-lineoperations_2.0-6~bpo12+1_amd64.deb
+Size: 16776
+MD5sum: 6ed4ec5af25cfd04cb8bd64c8fb01076
+SHA1: 6cc81f9b63153d7930d7d1fb6528793536c8e899
+SHA256: bf2005c9b2d40d81e602fa869302215afebece7fd9528bd220edf4b9b02238d3
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -828,19 +1117,37 @@ Description: Line Operations plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-lineoperations-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: geany-plugin-lineoperations (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-lineoperations-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 26664
+MD5sum: b439d811eff7b9bd9e992eb9ab9652cf
+SHA1: f9506c4ad42fe6ff6f10c7ff5191c6084cd381a7
+SHA256: e10ec33dd246dda1ab95e988c40b584bf6f258869e197b5b6618c4962e60294a
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-lineoperations
+Build-Ids: d26fa08bfda7344b920ef46c210d7054af991e7a
+
 Package: geany-plugin-lipsum
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 44
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-lipsum_2.0-5~bpo12+1_amd64.deb
-Size: 12288
-MD5sum: a6b99d6151bc9d95b2d0893aafa075c9
-SHA1: 318695b015b9267d26bf004095dbda8a89376901
-SHA256: 1e990cd03269b8dfb5363d33c44da8fe754a6c95266f84cc46b3431615dc6e88
+Filename: ./geany-plugin-lipsum_2.0-6~bpo12+1_amd64.deb
+Size: 12408
+MD5sum: 81f113153e2f3a72af32c893f5ae4848
+SHA1: 48b7efab1400c93ef5e55bfb2b89668eb36c0ff2
+SHA256: 6ecd3f3900425173b3db8a3d9725b1a0c3dd2169860d062d19296c6bed07501c
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -851,19 +1158,37 @@ Description: Lorem Ipsum generator plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-lipsum-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 30
+Depends: geany-plugin-lipsum (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-lipsum-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 16420
+MD5sum: a9114bdaf3f3f2a027ccaa4b73328fc4
+SHA1: 96b5b6268276e3d570c40b4cefb1a56ae8ac4475
+SHA256: e7cb397ae1a63193c5c70bf5bbfc9b62660dfc78a465cacce579ecc47cb4b66f
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-lipsum
+Build-Ids: 573ed3ff25e92b9418393c5a4a4b0a97fe9f7962
+
 Package: geany-plugin-lua
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 508
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), liblua5.1-0
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), liblua5.1-0
 Enhances: geany
-Filename: ./geany-plugin-lua_2.0-5~bpo12+1_amd64.deb
-Size: 99300
-MD5sum: d03cf55c4ca8784434b9f39e6930b5dd
-SHA1: 4515ac143da0bcc1370fdba6847a305bde816183
-SHA256: cd63f5ac02198470dc147dd9bf36bf6b93688b2b34c84df049d7b2d77601efcd
+Filename: ./geany-plugin-lua_2.0-6~bpo12+1_amd64.deb
+Size: 99552
+MD5sum: b8a218dacac9f7ca7fa845dd33bb49a3
+SHA1: 4ed27d106d1227afbae8805943512d0b2635c359
+SHA256: 4671945d6a39c2fe7505f1319446ed71eab9df1e888f6d212ea0004a0ef0ebc4
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -874,19 +1199,37 @@ Description: Lua scripting plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-lua-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 176
+Depends: geany-plugin-lua (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-lua-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 138752
+MD5sum: 30b34c813f77c116546d274b2c9e6aff
+SHA1: a16c30bc240510eda71e251357d7c6c2bab68bff
+SHA256: 0ef31fefed06fc39ee28f21732409daeacd4b4a5f658ebbc11918ab9bd4066b5
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-lua
+Build-Ids: 0eb93d0a277c7faea9b5531beab4519d2cb6ce50 7a8bce9a210802f64f5700b643ae06d8cb99889b
+
 Package: geany-plugin-macro
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 85
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-macro_2.0-5~bpo12+1_amd64.deb
-Size: 24196
-MD5sum: f6474c3cf73b01b79f598cbe9d7fa9dd
-SHA1: ef1e189e48f93a3812c83bd8d64f358962f40293
-SHA256: 3051fb7afe66395c784baf98b96f40621e92d6a12b7944b8326051b1cb642881
+Filename: ./geany-plugin-macro_2.0-6~bpo12+1_amd64.deb
+Size: 24292
+MD5sum: 11dc7efbf7c1660d4858e7873a10f2c7
+SHA1: c820934d2cf374834dd863645ea378d4f5cdb11c
+SHA256: 8994a172134940ef8a6be0d6f6263d671d69c809b53affcbf1bd97dfe5a502e8
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -903,19 +1246,37 @@ Description: macro plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-macro-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: geany-plugin-macro (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-macro-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 44940
+MD5sum: e6212abf686e3edf86d67ebf1f1d6147
+SHA1: 45820d77a0c0d90a862cc5981d3e7cd5ec484a06
+SHA256: 3f9735a3ee540043d7d353deecac2b799511ac339459839152f9a7ce4d0ef31c
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-macro
+Build-Ids: 6344406dedad26f8dd23deb499647c9c7e0fcd6d
+
 Package: geany-plugin-markdown
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 591
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.3.16), libmarkdown2 (>= 2.0.6), libpango-1.0-0 (>= 1.14.0), libwebkit2gtk-4.1-0 (>= 2.5.3)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.3.16), libmarkdown2 (>= 2.0.6), libpango-1.0-0 (>= 1.14.0), libwebkit2gtk-4.1-0 (>= 2.5.3)
 Enhances: geany
-Filename: ./geany-plugin-markdown_2.0-5~bpo12+1_amd64.deb
-Size: 523804
-MD5sum: 2dd66844ae61b39ca68384d531562036
-SHA1: 0793aeb97cc7ee295708c141edafa62e991a221c
-SHA256: 99eca4b8449fa7e006bb92e8857afebf3d58d9b2c5ad35fe1b8ec665ad8a7035
+Filename: ./geany-plugin-markdown_2.0-6~bpo12+1_amd64.deb
+Size: 523948
+MD5sum: 9adb71dcdd86805aa76f96e6c7b98b02
+SHA1: 47b56bed1d08f02253ff80bd4a0d9c7181eb5074
+SHA256: 2a53387d7a969d6b2cc4ebc2aee545ea99eb7b9c86f16373a1610a73709da694
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -925,19 +1286,37 @@ Description: markdown plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-markdown-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: geany-plugin-markdown (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-markdown-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 58152
+MD5sum: c6b1a9e41a6ed5f9ea6900e7254b927b
+SHA1: fa59938b746700c8ddc213bcdc62db021265575e
+SHA256: dd7f3bcc81b11c9ffb274e03a611cad5b8534feb2feab801590bc8271d2f910a
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-markdown
+Build-Ids: 639a2d708c38a8c17c69e6d5171a49f4c151f4e1
+
 Package: geany-plugin-miniscript
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 61
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
 Enhances: geany
-Filename: ./geany-plugin-miniscript_2.0-5~bpo12+1_amd64.deb
-Size: 16896
-MD5sum: e9f8a939ff3ade07b298d10d245e07f7
-SHA1: 1443dd643c9867f21e03f71dcac4d76a40621f9c
-SHA256: 377bbd70a6ae3d909216aca6cd0e2c3c5a113f54caa0d4bf4c88364ec3d21e91
+Filename: ./geany-plugin-miniscript_2.0-6~bpo12+1_amd64.deb
+Size: 17028
+MD5sum: 7d47e6a542595042efea46874692fff1
+SHA1: 9a9a6b9524b399c8abe50ecaa08061add432d8ac
+SHA256: 784792e3e8ed9bd390bb1338676426bfb6ed1316ce99d27b7666b7588d2ab4d8
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -962,19 +1341,37 @@ Description: Geany Mini-Script filter plugin
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-miniscript-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: geany-plugin-miniscript (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-miniscript-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 31552
+MD5sum: 80fbd111589ecfb2515685d32aed82c0
+SHA1: f8c7550ba69d210cf8264bfb03c841b15b86bd11
+SHA256: c5a682f180f07f3279f9a0dad9d26a5f7c6cd33e07cb692f2e13b4086d4be0d8
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-miniscript
+Build-Ids: 284e71aa51a84eac51b6402db0ecff6d90bc19d6
+
 Package: geany-plugin-numberedbookmarks
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 65
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-numberedbookmarks_2.0-5~bpo12+1_amd64.deb
-Size: 19528
-MD5sum: c9bd5dd1b22e8c870811e3d4dad944cc
-SHA1: a15f55ab7a3f6f355ca0c9863e5ffe407fe92c8d
-SHA256: 47ea7c4820bf7f658e92f83b36928cd5c20ef8538885a5787aa7e5b8cccd638d
+Filename: ./geany-plugin-numberedbookmarks_2.0-6~bpo12+1_amd64.deb
+Size: 19624
+MD5sum: 3a474f59dbbe203dba307bbba53732bd
+SHA1: d3601a9a88f284cc3a5f80561c726ab018bb3f84
+SHA256: 22624be279737b500fae209bd47b33e507c0005b717436bae59524680da37e03
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -989,19 +1386,37 @@ Description: numbered bookmarks plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-numberedbookmarks-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: geany-plugin-numberedbookmarks (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-numberedbookmarks-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 31552
+MD5sum: 1278aae4f0cd50fd39a76e2bf62f5f4d
+SHA1: 6a0376ac45ddb60381ffbe53bd6074f108d2e69a
+SHA256: d9f0d47bbce5c35143dcdde2d62e4ac5f7e710fa45302b6cf0a242a4021301ab
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-numberedbookmarks
+Build-Ids: 2fe49cb6e70bc9aafc419cb5d49412b864b2942b
+
 Package: geany-plugin-overview
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 118
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-overview_2.0-5~bpo12+1_amd64.deb
-Size: 29568
-MD5sum: 7fd012d0177de7c5c9ba900baa0ad8ec
-SHA1: def8c17a1b05d297fce820634d67ff96be046100
-SHA256: af2e4054559d3e22a338cf190dc1989065ba833cfb75178075e4b3f038bc4115
+Filename: ./geany-plugin-overview_2.0-6~bpo12+1_amd64.deb
+Size: 29660
+MD5sum: d436151f7972bf909a77b224a92230c2
+SHA1: 9f3c5572453262790692c2fa1b7c9a776da311a3
+SHA256: 0519551f573755d7a4800e6e92e19d0ea0dda1bf32a8ac1e3758e3eab06c74e8
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1011,19 +1426,37 @@ Description: overview plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-overview-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 104
+Depends: geany-plugin-overview (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-overview-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 82200
+MD5sum: 6a4f3ff7e02afc3a63f90d4ef8de7138
+SHA1: 9548196a1823e24fd2185c3ab7adbabd121f6ea2
+SHA256: fbc7b808d9c4340cc041e46007dc449d2801f19da73b58a2d429c6bc294c4a35
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-overview
+Build-Ids: d5145d18195090678762d74d03a6345d48ce3580
+
 Package: geany-plugin-pairtaghighlighter
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 46
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-pairtaghighlighter_2.0-5~bpo12+1_amd64.deb
-Size: 12468
-MD5sum: 0ce6e4ee92779da7095779e7b340085a
-SHA1: 20bf863472b0f210f9a48845029570d526a20a28
-SHA256: a76c0ca68fad7956ef2bd84ba235552fdbd82960854bd42e472b67bab52145b3
+Filename: ./geany-plugin-pairtaghighlighter_2.0-6~bpo12+1_amd64.deb
+Size: 12576
+MD5sum: ab37f14d46179a2af2114ac1c6995e70
+SHA1: 2552865a3732072697b17d215a28948160cd3c4a
+SHA256: e8ee19baf83ea3c70b484385f8c56fc555e6132a5e98ce5b64a8b8c17dd869d1
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1034,19 +1467,37 @@ Description: tag pair highlighter plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-pairtaghighlighter-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: geany-plugin-pairtaghighlighter (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-pairtaghighlighter-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 21712
+MD5sum: c15f010ff3f9536cacc5af2f0eb4ef49
+SHA1: 545fe41fb522e93b6fdb3c110bdcea05175e98bf
+SHA256: a7567db7bf2c34be40f52c14ce29807ea1c592a85efbe0366c8438b251bef15b
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-pairtaghighlighter
+Build-Ids: 5237c776d9af2fd40ea5565a91b5c7b5399fba11
+
 Package: geany-plugin-pg
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 69
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.7), libglib2.0-0 (>= 2.18.0), libgpgme11 (>= 1.2.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.7), libglib2.0-0 (>= 2.18.0), libgpgme11 (>= 1.2.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-pg_2.0-5~bpo12+1_amd64.deb
-Size: 20220
-MD5sum: ac1b7cbf878c0eb1115aa6047d6e192f
-SHA1: a9f8f585dadc65fd0850b3f55abbc8395cd81ff3
-SHA256: f24782b678cf06a4aa341f804858cd5070e6f6e95708dae0c839e13201322518
+Filename: ./geany-plugin-pg_2.0-6~bpo12+1_amd64.deb
+Size: 20344
+MD5sum: 3be62dfecaa70aba2213f328af901bb4
+SHA1: b34aa6abfe82c9246aaab38bd4587146fcec0f7e
+SHA256: f90cb66ba196831e25de0eb739aa7d695ee97e3bd98774f0d4867a070c04cc55
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1057,19 +1508,37 @@ Description: pg plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-pg-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 65
+Depends: geany-plugin-pg (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-pg-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 47920
+MD5sum: 1d72a470e5d26260fc7b140d11e0972d
+SHA1: 00ed314be97ec2bec67a3938c2b172bb3e1d8fd1
+SHA256: 20ab36fe6460e1673359729f17246ef56eb0c5d289fed338c8e10ec6672195ed
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-pg
+Build-Ids: 1c67606714c388f00bce628cafc95f0f650e992f
+
 Package: geany-plugin-pohelper
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 92
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-pohelper_2.0-5~bpo12+1_amd64.deb
-Size: 21900
-MD5sum: 7775bb929aafbabe0961b6955934410e
-SHA1: ede6d31923f3a3f5d868dda239939b08582c76e1
-SHA256: 7364799c0943900c7ef92f40a58e29f3c8c538932f378b8d453f065d8de69467
+Filename: ./geany-plugin-pohelper_2.0-6~bpo12+1_amd64.deb
+Size: 22000
+MD5sum: 57bffc363d66f1b4fb44a3df129b550a
+SHA1: 3141896d095961bda35e05e45529897174fd2b87
+SHA256: ce151589b5ebdec911ea553a0a2b4a119f5d92b5f7038801e320129e355280fb
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1087,19 +1556,37 @@ Description: Geany plugin for improved support for GetText translation files
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-pohelper-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: geany-plugin-pohelper (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-pohelper-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 42160
+MD5sum: 7babc33c7c3c02984ed1289b6b5da497
+SHA1: cc7bb4ef8e5815cb5b986081959f9337f2cadfe3
+SHA256: f1ddcc0def1bf28803978b8084756cfd5283f1320da1d9e0bfc323398b6880dc
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-pohelper
+Build-Ids: a6026c277a3896e2bc80d42fdd1ca045ce54c745
+
 Package: geany-plugin-prettyprinter
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 60
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libxml2 (>= 2.7.4)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libxml2 (>= 2.7.4)
 Enhances: geany
-Filename: ./geany-plugin-prettyprinter_2.0-5~bpo12+1_amd64.deb
-Size: 18888
-MD5sum: 7ccd503b5e8f78a527fe8fa2341065c0
-SHA1: 39612e4204807455736cb05e2b94a27f4f0e9947
-SHA256: f93ef0a71b7130ed4fbfeab208dbf7e023d9f6f8fe65d6a55f8ed6d49f2cfab8
+Filename: ./geany-plugin-prettyprinter_2.0-6~bpo12+1_amd64.deb
+Size: 19004
+MD5sum: c5e80b0d75ed8008b63a8fce534b9b28
+SHA1: d592056e4c4f3961960eb6156ac1f090dde6de19
+SHA256: 2e9a947b7ae7e722c564d13e81f6b9867088a9fbd438c2695df1bf34881afa84
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1110,19 +1597,37 @@ Description: XML pretty printer for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-prettyprinter-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 58
+Depends: geany-plugin-prettyprinter (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-prettyprinter-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 42112
+MD5sum: 62cf24db9a538c40ee11323e682b4780
+SHA1: 2fb64f2b44ca4fe647f0079439aeddef7ce24ea3
+SHA256: 8a47bbd1057970d212b359896fbb18c69e1141dc230d5bc59f973fb485696315
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-prettyprinter
+Build-Ids: 4783643dce7c6e5c0651df36b21ca6e20ff9f237
+
 Package: geany-plugin-prj
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 80
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.22.0), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
 Enhances: geany
-Filename: ./geany-plugin-prj_2.0-5~bpo12+1_amd64.deb
-Size: 23916
-MD5sum: a8fc68810748fb59901f1ae32af09357
-SHA1: 029680751ca4abea2fdefa062a82abd97b98791a
-SHA256: 55742d218a472c6e665031453fbb4acdcf4c08b651fee672e89a1ed4180c02d6
+Filename: ./geany-plugin-prj_2.0-6~bpo12+1_amd64.deb
+Size: 24048
+MD5sum: 479077479b6767d3368ab53777a7fcbe
+SHA1: 109bb0a938258ef1f4cfcdc8ec6478a8d4224ec3
+SHA256: 11f2bb2a1ba4a54ec86860d93e5265c99dde569bb8830eca3ddfaa2947ad9951
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1135,21 +1640,39 @@ Description: alternative project manager for Geany
  Geany is a small and lightweight integrated development environment using the
  GTK+ toolkit.
 
+Package: geany-plugin-prj-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 72
+Depends: geany-plugin-prj (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-prj-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 50980
+MD5sum: be4bf1cb8bd443f58dfcf24445e0df76
+SHA1: 38b79cc8781111a83f9b27fbbfbd7a13ef6ae768
+SHA256: 19da8ee997c01cea8a0696f23899296f299692ec809b39a42ecb15a1d92ede31
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-prj
+Build-Ids: 4afa2fcaca258e588cb744a0e0d926ccb2110d0a
+
 Package: geany-plugin-projectorganizer
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 115
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0)
 Enhances: geany
 Breaks: geany-plugin-grpoject (<< 1.25~)
 Replaces: geany-plugin-gproject (<< 1.25~)
-Filename: ./geany-plugin-projectorganizer_2.0-5~bpo12+1_amd64.deb
-Size: 37396
-MD5sum: 00cfc2e5012d6a98e0cef4fafbdcfa9f
-SHA1: 2da785ff853d22b64742b25640ad0f7ae49a841e
-SHA256: c2fe12ae8c1483c32ef692759d529235008bd2ef30d2331d9dd268e15402d56f
+Filename: ./geany-plugin-projectorganizer_2.0-6~bpo12+1_amd64.deb
+Size: 37500
+MD5sum: 221986226bb6349355bc74568948588b
+SHA1: 9141050bb44f7e387513ce5e8dedc8c63a68282b
+SHA256: a5da85b63d3a127f73860070154a4b736244749ecbe1fa103f6536a0614dd02c
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1168,19 +1691,37 @@ Description: projectorganizer plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  GTK+ toolkit.
 
+Package: geany-plugin-projectorganizer-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 109
+Depends: geany-plugin-projectorganizer (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-projectorganizer-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 84816
+MD5sum: b1931034a28f56be5e9e5b4a7ac297c3
+SHA1: 3f96bdc3133aad0200d8e328c22a6935f06cf8a8
+SHA256: df1d0094f759bcb918b1f9d70ff26e048480362cf961909816fd6689820561e7
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-projectorganizer
+Build-Ids: d60fa8190e22348bb0270c217d8b1871cd42aaa3
+
 Package: geany-plugin-scope
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 781
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0 (>= 0.49.92)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libvte-2.91-0 (>= 0.49.92)
 Enhances: geany
-Filename: ./geany-plugin-scope_2.0-5~bpo12+1_amd64.deb
-Size: 152312
-MD5sum: b26414bfcc72f3dbfb99cc0c33ace4ca
-SHA1: 692e62a2ba5bfb890f87acea92f3392a88cadf4c
-SHA256: 7e9e3947613ec9870007ce26d44abc1951b3849c595214d32aee942adfd8bf5c
+Filename: ./geany-plugin-scope_2.0-6~bpo12+1_amd64.deb
+Size: 152400
+MD5sum: be2504010a993435c70fb5d6bbace822
+SHA1: 31662b6cb415fb2493ad6da310978dc6cbe47cd4
+SHA256: 54d6336697ff00ecc569d10d06b4d95abcdbe366d6691692873cb68b1c127ba5
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1197,19 +1738,37 @@ Description: graphical GDB front-end for Geany
  Geany is a small and lightweight integrated development environment using the
  GTK+ toolkit.
 
+Package: geany-plugin-scope-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 333
+Depends: geany-plugin-scope (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-scope-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 276880
+MD5sum: 066e0e0bdd89c167798b8706500bd0dc
+SHA1: cc6bb2dac37b9af221366691f4a6797c6762edfc
+SHA256: 195a85325be9abb6e51a31dc7087bf5ea1584820343aba68ebfe6408d204f660
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-scope
+Build-Ids: aff0154a7e5b03493df342f91598ddbf0bb1f62c
+
 Package: geany-plugin-sendmail
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 57
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-sendmail_2.0-5~bpo12+1_amd64.deb
-Size: 17468
-MD5sum: 67fe0098e2684c1a2d2604326eae7b5f
-SHA1: 73083676e47fc0d4e2f73addef2ec117c1405118
-SHA256: 0d2f3efae219354163a3e2c6b34db14c6c2e62d2296ff3c385ccbb678ef77217
+Filename: ./geany-plugin-sendmail_2.0-6~bpo12+1_amd64.deb
+Size: 17564
+MD5sum: b24f25f9f62a5f24a3a4e6b4a0fb603a
+SHA1: 108e05c8a9524989b441c2d088a8bc0326f7dd65
+SHA256: d4249d1a60b47706fa7a84dfaf257fee342da5b346bc3df999cfecfc5134b40c
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1222,19 +1781,37 @@ Description: mailer plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-sendmail-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: geany-plugin-sendmail (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-sendmail-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 21724
+MD5sum: d81cdd935eac9ca8484a7d663a2b2092
+SHA1: 98c500ec9f5fad6de35957953c93af8794fb93f2
+SHA256: f589796348804275926b81d6bd99e2ebc7f2056c4498c63ee4c3e4955e7c3c24
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-sendmail
+Build-Ids: 59e69306fecfce536d8e3f9eeafb77a28506e902
+
 Package: geany-plugin-shiftcolumn
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 43
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-shiftcolumn_2.0-5~bpo12+1_amd64.deb
-Size: 11828
-MD5sum: 40f16106041d4215ab264125e10d6c5d
-SHA1: 6266d6e8553e420ae6feb46d6cc064130b956288
-SHA256: 1c770f3fbfdb1bc5d4b4c9ac3ef7e40560374ff8eb6d405de66af191338a6359
+Filename: ./geany-plugin-shiftcolumn_2.0-6~bpo12+1_amd64.deb
+Size: 11956
+MD5sum: 4438d2e1ae623e92b6473f5ccf002b6d
+SHA1: f10f2d32ebbeb6bb69a8099ff2f6f5791305e9d1
+SHA256: 3c29b5bcf972895bb8306f36d374678013ee4d7f78ba98a8ed76b8e301b18d49
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1245,19 +1822,37 @@ Description: text column shifting plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-shiftcolumn-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 31
+Depends: geany-plugin-shiftcolumn (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-shiftcolumn-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 17064
+MD5sum: e0f3bbd384adb4655260ba1f3753d741
+SHA1: 5e1aeff0522498cdf806ed1587459363b24a9afb
+SHA256: 1ef918f66e63b591c7f93c2bf74115bcdb3d2da1ad3d2b0a7c2d7f7f653ca012
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-shiftcolumn
+Build-Ids: 8d683cebc5e87c3453aa9f56f935bd9efcecf346
+
 Package: geany-plugin-spellcheck
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 89
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libenchant-2-2 (>= 2.2.3), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libenchant-2-2 (>= 2.2.3), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-spellcheck_2.0-5~bpo12+1_amd64.deb
-Size: 30132
-MD5sum: 52b82ba379b5b1aa9539f8a6d1a1c019
-SHA1: f84d6ca78bc410210f8705ded84f4e7b55e4db9c
-SHA256: 2fd4fe85c69fd717a4b91555424734058d664f4a80005091b6f58ece61817415
+Filename: ./geany-plugin-spellcheck_2.0-6~bpo12+1_amd64.deb
+Size: 30228
+MD5sum: 4c6890d02345b307149e094e886478e8
+SHA1: af343a3a1a895df14d63c734bec71d026148a011
+SHA256: 50b76b0ac7c782a850b47595aa20f2f7506402a6ec620290cfb2d069347fe8d0
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1271,19 +1866,37 @@ Description: spellcheck plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-spellcheck-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 72
+Depends: geany-plugin-spellcheck (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-spellcheck-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 51044
+MD5sum: 71aec91be4eefce88e3d509b51d47871
+SHA1: 562cf6e84c86be48a5f9ed94a772937b940cb49b
+SHA256: 229ca49b9ab1ba7193f0cd660b7441ea8dba3650cc191cc7302485c63b88f169
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-spellcheck
+Build-Ids: a9d034cdcd87cf05a8d4039b7fe0feb9424ff8f2
+
 Package: geany-plugin-tableconvert
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 49
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-tableconvert_2.0-5~bpo12+1_amd64.deb
-Size: 13668
-MD5sum: eb366229ad9bcab55509eaeeb062a7a6
-SHA1: 020e6ef782bc6212dc494ad918702a22ea02cbee
-SHA256: fe1bda709e642c03784c9fe6e543467f161346ca4043e071571acf322a36a371
+Filename: ./geany-plugin-tableconvert_2.0-6~bpo12+1_amd64.deb
+Size: 13776
+MD5sum: 09d04804bf1c13e00bb10214f3a76046
+SHA1: 2a6e354679be47f7d4578b1b752d79153d78f421
+SHA256: accc69d65bca5324f127a19689d5705d64ad0f65731139305d1076d44310738c
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1298,19 +1911,37 @@ Description: table convert plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-tableconvert-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 32
+Depends: geany-plugin-tableconvert (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-tableconvert-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 18252
+MD5sum: 8ed2cbca90f90e4a3371a31a2a8c9ce6
+SHA1: d40953ea0ced1156c4f9ddf6c85dbc7afe720372
+SHA256: 331ecf50b6d74fc22f1b6506e6df1964f05f0c27bbf5ef4d50005981be582f0e
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-tableconvert
+Build-Ids: 7ba66e6ccc869fba560a14cf58e468031c5f06d0
+
 Package: geany-plugin-treebrowser
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 92
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.21.5)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.21.5)
 Enhances: geany
-Filename: ./geany-plugin-treebrowser_2.0-5~bpo12+1_amd64.deb
-Size: 29744
-MD5sum: c8d470c7c85a63484455bd91781b7cdc
-SHA1: ed7cf08b69c60f02b79ebae0c08a7473bd5eb5ce
-SHA256: 4f0ea4feefdbb63ca17d8d38f8da04bc507a0a0f52906a4fc1ead708e2b9e7a9
+Filename: ./geany-plugin-treebrowser_2.0-6~bpo12+1_amd64.deb
+Size: 29852
+MD5sum: cb256ed4d79738af5f5ddfa805f16e4c
+SHA1: 4f26c93e12d805622440c2fd7b75cadb7fac2768
+SHA256: e2c432619f0c084bfc55775b4494505978fd4e5465d3964e079c3c824396570e
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1321,19 +1952,37 @@ Description: tree browser plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-treebrowser-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 79
+Depends: geany-plugin-treebrowser (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-treebrowser-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 57584
+MD5sum: 1f9b74263ea82a2fb54dd2fa32c9eb6e
+SHA1: fb35b38fd1ac7c4df4d4b82a3109614e8a115f71
+SHA256: 6f2bdaf05b8f3f4d93f769408ce8bcd25c91c8f0e2d56ccafe4e4947e0eaff6f
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-treebrowser
+Build-Ids: be5020c7d6421917f34ebaf7522f48fd3ae51ab1
+
 Package: geany-plugin-updatechecker
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 48
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.41.90)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.41.90)
 Enhances: geany
-Filename: ./geany-plugin-updatechecker_2.0-5~bpo12+1_amd64.deb
-Size: 12520
-MD5sum: 6e6653f50c0e57dd5e0633735f9a879d
-SHA1: 6b5cc03d6a04041f0792ba30e12ae0a7637ddc4b
-SHA256: 877f5c7a540052107e0a8a45c421bc21a088e15936223f46a1b23cb25c42ba8c
+Filename: ./geany-plugin-updatechecker_2.0-6~bpo12+1_amd64.deb
+Size: 12648
+MD5sum: e4563c7d2d3bdea7fe1c357b9a54dff8
+SHA1: 51cee56ecb6e6b02aa3292b07a80c024d2571c9a
+SHA256: a8bab6557a5a8cd03e0594dcf59113170df4a6700e78b88787e7dab5708d7e76
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1344,19 +1993,37 @@ Description: update checker plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-updatechecker-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 31
+Depends: geany-plugin-updatechecker (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-updatechecker-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 16692
+MD5sum: 92d831abcb70808dc05143b885c37d82
+SHA1: 148e58dfe4144828654badb04fe9d6bc3cd4dc63
+SHA256: 232cec25dac37a6285941a7c9460851321d051402a3184d8990f4bfc41acdc21
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-updatechecker
+Build-Ids: d03c0313b54abd6dd2376da37296023e31128090
+
 Package: geany-plugin-vc
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 130
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libgtkspell3-3-0
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libgtkspell3-3-0
 Enhances: geany
-Filename: ./geany-plugin-vc_2.0-5~bpo12+1_amd64.deb
-Size: 36888
-MD5sum: 96301dcda3c7ba25d59e4fa390a75d6b
-SHA1: 6bebd3c399cdb9b385c078d2c2eb52825e0da7a1
-SHA256: a3377f705cdfffdd17d37e56ea864aca6a788bd0522d0ffcecd728987b31cd00
+Filename: ./geany-plugin-vc_2.0-6~bpo12+1_amd64.deb
+Size: 36796
+MD5sum: 281c5cb78f93f5fb456f5f42953f002a
+SHA1: 94d1da3f91d7a6437cfeb8c6e4ed150815354f89
+SHA256: 7931b8c704ead12bfa2395657f3d11dfd97c6b20f6aa95ce673290cd08da5a6e
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1373,19 +2040,37 @@ Description: VCS plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-vc-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 114
+Depends: geany-plugin-vc (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-vc-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 86824
+MD5sum: e71521fb98fd7285f6749c75540fcdc7
+SHA1: 3e6e2c5d174921e6cc9b5bd29a8d7ec2bb85f5be
+SHA256: 8fdfd648c4eb183845571d7589052f246f2741706223fa9e5e27b334e464c985
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-vc
+Build-Ids: 96ec0db0472ab8482e58f873484756263fca6115
+
 Package: geany-plugin-vimode
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 277
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.14), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0)
 Enhances: geany
-Filename: ./geany-plugin-vimode_2.0-5~bpo12+1_amd64.deb
-Size: 44012
-MD5sum: 3961f73b2655b436c63e7765dcee3815
-SHA1: 208266a59baabb3fe41f3854b6929512ed1b63fd
-SHA256: 6c11572ec98e6f314606e44923544d914d5ba4116a8e27f38caa70f806b69f23
+Filename: ./geany-plugin-vimode_2.0-6~bpo12+1_amd64.deb
+Size: 44152
+MD5sum: 632c2b8c324d4fd42acb1c026d604de0
+SHA1: a193127b6055a3e9a5843c550317fbd3c6403bb7
+SHA256: 33272153ee9513b843efaa86f8eb8964cddc6c4ece4377d0782d76d9822c14b6
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1397,19 +2082,37 @@ Description: Vim-mode plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-vimode-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 110
+Depends: geany-plugin-vimode (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-vimode-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 88344
+MD5sum: 02c1111e66f3eeef6f998ef18f5beee0
+SHA1: 47759a7a76c0646a165e3b7e36636d44b663f145
+SHA256: b5ef566a399fddc4b46d19d83084b1cdd55cc5f4b277bcae2a0f883b28bba17c
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-vimode
+Build-Ids: a81653224bb9e24a818d0bb0975bc91310570dfa
+
 Package: geany-plugin-webhelper
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 101
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0), libwebkit2gtk-4.1-0 (>= 2.17.3)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.29), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0), libwebkit2gtk-4.1-0 (>= 2.17.3)
 Enhances: geany
-Filename: ./geany-plugin-webhelper_2.0-5~bpo12+1_amd64.deb
-Size: 29388
-MD5sum: 931b1967cb8ff48d788486819ca01692
-SHA1: 70bc4cd625c9a5425cfab934da824ae400e7e840
-SHA256: 0e962baab0c57fb72a13bbe5291b5917fbfc150267074b1626a95675cb8ce1c0
+Filename: ./geany-plugin-webhelper_2.0-6~bpo12+1_amd64.deb
+Size: 29448
+MD5sum: a43df341c0ff4286d22931fd5748eb32
+SHA1: 60d54c0f764615e1fc07f3344aea9b57b8bf505e
+SHA256: 2f0ddd7fee372029aac2fe7dc14c1cdb84b9cbe9ff25f0f49c5c80303b451e52
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1427,19 +2130,37 @@ Description: web helper plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-webhelper-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 112
+Depends: geany-plugin-webhelper (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-webhelper-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 86192
+MD5sum: 54a19e24d0983e7e201808c8a5b4d855
+SHA1: c04ef83872dff5f9dc3e11316645a87e837840a1
+SHA256: 85cabb0e493bc2bd040ec884d908f1ca7db18605656125f0b822ed0e598d2887
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-webhelper
+Build-Ids: 8eb8eb6a8a6758836b99b4265723013d945ef46f
+
 Package: geany-plugin-workbench
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 141
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libgit2-1.5 (>= 1.5.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.5)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.33), libgit2-1.8 (>= 1.8.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.5)
 Enhances: geany
-Filename: ./geany-plugin-workbench_2.0-5~bpo12+1_amd64.deb
-Size: 44708
-MD5sum: a9324e1ca745e14e9bddec596a1de0f5
-SHA1: d1c9767c9da238be8ea6070a11b25b8226f425fe
-SHA256: 12715049cf21e3899558a8f9321fa39c1882b0e01d450c0f3dd0a999f1064138
+Filename: ./geany-plugin-workbench_2.0-6~bpo12+1_amd64.deb
+Size: 44716
+MD5sum: 5251fa8ead0a89c40cfbdc32be1bfa80
+SHA1: b510923cdb6603246712fd9fb1a40f2a295ca46e
+SHA256: e760da54ed856c25e9988f17278efc6bc6f2690cc6ed3929d3ca50326952f7f7
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1452,19 +2173,37 @@ Description: workbench plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-workbench-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 139
+Depends: geany-plugin-workbench (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-workbench-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 111768
+MD5sum: e29fa67e6d5937476907437f252221d1
+SHA1: b7634baa1676d8ae00df41f81ba3708e9db2a273
+SHA256: 6f95502062aaa5cce051e10152e2d45e2f8d268fee33ecdb0aca7a040f610047
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-workbench
+Build-Ids: e98cf029b7072d6988ad7c704b90922027d29050
+
 Package: geany-plugin-xmlsnippets
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 45
-Depends: geany-abi-18688, geany-plugins-common (= 2.0-5~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
+Depends: geany-abi-18688, geany-plugins-common (= 2.0-6~bpo12+1), geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0)
 Enhances: geany
-Filename: ./geany-plugin-xmlsnippets_2.0-5~bpo12+1_amd64.deb
-Size: 12128
-MD5sum: 26f8d271604842e48306ab340fe6619e
-SHA1: 51e9190822fc34a7d287ad00da03afbb1012d04f
-SHA256: c5e540f1d9a58bbc543aee3c1962306a57490245eeba2f71a6ab306a6c238545
+Filename: ./geany-plugin-xmlsnippets_2.0-6~bpo12+1_amd64.deb
+Size: 12232
+MD5sum: 5b6fe1de36dd86d0be7e921364af7f21
+SHA1: f93f0660e9ed42ed47096c36e8800a543d190565
+SHA256: 04484aacef83e863627805b0a82a78371e2d7850db740dd4cba9a1ceb9adee05
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1475,18 +2214,36 @@ Description: XMLSnippets plugin for Geany
  Geany is a small and lightweight integrated development environment using the
  Gtk+ toolkit.
 
+Package: geany-plugin-xmlsnippets-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 30
+Depends: geany-plugin-xmlsnippets (= 2.0-6~bpo12+1)
+Filename: ./geany-plugin-xmlsnippets-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 16432
+MD5sum: 972f228f672994e8e022f5d94939aea6
+SHA1: ede0177f2e58f23dff549c13d34806f6adc47f47
+SHA256: b18bda96f130e0457b7ee82e034f85c27198914b8214d69193ca3cb9fcba6535
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugin-xmlsnippets
+Build-Ids: 37ec4685103a5f186b6530a839c8a6cf49a8cc5d
+
 Package: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: all
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 22
-Depends: geany-plugin-addons (>= 2.0-5~bpo12+1), geany-plugin-autoclose (>= 2.0-5~bpo12+1), geany-plugin-automark (>= 2.0-5~bpo12+1), geany-plugin-codenav (>= 2.0-5~bpo12+1), geany-plugin-commander (>= 2.0-5~bpo12+1), geany-plugin-ctags (>= 2.0-5~bpo12+1), geany-plugin-debugger (>= 2.0-5~bpo12+1), geany-plugin-defineformat (>= 2.0-5~bpo12+1), geany-plugin-doc (>= 2.0-5~bpo12+1), geany-plugin-extrasel (>= 2.0-5~bpo12+1), geany-plugin-gendoc (>= 2.0-5~bpo12+1), geany-plugin-geniuspaste (>= 2.0-5~bpo12+1), geany-plugin-git-changebar (>= 2.0-5~bpo12+1), geany-plugin-insertnum (>= 2.0-5~bpo12+1), geany-plugin-keyrecord (>= 2.0-5~bpo12+1), geany-plugin-latex (>= 2.0-5~bpo12+1), geany-plugin-lipsum (>= 2.0-5~bpo12+1), geany-plugin-lua (>= 2.0-5~bpo12+1), geany-plugin-lineoperations (>= 2.0-5~bpo12+1), geany-plugin-macro (>= 2.0-5~bpo12+1), geany-plugin-markdown (>= 2.0-5~bpo12+1), geany-plugin-miniscript (>= 2.0-5~bpo12+1), geany-plugin-overview (>= 2.0-5~bpo12+1), geany-plugin-numberedbookmarks (>= 2.0-5~bpo12+1), geany-plugin-pairtaghighlighter (>= 2.0-5~bpo12+1), geany-plugin-pg (>= 2.0-5~bpo12+1), geany-plugin-pohelper (>= 2.0-5~bpo12+1), geany-plugin-prj (>= 2.0-5~bpo12+1), geany-plugin-projectorganizer (>= 2.0-5~bpo12+1), geany-plugin-scope (>= 2.0-5~bpo12+1), geany-plugin-sendmail (>= 2.0-5~bpo12+1), geany-plugin-tableconvert (>= 2.0-5~bpo12+1), geany-plugin-vc (>= 2.0-5~bpo12+1), geany-plugin-prettyprinter (>= 2.0-5~bpo12+1), geany-plugin-shiftcolumn (>= 2.0-5~bpo12+1), geany-plugin-spellcheck (>= 2.0-5~bpo12+1), geany-plugin-treebrowser (>= 2.0-5~bpo12+1), geany-plugin-updatechecker (>= 2.0-5~bpo12+1), geany-plugin-webhelper (>= 2.0-5~bpo12+1), geany-plugin-workbench (>= 2.0-5~bpo12+1), geany-plugin-vimode (>= 2.0-5~bpo12+1), geany-plugin-xmlsnippets (>= 2.0-5~bpo12+1)
+Depends: geany-plugin-addons (>= 2.0-6~bpo12+1), geany-plugin-autoclose (>= 2.0-6~bpo12+1), geany-plugin-automark (>= 2.0-6~bpo12+1), geany-plugin-codenav (>= 2.0-6~bpo12+1), geany-plugin-commander (>= 2.0-6~bpo12+1), geany-plugin-ctags (>= 2.0-6~bpo12+1), geany-plugin-debugger (>= 2.0-6~bpo12+1), geany-plugin-defineformat (>= 2.0-6~bpo12+1), geany-plugin-doc (>= 2.0-6~bpo12+1), geany-plugin-extrasel (>= 2.0-6~bpo12+1), geany-plugin-gendoc (>= 2.0-6~bpo12+1), geany-plugin-geniuspaste (>= 2.0-6~bpo12+1), geany-plugin-git-changebar (>= 2.0-6~bpo12+1), geany-plugin-insertnum (>= 2.0-6~bpo12+1), geany-plugin-keyrecord (>= 2.0-6~bpo12+1), geany-plugin-latex (>= 2.0-6~bpo12+1), geany-plugin-lipsum (>= 2.0-6~bpo12+1), geany-plugin-lua (>= 2.0-6~bpo12+1), geany-plugin-lineoperations (>= 2.0-6~bpo12+1), geany-plugin-macro (>= 2.0-6~bpo12+1), geany-plugin-markdown (>= 2.0-6~bpo12+1), geany-plugin-miniscript (>= 2.0-6~bpo12+1), geany-plugin-overview (>= 2.0-6~bpo12+1), geany-plugin-numberedbookmarks (>= 2.0-6~bpo12+1), geany-plugin-pairtaghighlighter (>= 2.0-6~bpo12+1), geany-plugin-pg (>= 2.0-6~bpo12+1), geany-plugin-pohelper (>= 2.0-6~bpo12+1), geany-plugin-prj (>= 2.0-6~bpo12+1), geany-plugin-projectorganizer (>= 2.0-6~bpo12+1), geany-plugin-scope (>= 2.0-6~bpo12+1), geany-plugin-sendmail (>= 2.0-6~bpo12+1), geany-plugin-tableconvert (>= 2.0-6~bpo12+1), geany-plugin-vc (>= 2.0-6~bpo12+1), geany-plugin-prettyprinter (>= 2.0-6~bpo12+1), geany-plugin-shiftcolumn (>= 2.0-6~bpo12+1), geany-plugin-spellcheck (>= 2.0-6~bpo12+1), geany-plugin-treebrowser (>= 2.0-6~bpo12+1), geany-plugin-updatechecker (>= 2.0-6~bpo12+1), geany-plugin-webhelper (>= 2.0-6~bpo12+1), geany-plugin-workbench (>= 2.0-6~bpo12+1), geany-plugin-vimode (>= 2.0-6~bpo12+1), geany-plugin-xmlsnippets (>= 2.0-6~bpo12+1)
 Enhances: geany
-Filename: ./geany-plugins_2.0-5~bpo12+1_all.deb
-Size: 7104
-MD5sum: 12e420d100e2ed7fe1472832f8c4e7c6
-SHA1: a99df3a70d240e60846228ba615a18ce6e0508b0
-SHA256: dd4e21c8f208b79dc58a6314af9d874e5487e63367d1394bfbb924994364a8c2
+Filename: ./geany-plugins_2.0-6~bpo12+1_all.deb
+Size: 7228
+MD5sum: e92613ee21a8b2508cd2f195873d5f12
+SHA1: 952c39175d4eb329b0c1b4545b950c60b6b1ffc3
+SHA256: 3178a2b0cb3030e155c14fb54755ce32657b925998d058a091b053653f27d51d
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1497,17 +2254,17 @@ Description: set of plugins for Geany
 
 Package: geany-plugins-common
 Source: geany-plugins
-Version: 2.0-5~bpo12+1
+Version: 2.0-6~bpo12+1
 Architecture: amd64
 Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
 Installed-Size: 1520
 Depends: geany (>= 2.0), libc6 (>= 2.4), libglib2.0-0 (>= 2.18), libpango-1.0-0 (>= 1.14.0), libvte-2.91-0
 Breaks: geany-plugin-addons (<< 0.19), geany-plugin-doc (<< 0.19), geany-plugin-gdb (<< 0.19), geany-plugin-latex (<< 0.19), geany-plugin-lipsum (<< 0.19), geany-plugin-lua (<< 0.19), geany-plugin-prj (<< 0.19), geany-plugin-sendmail (<< 0.19), geany-plugin-shiftcolumn (<< 0.19), geany-plugin-spellcheck (<< 0.19), geany-plugin-vc (<< 0.19)
-Filename: ./geany-plugins-common_2.0-5~bpo12+1_amd64.deb
-Size: 281548
-MD5sum: 7bab816dcea8f230cb0e9efbaf9ac1e0
-SHA1: 5e12d0eb5ecea8d76a5b199190bfd001de1fd262
-SHA256: 861be1284c53c269d428987d3c2f37d12eeece9b22f4e6ad3852cca66877d5a9
+Filename: ./geany-plugins-common_2.0-6~bpo12+1_amd64.deb
+Size: 282224
+MD5sum: 69d5ff7debfadb5fffe24fc9174ad64d
+SHA1: 151ba5de5aad8739593bb12ad019d0c3531a54f8
+SHA256: 896cb74d59b9feff3eb024688439fb071cdcc5a69b22a81523a8ebbd1fbc3b95
 Section: devel
 Priority: optional
 Homepage: http://plugins.geany.org
@@ -1515,6 +2272,24 @@ Description: set of plugins for Geany (translations)
  This package contains translations for the Geany Plugins. You probably do not
  want to install this package directly, but instead install one of the other
  plugins packages.
+
+Package: geany-plugins-common-dbgsym
+Source: geany-plugins
+Version: 2.0-6~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Geany Packaging Team <pkg-geany-team@lists.alioth.debian.org>
+Installed-Size: 23
+Depends: geany-plugins-common (= 2.0-6~bpo12+1)
+Filename: ./geany-plugins-common-dbgsym_2.0-6~bpo12+1_amd64.deb
+Size: 9320
+MD5sum: 13911b8c50db7cb6deb237dbd563d712
+SHA1: d51d34b8098ede3a49be255047900dcfe1697b53
+SHA256: 4ba888f83eb779118ff4ec5c95c4d1e3d042ce65b3b5b994eb1813d7df1a64e1
+Section: debug
+Priority: optional
+Description: debug symbols for geany-plugins-common
+Build-Ids: 51ef01bc8e842ebdceff6218ec011d297cf1e60c
 
 Package: gir1.2-appindicator3-0.1
 Source: libappindicator
@@ -2496,16 +3271,16 @@ Description: Spectre & Meltdown vulnerability/mitigation checker
  against the 3 "speculative execution" CVEs that were made public early 2018.
 
 Package: strawberry
-Version: 1.2.6-bookworm
+Version: 1.2.7-bookworm
 Architecture: amd64
 Maintainer: Jonas Kvinge <jonas@jkvinge.net>
-Installed-Size: 13636
+Installed-Size: 13684
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libcdio19 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.51.0), libgpod4 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu72 (>= 72.1~rc-1~), libmtp9 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.3.0), libqt6network6 (>= 6.4.0), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtag1v5 (>= 1.11), libx11-6, libqt6sql6-sqlite, qt6-qpa-plugins, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-alsa, gstreamer1.0-pulseaudio
-Filename: ./strawberry_1.2.6-1_amd64.deb
-Size: 6520516
-MD5sum: 1e6c7be99faf16b8b29f91af104e2f8e
-SHA1: d0a79ed340e2b064f0c26421f85e7af8be90b987
-SHA256: 637c1045ce32496199eb4610897842d67a115fadb5b4da85ba39a16ebd2ca594
+Filename: ./strawberry_1.2.7-bookworm_amd64.deb
+Size: 6526300
+MD5sum: fae714ce33d063072c3a52c6215d6bb5
+SHA1: b244a2c3ddc007e081085a9c58572a5221d75e77
+SHA256: ed07d6171be837caf2342aa02a5951e0da8b0bf41ad3f97cfe8a2b242a040b38
 Section: sound
 Priority: optional
 Homepage: http://www.strawberrymusicplayer.org/
