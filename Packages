@@ -2179,35 +2179,35 @@ Description: program for speech analysis and synthesis
  language and has provisions for communicating with other programs.
 
 Package: python3-abi3audit
-Version: 0:0.0.9-1~w2d0
+Version: 1:0.0.21-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 166
-Depends: python3 (>= 3.8~), python3-abi3info (>= 2023.01.27), python3-kaitaistruct (>= 0.10), python3-packaging (<< 24.0), python3-packaging (>= 21.3), python3-pefile (>= 2022.5.30), python3-pyelftools (>= 0.29), python3-requests (<< 2.32.0), python3-requests (>= 2.28.1), python3-requests-cache (<< 1.2.0), python3-requests-cache (>= 0.9.6), python3-rich (<< 13.7.0), python3-rich (>= 12.5.1), python3:any
-Filename: ./python3-abi3audit_0.0.9-1~w2d0_all.deb
-Size: 24804
-MD5sum: 5de4160d42f5aeed8fb3a92c2c5c938f
-SHA1: 0df7e2d5b925b20ade8a69c46ba044f882818024
-SHA256: aebdc14bc3e041131241061ed71aa36fda603b2829a5e65aeb61d94a03e71d1c
+Installed-Size: 171
+Depends: python3:any
+Filename: ./python3-abi3audit_0.0.21-1~w2d0_all.deb
+Size: 26200
+MD5sum: 50a3162856b080dfdc5258d96f6c08f2
+SHA1: aff8887e3a67c90bc2144f971c1c0bab9c3cbca5
+SHA256: 0b637a5f64a98904d818be75b4caf47ac5a9fca69cfcaf509abd0d137baa130d
 Section: python
 Priority: optional
-Description: Scans Python wheels for abi3 violations and inconsistencies
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-abi3info
-Version: 0:2023.10.22-1~w2d0
+Version: 1:2025.1.9-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 225
-Depends: python3 (>= 3.8~), python3:any
-Filename: ./python3-abi3info_2023.10.22-1~w2d0_all.deb
-Size: 18212
-MD5sum: 88f433a8bc9b52eda91c4f04850ed491
-SHA1: da9524bf20f88b107f20b5cd017e4073c0ba0508
-SHA256: eaee7abe25d4ad2e675a8c9666d6a72d000105250b3bd364baf1b927fe008e16
+Installed-Size: 261
+Depends: python3:any
+Filename: ./python3-abi3info_2025.1.9-1~w2d0_all.deb
+Size: 19140
+MD5sum: a4fe91db399e51f5b4691548786127ed
+SHA1: 4b7cf528455b7f8af38acd4550a94908d9f37791
+SHA256: 517007fef75d80d8e6714c5d8f346e6bebfc522b540be087157873d80789ccdb
 Section: python
 Priority: optional
-Description: A library for abi3 and other CPython API information
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-bioread
