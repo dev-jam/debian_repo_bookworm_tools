@@ -143,16 +143,16 @@ Description: Modern, colorful CLI resource monitor that shows usage and stats
 Original-Maintainer: Marius Gripsgard <mariogrip@debian.org>
 
 Package: cherrytree
-Version: 1.2.0+dfsg-0.1~mx23+1~bpo12+1
+Version: 1.2.0+dfsg-1~bpo12+1
 Architecture: amd64
-Maintainer: Steven Pusser <stevep@mxlinux.org>
+Maintainer: Patrick Winnertz <winnie@debian.org>
 Installed-Size: 11289
-Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl4 (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceview-4-0 (>= 3.99.7), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
-Filename: ./cherrytree_1.2.0+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 3123612
-MD5sum: 8ea9274c8a0779163809efd400f20471
-SHA1: 70dcfd36d190e5443cb57b93f6c6746a299c0faa
-SHA256: 07080898407acecb7cec7478a6a3b687ff1e56512b65ceefaee4ee4b6b15d85c
+Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl3-gnutls (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceview-4-0 (>= 3.99.7), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
+Filename: ./cherrytree_1.2.0+dfsg-1~bpo12+1_amd64.deb
+Size: 3121960
+MD5sum: 328fda4b6d23a288bb17f598fd3ece53
+SHA1: 6b33e721b3ef54eb2ec1fdd61208061352e8c356
+SHA256: 0463aa668e8a77735f54c0c0040eea061ac9183dade7560f517aa84f79718ff4
 Section: editors
 Priority: optional
 Homepage: https://www.giuspen.net/cherrytree/
@@ -160,20 +160,19 @@ Description: hierarchical note taking application
  CherryTree is a hierarchical note taking application, featuring rich text,
  syntax highlighting, images handling, hyperlinks, import/export with support
  for multiple formats, support for multiple languages, and more.
-Original-Maintainer: Patrick Winnertz <winnie@debian.org>
 
 Package: cpupower-gui
-Version: 1.0.0-3~bpo12+1
+Version: 1.0.0-4~bpo12+1
 Architecture: amd64
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 274
-Depends: gir1.2-gtk-3.0, gir1.2-handy-1, gir1.2-glib-2.0, python3-gi, hicolor-icon-theme, polkitd, python3-dbus, python3-xdg, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52), python3:any
-Suggests: policykit-1-gnome, lxqt-policykit, mate-polkit, lxsession
-Filename: ./cpupower-gui_1.0.0-3~bpo12+1_amd64.deb
-Size: 38592
-MD5sum: a5ee41b7366eb47506c306b2b8aca5a9
-SHA1: cd1b5bad1bad97b919a66967038d93cdd6555683
-SHA256: fa82e9ad86f2b91bc50935f0954ace54edb5cacc34c652605b46b2085e47df41
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-handy-1, hicolor-icon-theme, polkitd, python3-dbus, python3-gi, python3-xdg, dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52), python3:any
+Suggests: lxqt-policykit, lxsession, mate-polkit, policykit-1-gnome
+Filename: ./cpupower-gui_1.0.0-4~bpo12+1_amd64.deb
+Size: 38920
+MD5sum: 2089955c039abc19a4ea546d702503fc
+SHA1: 951b4cc2b08b878d42ad7b05d9c075cde1f5e96a
+SHA256: a18c87e8fb672b4475d7856c84a0e39e033791ca76c5f4af7bca3a249c157759
 Section: admin
 Priority: optional
 Homepage: https://github.com/vagnum08/cpupower-gui
@@ -2112,17 +2111,17 @@ Description: multithreaded PAR 2.0 compatible file verification and repair tool
  input files.
 
 Package: pdfarranger
-Version: 1.11.1-1~bpo12+1
+Version: 1.11.1-2~bpo12+1
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 841
 Depends: python3-dateutil, python3-packaging, python3-pikepdf, python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-poppler-0.18, python3-cairo, python3-gi, python3-gi-cairo
 Recommends: python3-img2pdf
-Filename: ./pdfarranger_1.11.1-1~bpo12+1_all.deb
-Size: 161440
-MD5sum: 8e6a7306fa922328362882e2d892dc4a
-SHA1: 8d5cfb65d4b316d3665a5037ec4c46abd0937195
-SHA256: 4132bbfe2437f19638817c22e4aa9fd9585b25c11778bdff53d7e4671c1d2aa1
+Filename: ./pdfarranger_1.11.1-2~bpo12+1_all.deb
+Size: 161452
+MD5sum: 6c315a0847dbbf83f8abb4bd3b453ce9
+SHA1: bdb29b45054a8764430276843315969650d8c621
+SHA256: c3675c910f4430c5ca9ede04076d0fdfd100905d03c3a891f08ff493204d248a
 Section: graphics
 Priority: optional
 Homepage: https://github.com/pdfarranger/pdfarranger
