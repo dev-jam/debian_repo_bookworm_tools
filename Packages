@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.7.1+dfsg-1~bpo12+1
+Version: 3.7.2+dfsg-0.1~mx23+1~bpo12+1
 Architecture: amd64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 28196
-Depends: audacity-data (= 3.7.1+dfsg-1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 29702
+Depends: audacity-data (= 3.7.2+dfsg-0.1~mx23+1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.35), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.7.1+dfsg-1~bpo12+1_amd64.deb
-Size: 6634564
-MD5sum: 8c56bb4c84b56765181c78482131abc1
-SHA1: d11522d753be38bbe6dd66e720b40a2a783c06f9
-SHA256: fad378572a3759a781c313a2077b0b3416a268e635eff6f53f1381fa64b749e3
+Filename: ./audacity_3.7.2+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 8087476
+MD5sum: 62d84d5721d1bf3542c4aa0ab22b7317
+SHA1: 9d88803fe746e99aea5291af8154dc65d8d71295
+SHA256: 496bd1f4e3fbd3aa5cbc29b271bb5616ad07b022155924454695689b4a54f004
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -21,19 +21,20 @@ Description: fast, cross-platform audio editor
  undo/redo.
  .
  Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: audacity-data
 Source: audacity
-Version: 3.7.1+dfsg-1~bpo12+1
+Version: 3.7.2+dfsg-0.1~mx23+1~bpo12+1
 Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 15409
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 15693
 Recommends: audacity
-Filename: ./audacity-data_3.7.1+dfsg-1~bpo12+1_all.deb
-Size: 2473900
-MD5sum: 3dfeea63c3f3b30e7ae941b378110bdd
-SHA1: 0e2f45d0b67a8ebc9905275912bd8add497702bb
-SHA256: b3bef36bece4c24f588f2f7806c05cfbcd629bdac9a998ae1ab60199d9ce62b6
+Filename: ./audacity-data_3.7.2+dfsg-0.1~mx23+1~bpo12+1_all.deb
+Size: 2495380
+MD5sum: d9f814cb2b59bfafb48e999ebdbbdac0
+SHA1: 02e9c7203e43c53e3f9ab31ef53253b609e94494
+SHA256: 348c314531781e6f427926c2096d5558244b2e5c59754d76fd008c86cf2ea9e4
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -46,6 +47,7 @@ Description: fast, cross-platform audio editor (data)
  undo/redo.
  .
  This package contains the architecture-independent data files.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: birdtray
 Version: 1.11.0+ds-0.1~mx23+1~bpo12+1
@@ -1638,16 +1640,16 @@ Description: simple disk benchmark tool
  easy to view and interpret comprehensive benchmark result.
 
 Package: keepassxc
-Version: 2.7.9+dfsg1-1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
 Architecture: all
-Maintainer: Julian Andres Klode <jak@debian.org>
-Installed-Size: 80
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 81
 Depends: keepassxc-full | keepassxc-minimal
-Filename: ./keepassxc_2.7.9+dfsg1-1~bpo12+1_all.deb
-Size: 38404
-MD5sum: 0b5640179d7217159f42035116cb53a6
-SHA1: 6f81387197d8c875f711bb1f9436b37f89e9104c
-SHA256: 538813b30455abe503b930f4160d08d121d6478f5d0862ec68de7d4e8e53ba49
+Filename: ./keepassxc_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_all.deb
+Size: 39836
+MD5sum: 966c79f9641e335d13d8f3199e7f4c12
+SHA1: d4b4da84023815dca27cc9f0e68f51b9c9ba8f14
+SHA256: ced93ad0d08c5c25805964fc57e87e9d67f9edc4589569c42271412be73809f5
 Section: oldlibs
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -1664,25 +1666,25 @@ Description: Cross Platform Password Manager (transitional package)
  webext-keepassxc-browser).
  .
  This is a transitional package depending on keepassxc-full or keepassxc-minimal
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: keepassxc-full
 Source: keepassxc
-Version: 2.7.9+dfsg1-1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
 Architecture: amd64
-Maintainer: Julian Andres Klode <jak@debian.org>
-Installed-Size: 30631
-Depends: libargon2-1 (>= 0~20171227), libbotan-2-19 (>= 2.19.3+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libminizip1 (>= 1.1), libpcsclite1 (>= 1.3.3), libqrencode4 (>= 3.2.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.16), libx11-6, libxtst6, libzxcvbn0 (>= 0.20150103), zlib1g (>= 1:1.1.4)
-Recommends: fonts-font-awesome
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 56612
+Depends: fonts-font-awesome, libargon2-1 (>= 0~20171227), libbotan-2-19 (>= 2.19.3+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libminizip1 (>= 1.1), libpcsclite1 (>= 1.3.3), libqrencode4 (>= 3.2.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.16), libx11-6, libxtst6, zlib1g (>= 1:1.1.4)
 Suggests: webext-keepassxc-browser, xclip
 Conflicts: keepassxc-minimal
 Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
-Provides: keepassxc (= 2.7.9+dfsg1-1~bpo12+1)
-Filename: ./keepassxc-full_2.7.9+dfsg1-1~bpo12+1_amd64.deb
-Size: 8112700
-MD5sum: a5cbf0627e397015ba8fabd7d9a2835c
-SHA1: bc289ed2925a684d03bacc9285942079156433cb
-SHA256: d5e1074e0b9fddab2955447c1d55b67a8906d7bd0d9b300b4e8b537ca8a4a7ee
+Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1~bpo12+1)
+Filename: ./keepassxc-full_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 31248840
+MD5sum: 0bc1c0f27212fe923a590779a307ef74
+SHA1: cae858e3faa18e7752e40663238f58392af4dc29
+SHA256: fad9112d655ddc941cdc09232ce30a780dcd2c581c9622d14e7502b6632bb37b
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -1701,24 +1703,24 @@ Description: Cross Platform Password Manager
  This package includes all plugins, including networking, and various IPC
  like browser integration, ssh agent, freedesktop.org secret storage. Use
  at your own risk.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: keepassxc-minimal
 Source: keepassxc
-Version: 2.7.9+dfsg1-1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
 Architecture: amd64
-Maintainer: Julian Andres Klode <jak@debian.org>
-Installed-Size: 27804
-Depends: libargon2-1 (>= 0~20171227), libbotan-2-19 (>= 2.19.3+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libminizip1 (>= 1.1), libpcsclite1 (>= 1.3.3), libqrencode4 (>= 3.2.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.16), libx11-6, libxtst6, libzxcvbn0 (>= 0.20150103), zlib1g (>= 1:1.1.4)
-Recommends: fonts-font-awesome
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 47310
+Depends: fonts-font-awesome, libargon2-1 (>= 0~20171227), libbotan-2-19 (>= 2.19.3+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libminizip1 (>= 1.1), libpcsclite1 (>= 1.3.3), libqrencode4 (>= 3.2.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.16), libx11-6, libxtst6, zlib1g (>= 1:1.1.4)
 Conflicts: keepassxc-full
 Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
-Provides: keepassxc (= 2.7.9+dfsg1-1~bpo12+1)
-Filename: ./keepassxc-minimal_2.7.9+dfsg1-1~bpo12+1_amd64.deb
-Size: 7566592
-MD5sum: ae0957a8a9ddc1c6ff20eac02d3f61d5
-SHA1: 08e2d2ab489dd5ca2fddabc993562b5d06a4028c
-SHA256: ee0732b649f6a78a45a915c1c5ca3ba7fd3406157ffdfffcd4bf7f88c9d63dc9
+Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1~bpo12+1)
+Filename: ./keepassxc-minimal_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_amd64.deb
+Size: 24026420
+MD5sum: 8d67bd6326ddcca6e7e88922ee924562
+SHA1: 0ea74fd61b3883351c270e663878a7ef2f904644
+SHA256: 8ae5f7f2c5a3615934cc03005c5f41247302fd5c3f4cb892b3e004ea9e085a51
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -1737,6 +1739,7 @@ Description: Cross Platform Password Manager
  This package includes only the bare minimal functionality, and no security
  complications like networking, SSH agent, browser plugin, fdo secret storage.
  See keepassxc-full if you absolutely need those.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: libappindicator-dev
 Source: libappindicator
