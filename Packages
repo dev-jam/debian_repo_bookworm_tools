@@ -107,16 +107,16 @@ Description: delete unnecessary files from the system
  securely shreds arbitrary files.
 
 Package: btop
-Version: 1.4.0-0.1~mx23+1~bpo12+1
+Version: 1.4.0-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 1643
+Installed-Size: 1466
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
-Filename: ./btop_1.4.0-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 554760
-MD5sum: 4ab990036c098cc7f0aa75b0bb909041
-SHA1: c0684db8967176d93b7a6621d1c075c59c810c53
-SHA256: 7649c26efcc272719c6022641f429a69bac49c7778ac4eac417a65ca509a9903
+Filename: ./btop_1.4.0-0.1~mx23+1_amd64.deb
+Size: 499928
+MD5sum: bb9eb2771d4a0543bbee8607330223d5
+SHA1: 1ff70fb5bbfe79038891eef16119729f368a0178
+SHA256: 989cc7bbcc209e3605a2a8f5b817c003f3d3a06224a7feabe9d614879e5257fc
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1520,16 +1520,16 @@ Description: set of plugins for Geany (translations)
 
 Package: gir1.2-appindicator3-0.1
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 18
 Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 2.91.3), libappindicator3-1 (>= 0.4.90)
-Filename: ./gir1.2-appindicator3-0.1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 4564
-MD5sum: e25b33def4cf28c5011beae73334845a
-SHA1: 8bb53e287cf18583df1fb28ed2437e7800a39c99
-SHA256: f3c6f4fe1f463abdd5c2a5d490c219ae7a627d620c81e9df305c1006ccecb44f
+Filename: ./gir1.2-appindicator3-0.1_12.10.1+20.10.20200706.1-0.1~mx23+1_amd64.deb
+Size: 4492
+MD5sum: 2764ab9a6f5dd36c3cb62990742387df
+SHA1: 10c7db4740890b005144f580c91e5a874ef9c4f6
+SHA256: 03da377bf267415d642b77d5058ba96237c967b1699eef05df49274cdf01a4a7
 Section: introspection
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1743,16 +1743,16 @@ Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: libappindicator-dev
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 33
-Depends: libappindicator1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk2.0-dev
-Filename: ./libappindicator-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 6336
-MD5sum: 1b1b5df6c3e722ba30e76a4f7b56524d
-SHA1: a6377f939c92754df7af70c7ff1d44682ad72f85
-SHA256: aeac1148fdfb031279a5f46ed193daefb990fd0c63c79cf7856333aa9560e386
+Depends: libappindicator1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk2.0-dev
+Filename: ./libappindicator-dev_12.10.1+20.10.20200706.1-0.1~mx23+1_amd64.deb
+Size: 6252
+MD5sum: 1157a8dc921e560058f171dea3e3023d
+SHA1: 046e7d77081a4fcb2c8b168793f3e64ea700728f
+SHA256: 931e8c9c65a0485ddf97503019b37073380bd540989f4d99f6a891b7bd9fb89f
 Section: libdevel
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1765,15 +1765,15 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator-doc
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 205
-Filename: ./libappindicator-doc_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
-Size: 20532
-MD5sum: 220ed2093cde41f2b0e25388ac38486f
-SHA1: f9142a81bc8312ae541e780f3d389e9334674a27
-SHA256: e331b9fc40629dc14c5757acd9f03e29339a435c4a8c5b97323b9f4eb5187826
+Installed-Size: 197
+Filename: ./libappindicator-doc_12.10.1+20.10.20200706.1-0.1~mx23+1_all.deb
+Size: 20172
+MD5sum: 5efad818fdd468707de062c841e610f1
+SHA1: 96f256b4d250c814a192a372466ee04fdd9a3d5d
+SHA256: 187d4719ecad45f1bb13c0e14af966374040237b3cb3153c5033b5ece2673d04
 Section: doc
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1786,16 +1786,16 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator0.1-cil
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 48
 Depends: cli-common (>= 0.5.1), libappindicator1, libglib2.0-cil (>= 2.12.40), libgtk2.0-cil (>= 2.12.40), libmono-corlib4.5-cil (>= 5.18.0.240)
-Filename: ./libappindicator0.1-cil_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
-Size: 10780
-MD5sum: 3ec97ef17665da8dc881dd472f6216f9
-SHA1: 5758fe227397f978551758d466ca8c6a00f1a71a
-SHA256: 67f9d58eb94b23236bdb2f76bc98d82d8781af2aecc47cadb0661c5dfe8ed3eb
+Filename: ./libappindicator0.1-cil_12.10.1+20.10.20200706.1-0.1~mx23+1_all.deb
+Size: 10712
+MD5sum: 513e09176bdf9df63fb2e05a1eb443ea
+SHA1: 1619cdc62a6a5f57e957bb0d00229c6bc9d66237
+SHA256: c75d368a907d25fa27e0397686a912acc03161b67351fda32cf195208806fc7d
 Section: cli-mono
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1808,16 +1808,16 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator0.1-cil-dev
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 10
-Depends: libappindicator0.1-cil (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1)
-Filename: ./libappindicator0.1-cil-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_all.deb
-Size: 2740
-MD5sum: a7ab2c96d0be5f38b8a10a14b81fa371
-SHA1: 15abf3e5fa6ab1a1b09c3fbeb831154fa681c08f
-SHA256: 4c4538ed6f75e56b3a6db305f03b7de99622e28f26d5e077634932b20c707087
+Depends: libappindicator0.1-cil (= 12.10.1+20.10.20200706.1-0.1~mx23+1)
+Filename: ./libappindicator0.1-cil-dev_12.10.1+20.10.20200706.1-0.1~mx23+1_all.deb
+Size: 2660
+MD5sum: 65cc7eba3c4637576879889f40773e88
+SHA1: afed9879f968aa4ddab26ed051bb034555d6f3b2
+SHA256: 0de24c84c516bbdb15ef59a7a9c4615529d01f384e698f7e022e223005cef7c5
 Section: libdevel
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1830,17 +1830,17 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator1
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 83
 Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.20.0)
 Suggests: indicator-application (>= 0.2.93)
-Filename: ./libappindicator1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 22796
-MD5sum: 467fc3f1cb3d224d1a01a3fd62c277d6
-SHA1: 1336f12bb02a7e6eed24ea9a407b72dcbd03cb6b
-SHA256: fe35ff62987e182d925c309fb7b0f04335792307f92a0448d6b2954da636d082
+Filename: ./libappindicator1_12.10.1+20.10.20200706.1-0.1~mx23+1_amd64.deb
+Size: 22736
+MD5sum: 66c586fe803e43599daeb0a955423841
+SHA1: 4e855b6f0868bff9c06f03f025026db52e5ae5c7
+SHA256: 4d4636ca0ac3b293ee4e1ba5e2eafd74eee79815b0e7b306e5acfb8725f32458
 Section: libs
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1853,17 +1853,17 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator3-1
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 83
 Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk3-4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
 Suggests: indicator-application (>= 0.2.93)
-Filename: ./libappindicator3-1_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 22796
-MD5sum: 2d923e4c1b962d9ae937fd02033e67cb
-SHA1: f9e7385fca646006018829ad8c3062cb0e619851
-SHA256: 53475d8a7f71927268d66d2c27bf3f4d754222ccb49b9caef886de92522509b1
+Filename: ./libappindicator3-1_12.10.1+20.10.20200706.1-0.1~mx23+1_amd64.deb
+Size: 22708
+MD5sum: 5ff66b735782a62691d0df5d75cdf477
+SHA1: 09543d2441e374a697eb475cef90afda90d87481
+SHA256: 98333ac74aea8faaa7c77063f5e30d02537fd124473146cad61a9e8b8e438738
 Section: libs
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
@@ -1876,16 +1876,16 @@ Original-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 
 Package: libappindicator3-dev
 Source: libappindicator
-Version: 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1
+Version: 12.10.1+20.10.20200706.1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 114
-Depends: gir1.2-appindicator3-0.1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libappindicator3-1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk-3-dev
-Filename: ./libappindicator3-dev_12.10.1+20.10.20200706.1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 13124
-MD5sum: ad6791b846945961a53c11dddf37c5d7
-SHA1: 6c09ebe029a98e5469498dc812cd130f53ae370e
-SHA256: edee3030690e29c3f32bcbc28e9a0dc6ea2c329796670b74abb56be5902e9baa
+Depends: gir1.2-appindicator3-0.1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1), libappindicator3-1 (= 12.10.1+20.10.20200706.1-0.1~mx23+1), libdbus-glib-1-dev (>= 0.76), libdbusmenu-glib-dev (>= 0.1.8), libgtk-3-dev
+Filename: ./libappindicator3-dev_12.10.1+20.10.20200706.1-0.1~mx23+1_amd64.deb
+Size: 13040
+MD5sum: eb0287e9cca6258f607941fb1278cf44
+SHA1: 1889cf0470bff6f3b25bf436f54857c3842d0e71
+SHA256: cc79322fdf0ab9b55e1cb4f6efd951f668422924c57bcf93e2b07e8d03993796
 Section: libdevel
 Priority: optional
 Homepage: https://launchpad.net/libappindicator
