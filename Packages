@@ -204,16 +204,16 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fastfetch
-Version: 2.33.0+dfsg-0.1~mx23+1
+Version: 2.35.0+dfsg-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 3217
+Installed-Size: 1677
 Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
-Filename: ./fastfetch_2.33.0+dfsg-0.1~mx23+1_amd64.deb
-Size: 818340
-MD5sum: 05e39b518e8fc9fcb932efa2380bbcb4
-SHA1: 52997d99623b5a12fb8854af4f738a0d98d67eb5
-SHA256: 9dbc0fb0c45745d74bf0f7d882a6401370e6c4acc51088b21d08c35d9b17d22e
+Filename: ./fastfetch_2.35.0+dfsg-0.1~mx23+1_amd64.deb
+Size: 500328
+MD5sum: d2957c820decea8bcaa2c77019a16468
+SHA1: a2e823eb54a5a779843e7548a9517057cd488984
+SHA256: 5447195704fdde3d3cbf40b7328bd344324c140e4432a86d37d777b68610791d
 Section: utils
 Priority: optional
 Multi-Arch: foreign
