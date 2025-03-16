@@ -1,15 +1,15 @@
 Package: audacity
-Version: 3.7.2+dfsg-0.1~mx23+1~bpo12+1
+Version: 3.7.3+dfsg-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 29702
-Depends: audacity-data (= 3.7.2+dfsg-0.1~mx23+1~bpo12+1), libasound2 (>= 1.0.16), libc6 (>= 2.35), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Depends: audacity-data (= 3.7.3+dfsg-0.1~mx23+1), libasound2 (>= 1.0.16), libc6 (>= 2.35), libexpat1 (>= 2.0.1), libflac++10 (>= 1.3.1), libflac12 (>= 1.3.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0, libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 12), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3v5 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
 Suggests: ladspa-plugin
-Filename: ./audacity_3.7.2+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 8087476
-MD5sum: 62d84d5721d1bf3542c4aa0ab22b7317
-SHA1: 9d88803fe746e99aea5291af8154dc65d8d71295
-SHA256: 496bd1f4e3fbd3aa5cbc29b271bb5616ad07b022155924454695689b4a54f004
+Filename: ./audacity_3.7.3+dfsg-0.1~mx23+1_amd64.deb
+Size: 8085544
+MD5sum: 8bfaa365ee6483877c30b3f112214fbd
+SHA1: dc1fa507ca4c51b2d45359d7c6420223ac06eb71
+SHA256: 3312b79b5b90de98f65192469a8f99f3d6dd8879862cda87f2c1796c4c6aab90
 Section: sound
 Priority: optional
 Homepage: https://www.audacityteam.org/
@@ -25,16 +25,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: audacity-data
 Source: audacity
-Version: 3.7.2+dfsg-0.1~mx23+1~bpo12+1
+Version: 3.7.3+dfsg-0.1~mx23+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 15693
+Installed-Size: 15689
 Recommends: audacity
-Filename: ./audacity-data_3.7.2+dfsg-0.1~mx23+1~bpo12+1_all.deb
-Size: 2495380
-MD5sum: d9f814cb2b59bfafb48e999ebdbbdac0
-SHA1: 02e9c7203e43c53e3f9ab31ef53253b609e94494
-SHA256: 348c314531781e6f427926c2096d5558244b2e5c59754d76fd008c86cf2ea9e4
+Filename: ./audacity-data_3.7.3+dfsg-0.1~mx23+1_all.deb
+Size: 2494912
+MD5sum: ee6802cd99afa788b7ae4be0a475610a
+SHA1: 954b6f4c0208ad4fd2c6d591738208fa06994d7c
+SHA256: 08d2dcccb6c72e700b9b68beeee9c1769441a8e22ecc408f4e4a1cc292d6f378
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -50,16 +50,16 @@ Description: fast, cross-platform audio editor (data)
 Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: birdtray
-Version: 1.11.0+ds-0.1~mx23+1~bpo12+1
+Version: 1.11.0+ds-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 1144
 Depends: thunderbird, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
-Filename: ./birdtray_1.11.0+ds-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 368764
-MD5sum: b46e6b305617127b8ac84ed339c724bd
-SHA1: dca2b83a5bff5bbe22d432b946aab9ffb9228c2f
-SHA256: 41ecaa5e718054e35e4995386e2578c8c6f2a32f7ca1a3585688aa307c00c44e
+Filename: ./birdtray_1.11.0+ds-0.1~mx23+1_amd64.deb
+Size: 369112
+MD5sum: 85e6e50374426435fcdde87cee9a1349
+SHA1: 384c4a92ccc7a73d6c302806952f6d0bb1b54961
+SHA256: cc9d41a5e4fc056888e0b8a467f94f9d9d172a82e3ba705f645b2d69d72de2d7
 Section: mail
 Priority: optional
 Multi-Arch: foreign
@@ -204,16 +204,16 @@ Priority: extra
 Description: A simple GUI frontend to make GNU ddrescue easier to use.
 
 Package: fastfetch
-Version: 2.35.0+dfsg-0.1~mx23+1~bpo12+1
+Version: 2.33.0+dfsg-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
-Installed-Size: 1681
+Installed-Size: 3217
 Depends: libc6 (>= 2.34), libyyjson0 (>= 0.10.0+ds)
-Filename: ./fastfetch_2.35.0+dfsg-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 502400
-MD5sum: 647c184d0d7ba72d278e1f6f76aa8740
-SHA1: 3640337c03e0c4cdec80efac05298d7337ef1b37
-SHA256: 246d0bf81d482d24a28642b5632d12e3fa6b7080c7d7772ff0ed9bbb98351750
+Filename: ./fastfetch_2.33.0+dfsg-0.1~mx23+1_amd64.deb
+Size: 818340
+MD5sum: 05e39b518e8fc9fcb932efa2380bbcb4
+SHA1: 52997d99623b5a12fb8854af4f738a0d98d67eb5
+SHA256: 9dbc0fb0c45745d74bf0f7d882a6401370e6c4acc51088b21d08c35d9b17d22e
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1640,16 +1640,16 @@ Description: simple disk benchmark tool
  easy to view and interpret comprehensive benchmark result.
 
 Package: keepassxc
-Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1
 Architecture: all
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 81
 Depends: keepassxc-full | keepassxc-minimal
-Filename: ./keepassxc_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_all.deb
-Size: 39836
-MD5sum: 966c79f9641e335d13d8f3199e7f4c12
-SHA1: d4b4da84023815dca27cc9f0e68f51b9c9ba8f14
-SHA256: ced93ad0d08c5c25805964fc57e87e9d67f9edc4589569c42271412be73809f5
+Filename: ./keepassxc_2.7.10+dfsg1-0.1~mx23+1_all.deb
+Size: 39744
+MD5sum: 139e0035b588500ea341859f6a329f59
+SHA1: 75986fa0fc37ba5d0266028093060415c55513b8
+SHA256: 83c9d931dec4bbce64d98344a4d8432e8143c736eec64d3805bb653cfc4daeb7
 Section: oldlibs
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -1670,7 +1670,7 @@ Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: keepassxc-full
 Source: keepassxc
-Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 56612
@@ -1679,12 +1679,12 @@ Suggests: webext-keepassxc-browser, xclip
 Conflicts: keepassxc-minimal
 Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
-Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1~bpo12+1)
-Filename: ./keepassxc-full_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 31248840
-MD5sum: 0bc1c0f27212fe923a590779a307ef74
-SHA1: cae858e3faa18e7752e40663238f58392af4dc29
-SHA256: fad9112d655ddc941cdc09232ce30a780dcd2c581c9622d14e7502b6632bb37b
+Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1)
+Filename: ./keepassxc-full_2.7.10+dfsg1-0.1~mx23+1_amd64.deb
+Size: 31250952
+MD5sum: f9c8e3d5d2da14887a59b3fba73a98b0
+SHA1: 805309085a963c4ef4bf0b404d05b569b4b5cdc7
+SHA256: c676c3faf6cccb52256ab4653bc54ace0cb2b24755c105300b6638be927fe4c7
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
@@ -1707,7 +1707,7 @@ Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: keepassxc-minimal
 Source: keepassxc
-Version: 2.7.10+dfsg1-0.1~mx23+1~bpo12+1
+Version: 2.7.10+dfsg1-0.1~mx23+1
 Architecture: amd64
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Installed-Size: 47310
@@ -1715,12 +1715,12 @@ Depends: fonts-font-awesome, libargon2-1 (>= 0~20171227), libbotan-2-19 (>= 2.19
 Conflicts: keepassxc-full
 Breaks: keepassxc (<< 2.7.7+dfsg.1-3~)
 Replaces: keepassxc
-Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1~bpo12+1)
-Filename: ./keepassxc-minimal_2.7.10+dfsg1-0.1~mx23+1~bpo12+1_amd64.deb
-Size: 24026420
-MD5sum: 8d67bd6326ddcca6e7e88922ee924562
-SHA1: 0ea74fd61b3883351c270e663878a7ef2f904644
-SHA256: 8ae5f7f2c5a3615934cc03005c5f41247302fd5c3f4cb892b3e004ea9e085a51
+Provides: keepassxc (= 2.7.10+dfsg1-0.1~mx23+1)
+Filename: ./keepassxc-minimal_2.7.10+dfsg1-0.1~mx23+1_amd64.deb
+Size: 24019732
+MD5sum: 23b2c11c145560aec2bcdbe3b189b379
+SHA1: 41e6437d87b01dc0b695c291df3c8db95029066a
+SHA256: f6ecf1fb950f473999f469d45d833c81e6e05d2f7ed73736dd30713bc9c5c694
 Section: utils
 Priority: optional
 Homepage: https://keepassxc.org/
