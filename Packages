@@ -145,16 +145,16 @@ Description: Modern, colorful CLI resource monitor that shows usage and stats
 Original-Maintainer: Marius Gripsgard <mariogrip@debian.org>
 
 Package: cherrytree
-Version: 1.2.0+dfsg-1~bpo12+1
+Version: 1.2.0+dfsg-0.1~mx23+1
 Architecture: amd64
-Maintainer: Patrick Winnertz <winnie@debian.org>
-Installed-Size: 11289
-Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl3-gnutls (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceview-4-0 (>= 3.99.7), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
-Filename: ./cherrytree_1.2.0+dfsg-1~bpo12+1_amd64.deb
-Size: 3121960
-MD5sum: 328fda4b6d23a288bb17f598fd3ece53
-SHA1: 6b33e721b3ef54eb2ec1fdd61208061352e8c356
-SHA256: 0463aa668e8a77735f54c0c0040eea061ac9183dade7560f517aa84f79718ff4
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 11317
+Depends: desktop-file-utils, libatkmm-1.6-1v5 (>= 2.28.3), libc6 (>= 2.34), libcairo2 (>= 1.15.8), libcairomm-1.0-1v5 (>= 1.14.4), libcurl4 (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.51.0), libglibmm-2.4-1v5 (>= 2.66.5), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.16.2), libgtkmm-3.0-1v5 (>= 3.24.7), libgtksourceview-4-0 (>= 3.99.7), libpango-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.46.3), libsigc++-2.0-0v5 (>= 2.8.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 12), libuchardet0 (>= 0.0.1), libvte-2.91-0 (>= 0.49.92), libxml++2.6-2v5 (>= 2.40.0), libxml2 (>= 2.7.4)
+Filename: ./cherrytree_1.2.0+dfsg-0.1~mx23+1_amd64.deb
+Size: 3156060
+MD5sum: 1c2e938a5067659305a4a54a30ea4800
+SHA1: ea59f1f29f194d944d81786b0a9fb8d650894b6f
+SHA256: 023b7d061814e74e5e479ddf35d100bd22547ba0f6bc8dc5aea5d911a80ac6fc
 Section: editors
 Priority: optional
 Homepage: https://www.giuspen.net/cherrytree/
@@ -162,6 +162,7 @@ Description: hierarchical note taking application
  CherryTree is a hierarchical note taking application, featuring rich text,
  syntax highlighting, images handling, hyperlinks, import/export with support
  for multiple formats, support for multiple languages, and more.
+Original-Maintainer: Patrick Winnertz <winnie@debian.org>
 
 Package: cpupower-gui
 Version: 1.0.0-4~bpo12+1
