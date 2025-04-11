@@ -1,3 +1,24 @@
+Package: android-udev-rules
+Version: 0~20250314+ds-4~bpo12+1
+Architecture: all
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 53
+Conflicts: android-sdk-platform-tools-common (<< 28.0.2+12~), google-android-platform-tools-installer (<< 1743526702-1~)
+Breaks: android-sdk-platform-tools-common (<< 28.0.2+12~), google-android-platform-tools-installer (<< 1743526702-1~)
+Replaces: android-sdk-platform-tools-common (<< 28.0.2+12~), google-android-platform-tools-installer (<< 1743526702-1~)
+Filename: ./android-udev-rules_0~20250314+ds-4~bpo12+1_all.deb
+Size: 11324
+MD5sum: 411a36b716081b1b4d5601bb067a465e
+SHA1: 4f953706f172730feff3791f27399647cc4ad204
+SHA256: 25b6dcecb9f327f422a952904af4ab05d0ee6ae6f58fae4cf8f033932c5f3709
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/M0Rf30/android-udev-rules
+Description: udev rules for Android tools
+ This package provides udev rules enabling the Android SDK tools adb and
+ fastboot to work without root access to the host machine.
+
 Package: audacity
 Version: 3.7.3+dfsg-0.1~mx23+1
 Architecture: amd64
