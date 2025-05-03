@@ -2673,18 +2673,18 @@ Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: yt-dlp
-Version: 2025.03.21-1~bpo12+1
+Version: 2025.04.30-1~bpo12+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 10919
+Installed-Size: 10995
 Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
-Filename: ./yt-dlp_2025.03.21-1~bpo12+1_all.deb
-Size: 2084356
-MD5sum: 8dd74b603d7e4752399da27cab0a7920
-SHA1: d1a1b2269df0208a0ff55f0fb9e83009b35e4ac1
-SHA256: afc8815eda8060afb0c153b15b78e8fbef8a6d30ac8377d945bb5e1a91f504d4
+Filename: ./yt-dlp_2025.04.30-1~bpo12+1_all.deb
+Size: 2102176
+MD5sum: 0d639f6a112917ef2215ae84a499c40c
+SHA1: 88ff1dcaa718974bf2bde0a66ad6a0becd5cd3ff
+SHA256: cd0a53d2156e1a160ac2e53bb41a9719beaacee71816dcd8b3c132c53d1768b9
 Section: web
 Priority: optional
 Homepage: https://github.com/yt-dlp/yt-dlp
@@ -2750,24 +2750,24 @@ Description: downloader of videos from YouTube and other sites
  CSpanCongress, CtsNews, CTV, CTVNews, cu.ntv.co.jp, CultureUnplugged,
  curiositystream, cwtv, Cybrary, CybraryCourse, DacastPlaylist,
  DacastVOD, DagelijkseKost, DailyMail, dailymotion, DailyWire,
- DailyWirePodcast, dangalplay, daum.net, DBTV, DctpTv, DeezerAlbum,
- DeezerPlaylist, democracynow, DestinationAmerica, DetikEmbed, DeuxM,
- DeuxMNews, DHM, DigitalConcertHall, DigitallySpeaking, Digiteka, Digiview,
- DiscogsReleasePlaylist, DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus,
- DiscoveryPlusIndia, DiscoveryPlusIndiaShow, DiscoveryPlusItaly,
- DiscoveryPlusItalyShow, Disney, dlf, Douyin, DouyuShow, DouyuTV,
- DPlay, DRBonanza, Drooble, Dropbox, Dropout, DropoutSeason,
- DrTalks, DrTuber, drtv, DTube, duboku, Dumpert, Duoplay, dvtv, dw,
- EaglePlatform, EbaumsWorld, Ebay, EinsUndEinsTV, EinsUndEinsTVLive,
- EinsUndEinsTVRecordings, eitb.tv, ElementorEmbed, Elonet, ElPais,
- ElTreceTV, Embedly, EMPFlix, Epicon, EpiconSeries, EpidemicSound,
- eplus, Epoch, Eporner, Erocast, EroProfile, ERRJupiter, ertflix,
- ESPN, ESPNArticle, ESPNCricInfo, EttuTv, Europa, EuroParlWebstream,
- EuropeanTour, Eurosport, EUScreen, EWETV, EWETVLive, EWETVRecordings,
- Expressen, EyedoTV, facebook, FacebookPluginsVideo, Fathom, faz.net, fc2,
- Fczenit, Fifa, filmon, Filmweb, FiveThirtyEight, FiveTV, FlexTV, Flickr,
- Floatplane, FloatplaneChannel, Folketinget, FoodNetwork, FootyRoom,
- Formula1, FOX, FOX9, FOX9News, foxnews, FoxNewsVideo, FoxSports, fptplay,
+ DailyWirePodcast, dangalplay, daum.net, DBTV, DctpTv, democracynow,
+ DestinationAmerica, DetikEmbed, DeuxM, DeuxMNews, DHM, DigitalConcertHall,
+ DigitallySpeaking, Digiteka, Digiview, DiscogsReleasePlaylist,
+ DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus, DiscoveryPlusIndia,
+ DiscoveryPlusIndiaShow, DiscoveryPlusItaly, DiscoveryPlusItalyShow,
+ Disney, dlf, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble,
+ Dropbox, Dropout, DropoutSeason, DrTalks, DrTuber, drtv, DTube, duboku,
+ Dumpert, Duoplay, dvtv, dw, dzen.ru, EaglePlatform, EbaumsWorld,
+ Ebay, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
+ eitb.tv, ElementorEmbed, Elonet, ElPais, ElTreceTV, Embedly, EMPFlix,
+ Epicon, EpiconSeries, EpidemicSound, eplus, Epoch, Eporner, Erocast,
+ EroProfile, ERRJupiter, ertflix, ESPN, ESPNArticle, ESPNCricInfo,
+ EttuTv, Europa, EuroParlWebstream, EuropeanTour, Eurosport,
+ EUScreen, EWETV, EWETVLive, EWETVRecordings, Expressen, EyedoTV,
+ facebook, FacebookPluginsVideo, Fathom, faz.net, fc2, Fczenit, Fifa,
+ filmon, Filmweb, FiveThirtyEight, FiveTV, FlexTV, Flickr, Floatplane,
+ FloatplaneChannel, Folketinget, FoodNetwork, FootyRoom, Formula1, FOX,
+ FOX9, FOX9News, foxnews, FoxNewsVideo, FoxSports, fptplay, FrancaisFacile,
  FranceCulture, FranceInter, francetv, francetvinfo.fr, Freesound,
  freespeech.org, FreeTvMovies, FrontendMasters, FrontendMastersCourse,
  FrontendMastersLesson, FujiTVFODPlus7, Funk, Funker530, Fux, FuyinTV,
@@ -2791,18 +2791,18 @@ Description: downloader of videos from YouTube and other sites
  Instagram, InstagramIOS, Internazionale, InternetVideoArchive,
  InvestigationDiscovery, IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel,
  IslamChannelSeries, IsraelNationalNews, ITProTV, ITProTVCourse, ITV,
- ITVBTCC, ivi, ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
+ ITVBTCC, ivi, ivideon, Ivoox, IVXPlayer, iwara, Ixigua, Izlesene, Jamendo,
  JamendoAlbum, JeuxVideo, jiocinema, Joj, JoqrAg, Jove, JStream, JTBC,
  JWPlatform, Kakao, Kaltura, KankaNews, Karaoketv, Katsomo, KelbyOne,
- Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter,
- Kika, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH, Ku6,
- KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
+ Kenh14Playlist, Kenh14Video, khanacademy, Kicker, KickStarter, Kika,
+ KikaPlaylist, KinoPoisk, Kommunetv, KompasVideo, Koo, KrasView, KTH,
+ Ku6, KukuluLive, la7.it, laracasts, LastFM, LastFMPlaylist, LastFMUser,
  LaXarxaMes, lbry, LCI, Lcp, LcpPlay, Le, LearningOnScreen, Lecture2Go,
  Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
  LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
  Libsyn, life, likee, limelight, LinkedIn, Liputan6, ListenNotes,
- LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco,
- loom, LoveHomePorn, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
+ LiTV, LiveJournal, livestream, Livestreamfails, Lnk, loc, Loco, loom,
+ LoveHomePorn, LRTRadio, LRTStream, LRTVOD, LSMLREmbed, LSMLTVEmbed,
  LSMReplay, Lumni, lynda, maariv.co.il, MagellanTV, MagentaMusik, mailru,
  MainStreaming, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow, ManyVids,
  MaoriTV, Markiza, MarkizaPage, massengeschmack.tv, Masters, MatchTV, MBN,
@@ -2815,7 +2815,7 @@ Description: downloader of videos from YouTube and other sites
  MiTele, mixch, mixcloud, MLB, MLBArticle, MLBTV, MLBVideo, MLSSoccer,
  MNetTV, MNetTVLive, MNetTVRecordings, MochaVideo, Mojevideo, Mojvideo,
  Monstercat, MonsterSirenHypergryphMusic, Motherless, MotherlessGallery,
- MotherlessGroup, MotherlessUploader, Motorsport, MovieFap, Moviepilot,
+ MotherlessGroup, MotherlessUploader, Motorsport, MovieFap, moviepilot,
  MoviewPlay, Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it,
  mtvjapan, MTVUutisetArticle, MuenchenTV, MujRozhlas, Murrtube,
  MurrtubeUser, MuseAI, MuseScore, MusicdexAlbum, MusicdexArtist,
@@ -2870,16 +2870,16 @@ Description: downloader of videos from YouTube and other sites
  RedGifsSearch, RedGifsUser, RedTube, RENTV, RENTVArticle,
  Restudy, Reuters, ReverbNation, RheinMainTV, RideHome, RinseFM,
  RinseFMArtistPlaylist, RMCDecouverte, RockstarGames, Rokfin,
- RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Rozhlas,
+ RoosterTeeth, RoosterTeethSeries, RottenTomatoes, RoyaLive, Rozhlas,
  RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl,
  rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura,
- RTVCPlay, RTVCPlayEmbed, RTVS, rtvslo.si, RudoVideo, Rule34Video,
- Rumble, RumbleChannel, RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv,
- S4C, S4CSeries, safari, Saitosan, SAKTV, SAKTVLive, SAKTVRecordings,
- SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus, Sangiin, Sapo, SBS,
- sbs.co.kr, schooltv, ScienceChannel, Screen9, Screencast, Screencastify,
- ScreencastOMatic, ScreenRec, ScrippsNetworks, Scrolller, SCTE, SCTECourse,
- sejm, Sen, SenalColombiaLive, SenateGov, SenateISVP, SendtoNews,
+ RTVCPlay, RTVCPlayEmbed, rtvslo.si, RudoVideo, Rule34Video, Rumble,
+ RumbleChannel, RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv, S4C,
+ S4CSeries, safari, Saitosan, SAKTV, SAKTVLive, SAKTVRecordings,
+ SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus, Sangiin, Sapo,
+ SBS, sbs.co.kr, schooltv, ScienceChannel, Screen9, Screencast,
+ Screencastify, ScreencastOMatic, ScreenRec, ScrippsNetworks, Scrolller,
+ SCTE, SCTECourse, sejm, Sen, SenalColombiaLive, senate.gov, SendtoNews,
  Servus, Sexu, SeznamZpravy, SeznamZpravyArticle, Shahid, ShahidShow,
  SharePoint, ShareVideosEmbed, ShemarooMe, ShowRoomLive, ShugiinItvLive,
  ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed, simplecast, Sina,
@@ -2891,9 +2891,9 @@ Description: downloader of videos from YouTube and other sites
  SpankBangPlaylist, Spiegel, Sport5, SportBox, SportDeutschland, spotify,
  Spreaker, SpreakerShow, SpringboardPlatform, Sprout, SproutVideo,
  SRGSSR, SRGSSRPlay, StacommuLive, StacommuVOD, StagePlusVODConcert,
- stanfordoc, StarTrek, startv, Steam, SteamCommunityBroadcast,
- Stitcher, StitcherShow, StoryFire, StoryFireSeries, StoryFireUser,
- Streamable, StreamCZ, StreetVoice, StretchInternet, Stripchat,
+ stanfordoc, StarTrek, startv, Steam, SteamCommunityBroadcast, Stitcher,
+ StitcherShow, StoryFire, StoryFireSeries, StoryFireUser, Streaks,
+ Streamable, StreamCZ, StreetVoice, StretchInternet, Stripchat, stvr,
  Subsplash, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
  SwearnetEpisode, Syfy, SYVDK, SztvHu, t-online.de, Tagesschau,
  TapTapApp, TapTapAppIntl, TapTapMoment, TapTapPostIntl, Tass, TBS,
@@ -2916,7 +2916,7 @@ Description: downloader of videos from YouTube and other sites
  TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4, TV5MONDE,
  tv5unis, tv8.it, TVANouvelles, TVANouvellesArticle, tvaplus, TVC,
  TVCArticle, TVer, tvigle, TVIPlayer, tvland.com, TVN24, TVNoe, tvp,
- TVPlayer, TVPlayHome, Tvw, Tweakers, TwitCasting, TwitCastingLive,
+ TVPlayer, TVPlayHome, tvw, Tweakers, TwitCasting, TwitCastingLive,
  TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
  TwitchVideosCollections, twitter, Txxx, udemy, UDNEmbed, UFCArabia,
  UFCTV, ukcolumn, UKTVPlay, UlizaPlayer, UlizaPortal, Unistra, Unity,
@@ -2925,10 +2925,10 @@ Description: downloader of videos from YouTube and other sites
  vice, Viddler, Videa, video.arnes.si, video.sky.it, VideoDetective,
  videofy.me, VideoKen, VideoKenCategory, VideoKenPlayer, VideoKenPlaylist,
  VideoKenTopic, videomore, VideoPress, Vidflex, Vidio, VidioLive,
- VidioPremier, VidLii, Vidly, vids.io, Vidyard, viewlift, Viidea,
- viki, vimeo, ViMP, Viously, Viqeo, Viu, ViuOTTIndonesia, vk, VKPlay,
- VKPlayLive, vm.tiktok, Vocaroo, VODPl, VODPlatform, voicy, VolejTV,
- VoxMedia, VoxMediaVolume, vpro, VRT, vrtmax, VTM, VTV, VTVGo, VTXTV,
+ VidioPremier, VidLii, Vidly, vids.io, Vidyard, viewlift, Viidea, vimeo,
+ ViMP, Viously, Viqeo, Viu, ViuOTTIndonesia, vk, VKPlay, VKPlayLive,
+ vm.tiktok, Vocaroo, VODPl, VODPlatform, voicy, VolejTV, VoxMedia,
+ VoxMediaVolume, vpro, vrsquare, VRT, vrtmax, VTM, VTV, VTVGo, VTXTV,
  VTXTVLive, VTXTVRecordings, VuClip, VVVVID, VVVVIDShow, Walla, WalyTV,
  WalyTVLive, WalyTVRecordings, washingtonpost, wat.tv, WatchESPN, WDR,
  WDRElefant, WDRPage, Webcamerapl, Webcaster, WebcasterFeed, WebOfStories,
@@ -2944,7 +2944,6 @@ Description: downloader of videos from YouTube and other sites
  youku, YouNowChannel, YouNowLive, YouNowMoment, YouPorn, YouPornCategory,
  YouPornChannel, YouPornCollection, YouPornStar, YouPornTag, YouPornVideos,
  youtube, YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket, Zapiks,
- Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, ZDF, ZDFChannel,
- Zee5, ZeeNews, ZenPorn, ZenYandex, ZenYandexChannel, ZetlandDKArticle,
- Zhihu, zingmp3, zoom, Zype, generic,
+ Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, zdf, Zee5, ZeeNews,
+ ZenPorn, ZetlandDKArticle, Zhihu, zingmp3, zoom, Zype, generic,
 
